@@ -2,28 +2,65 @@
 
 ---
 
-## 2026-06-13
+## 2026-06-13 — Giorno 1
 
-### Cosa ha prodotto il sistema oggi
+Oggi nasce il Metodo ORBIT.
+
+Dopo mesi a costruire sistemi AI per gestire tre business
+(consulenza IT, network marketing, handmade) ho capito
+che il metodo è vendibile quanto il sistema stesso.
+
+Stack scelto:
+- Hardware: Raspberry Pi 4 4GB + SSD 500GB
+- Orchestratore: HERMES Agent (owl-alpha via OpenRouter)
+- Automazioni: n8n self-hosted
+- Inferenza: OpenRouter (~€2/giorno cap)
+- Costo totale: ~€100 hardware + €6-15/mese running
+
+Clienti pilota:
+- SNEP (prodotti benessere, Hydropura AC60)
+- Diamante Rent (noleggio lungo termine auto)
+
+Obiettivo 90 giorni:
+- Sistema operativo H24 sul Pi
+- Libro scritto da HERMES-AUTHOR dai commit
+- Primi 3 clienti NM onboardati sul metodo
+
+Prossimo passo: reinstallare Pi e filmare tutto.
+
+---
+
+## 2026-06-13 — Primo Test Sistema Operativo
+
+Primo Daily Content Pack generato con successo.
+
+Cliente: SNEP
+Tema: estate, idratazione, benessere familiare
+Asset prodotti: 5 (Facebook, LinkedIn, Email, WhatsApp, Story)
+Qualità: buona al primo tentativo
+Directory: ~/orbit/content/snep/test/
+
+Sistema confermato operativo.
+Domani 07:00 parte il primo pack automatico reale.
+
+---
+
+## 2026-06-13 — Setup Completo
+
 - Setup completo infrastruttura Hermes: SOUL.md, MEMORY.md, 4 profili (default, copywriter-snep, copywriter-diamrent, workhunter)
 - 6 cron job registrati e attivi (daily content SNEP/DiamRent, prospect B2B, weekly report, budget check, system build commit)
 - Test manuale Daily Content Pack SNEP (5 asset, tema: estate/idratazione) salvato in ~/orbit/content/snep/test/
 - Test manuale Daily Content Pack Diamante Rent (5 asset, tema: fine estate/costi auto) salvato in ~/orbit/content/diamrent/test/
 
-### Qualità percepita dei contenuti
-- SNEP: tono empatico e professionale, niente linguaggio MLM, CTA chiari, buon mix benefici/problema/soluzione
-- Diamante Rent: tono diretto e pratico, numeri concreti (€390/mese, €8-10k/anno), pain points ben calibrati, sequenza email webinar completa 4 step
-- Entrambi i pack pronti per produzione automatica via cron
+Qualità contenuti:
+- SNEP: tono empatico e professionale, niente linguaggio MLM, CTA chiari
+- Diamante Rent: tono diretto e pratico, numeri concreti (€390/mese, €8-10k/anno), pain points ben calibrati
 
-### Prossimo step
-- Creare profilo orbit-author per il libro Metodo ORBIT
-- Testare il cron job workhunter (lunedì 16/06) con generazione lead B2B reali
-- Configurare n8n per posting automatico su Meta (Facebook/Instagram)
-- Iniziare struttura capitoli del libro su GitHub
+Prossimo step: creare profilo orbit-author, testare workhunter, configurare n8n → Meta posting
 
 ---
 
-### 2026-06-13 — Stack MCP Definitivo
+## 2026-06-13 — Stack MCP Definitivo
 
 Decisione architetturale importante presa oggi.
 
@@ -48,7 +85,7 @@ Implicazione per il libro:
 
 ---
 
-### 2026-06-13 — Correzione architetturale importante
+## 2026-06-13 — Correzione architetturale importante
 
 HERMES e Paperclip non sono alternativi — sono complementari.
 
@@ -82,7 +119,7 @@ Implicazione libro:
 
 ---
 
-### 2026-06-13 — Decisione architetturale finale
+## 2026-06-13 — Decisione architetturale finale
 
 Un solo HERMES sul Pi per cliente.
 Profili multipli per funzioni diverse.
@@ -96,7 +133,7 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
-### 2026-06-13 — Fine Giorno 1
+## 2026-06-13 — Fine Giorno 1
 
 Sistema ORBIT operativo al 90%.
 Manca solo Composio MCP — da aggiungere domenica sera.
@@ -108,3 +145,27 @@ Domenica sera 21:00 → ORBIT-AUTHOR scrive il primo capitolo.
 Sviluppi paralleli aperti:
 - wiki-llm per progetto AVANT (Engineering SPA)
 - Profilo analyst-avant su WSL2 PC aziendale
+
+---
+
+## 2026-06-13 — Higgsfield in arrivo
+
+Abbonamento Higgsfield attivo dal 27 giugno 2026.
+Higgsfield CLI già installato e loggato sul sistema.
+
+Cosa sblocca per ORBIT:
+- Video 16:9 per Facebook e LinkedIn
+- Video 9:16 per Instagram Reels e Stories
+- Contenuti video branded per SNEP e DiamRent
+- Asset video per il corso online del libro
+
+Integrazione prevista:
+- Profilo: visual-director (da creare dopo il 27)
+- Cron: video-pack settimanale per ogni cliente
+- Stack: HERMES → Higgsfield CLI → Composio → Meta
+
+Da fare il 27 giugno:
+1. Verifica crediti disponibili
+2. Crea profilo visual-director su HERMES
+3. Test primo video SNEP (Hydropura AC60)
+4. Integra nel Daily Pack come sesto asset
