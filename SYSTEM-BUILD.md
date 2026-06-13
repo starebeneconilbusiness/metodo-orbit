@@ -133,6 +133,30 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
+### 2026-06-13 — Higgsfield in arrivo
+
+Abbonamento Higgsfield attivo dal 27 giugno 2026.
+Higgsfield CLI già installato e loggato sul sistema.
+
+Cosa sblocca per ORBIT:
+- Video 16:9 per Facebook e LinkedIn
+- Video 9:16 per Instagram Reels e Stories
+- Contenuti video branded per SNEP e DiamRent
+- Asset video per il corso online del libro
+
+Integrazione prevista:
+- Profilo: visual-director (da creare dopo il 27)
+- Cron: video-pack settimanale per ogni cliente
+- Stack: HERMES → Higgsfield CLI → Composio → Meta
+
+Da fare il 27 giugno:
+1. Verifica crediti disponibili
+2. Crea profilo visual-director su HERMES
+3. Test primo video SNEP (Hydropura AC60)
+4. Integra nel Daily Pack come sesto asset
+
+---
+
 ## 2026-06-13 — Fine Giorno 1
 
 Sistema ORBIT operativo al 90%.
