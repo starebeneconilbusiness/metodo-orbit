@@ -93,3 +93,18 @@ Paperclip come control plane e N clienti da gestire.
 Non prima.
 
 Regola ORBIT: aggiungi risultati, non complessità.
+
+---
+
+### 2026-06-13 — Fine Giorno 1
+
+Sistema ORBIT operativo al 90%.
+Manca solo Composio MCP — da aggiungere domenica sera.
+
+Domani mattina 07:00 → primo Daily Pack SNEP automatico.
+Domani mattina 08:00 → primo Daily Pack DiamRent automatico.
+Domenica sera 21:00 → ORBIT-AUTHOR scrive il primo capitolo.
+
+Sviluppi paralleli aperti:
+- wiki-llm per progetto AVANT (Engineering SPA)
+- Profilo analyst-avant su WSL2 PC aziendale
