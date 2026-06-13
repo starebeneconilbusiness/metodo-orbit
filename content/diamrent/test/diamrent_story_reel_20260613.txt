@@ -1,0 +1,36 @@
+STORY/REEL SCRIPT — DIAMANTE RENT
+Data: 2026-06-13 | Tema: Fine estate, rientro vacanze, costi auto
+
+---
+
+🎬 REEL 15-30 SECONDI
+
+HOOK (0-3 sec):
+[Testo a schermo: "Tornati dalle vacanze? Ecco quanto ti costa l'auto ogni mese"]
+[Visual: persona che guarda il conto in banca sul telefono, faccia delusa]
+
+SVOLGIMENTO (3-18 sec):
+[Testo: "Assicurazione, benzina, manutenzione, pedaggi..."]
+[Visual: elenco che scorre: €150 + €120 + €80 + €40 = €390/mese]
+[Testo: "Totale: €390+ al mese. Ogni mese."]
+[Visual: matita che segna la data sul calendario, loop]
+
+SOLUZIONE (18-25 sec):
+[Testo: "Con Diamante Rent: un solo pagamento. Manutenzione inclusa. Zero sorprese."]
+[Visual: grafico semplice che scende = soldi risparmiati]
+[Testo: "Noleggio lungo termine. Auto verificate. Zero anticipo."]
+
+CTA (25-30 sec):
+[Testo: "Webinar gratuito → link in bio"]
+[Visual: schermata finale con logo + URL webinar]
+
+---
+FORMATO: 9:16 verticale
+DURATA: 25-30 secondi
+MUSICa: beat urbano, ritmo discreto, professionale
+SOTTOTITOLI: obbligatori (85% guarda senza audio)
+
+VERSIONE STORY (più semplice):
+Slide 1: "€390/mese per l'auto. Senza imprevisti."
+Slide 2: "Diamante Rent: costo fisso, manutenzione inclusa."
+Slide 3: "Webinar gratuito — Link in bio 👆"
