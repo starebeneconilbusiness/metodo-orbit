@@ -1,57 +1,27 @@
-# SYSTEM-BUILD.md
-## Diario di Costruzione — Metodo ORBIT
+# SYSTEM-BUILD.md — Diario di Costruzione Metodo ORBIT
 
-### 2026-06-13 — Giorno 1
+---
 
-Oggi nasce il Metodo ORBIT.
+## 2026-06-13
 
-Dopo mesi a costruire sistemi AI per gestire tre business
-(consulenza IT, network marketing, handmade) ho capito
-che il metodo è vendibile quanto il sistema stesso.
-
-Stack scelto:
-- Hardware: Raspberry Pi 4 4GB + SSD 500GB
-- Orchestratore: HERMES Agent (owl-alpha via OpenRouter)
-- Automazioni: n8n self-hosted
-- Inferenza: OpenRouter (~€2/giorno cap)
-- Costo totale: ~€100 hardware + €6-15/mese running
-
-Clienti pilota:
-- SNEP (prodotti benessere, Hydropura AC60)
-- Diamante Rent (noleggio lungo termine auto)
-
-Obiettivo 90 giorni:
-- Sistema operativo H24 sul Pi
-- Libro scritto da HERMES-AUTHOR dai commit
-- Primi 3 clienti NM onboardati sul metodo
-
-Prossimo passo: reinstallare Pi e filmare tutto.
-
-### 2026-06-13 — Primo Test Sistema Operativo
-
-Primo Daily Content Pack generato con successo.
-
-Cliente: SNEP
-Tema: estate, idratazione, benessere familiare
-Asset prodotti: 5 (Facebook, LinkedIn, Email, WhatsApp, Story)
-Qualità: buona al primo tentativo
-Directory: ~/orbit/content/snep/test/
-
-Sistema confermato operativo.
-Domani 07:00 parte il primo pack automatico reale.
-
-### 2026-06-13 — Setup Completo
-
+### Cosa ha prodotto il sistema oggi
 - Setup completo infrastruttura Hermes: SOUL.md, MEMORY.md, 4 profili (default, copywriter-snep, copywriter-diamrent, workhunter)
 - 6 cron job registrati e attivi (daily content SNEP/DiamRent, prospect B2B, weekly report, budget check, system build commit)
 - Test manuale Daily Content Pack SNEP (5 asset, tema: estate/idratazione) salvato in ~/orbit/content/snep/test/
 - Test manuale Daily Content Pack Diamante Rent (5 asset, tema: fine estate/costi auto) salvato in ~/orbit/content/diamrent/test/
 
-Qualità contenuti:
-- SNEP: tono empatico e professionale, niente linguaggio MLM, CTA chiari
-- Diamante Rent: tono diretto e pratico, numeri concreti (€390/mese, €8-10k/anno), pain points ben calibrati
+### Qualità percepita dei contenuti
+- SNEP: tono empatico e professionale, niente linguaggio MLM, CTA chiari, buon mix benefici/problema/soluzione
+- Diamante Rent: tono diretto e pratico, numeri concreti (€390/mese, €8-10k/anno), pain points ben calibrati, sequenza email webinar completa 4 step
+- Entrambi i pack pronti per produzione automatica via cron
 
-Prossimo step: creare profilo orbit-author, testare workhunter, configurare n8n → Meta posting
+### Prossimo step
+- Creare profilo orbit-author per il libro Metodo ORBIT
+- Testare il cron job workhunter (lunedì 16/06) con generazione lead B2B reali
+- Configurare n8n per posting automatico su Meta (Facebook/Instagram)
+- Iniziare struttura capitoli del libro su GitHub
+
+---
 
 ### 2026-06-13 — Stack MCP Definitivo
 
