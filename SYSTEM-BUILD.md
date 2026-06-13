@@ -45,3 +45,19 @@ Per tutto il resto Composio è più diretto e zero manutenzione.
 Implicazione per il libro:
 "Il sistema completo costa €100 hardware una tantum
  + ~€10/mese OpenRouter. Tutte le integrazioni social: €0."
+
+---
+
+### 2026-06-13 — Correzione architetturale
+
+HERMES e Paperclip non sono alternativi.
+Esiste hermes-paperclip-adapter ufficiale di NousResearch
+che permette di eseguire HERMES come agente gestito
+dentro una company Paperclip.
+
+Implicazione per ORBIT:
+- Versione Base: Pi + HERMES standalone (quello attuale)
+- Versione Pro: Pi + HERMES + paperclip-adapter → dashboard
+
+Upgrade path per clienti avanzati.
+Da documentare nel libro cap 16.
