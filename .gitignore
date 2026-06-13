@@ -1,0 +1,25 @@
+# Dati sensibili
+.env
+*.key
+*.pem
+
+# HERMES runtime (non versioning)
+sessions/
+logs/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Output temporanei
+tmp/
+*.tmp
