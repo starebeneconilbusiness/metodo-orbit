@@ -26,3 +26,16 @@ Obiettivo 90 giorni:
 - Primi 3 clienti NM onboardati sul metodo
 
 Prossimo passo: reinstallare Pi e filmare tutto.
+
+### 2026-06-13 — Primo Test Sistema Operativo
+
+Primo Daily Content Pack generato con successo.
+
+Cliente: SNEP
+Tema: estate, idratazione, benessere familiare
+Asset prodotti: 5 (Facebook, LinkedIn, Email, WhatsApp, Story)
+Qualità: buona al primo tentativo
+Directory: ~/orbit/content/snep/test/
+
+Sistema confermato operativo.
+Domani 07:00 parte il primo pack automatico reale.
