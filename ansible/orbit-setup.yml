@@ -1,0 +1,49 @@
+---
+# ═══════════════════════════════════════════════
+# METODO ORBIT — Playbook di Setup Completo
+# Uso: ansible-playbook orbit-setup.yml -i inventory/hosts.yml
+# Tempo: ~20 minuti su Raspberry Pi 4
+# ═══════════════════════════════════════════════
+
+- name: Metodo ORBIT — Setup Raspberry Pi
+  hosts: orbit_pi
+  become: true
+  become_method: sudo
+
+  vars_prompt:
+    - name: openrouter_api_key
+      prompt: "OpenRouter API Key"
+      private: true
+    - name: telegram_bot_token
+      prompt: "Telegram Bot Token"
+      private: true
+    - name: telegram_allowed_users
+      prompt: "Telegram User ID (il tuo)"
+      private: false
+
+  roles:
+    - base          # sistema base, dipendenze, locale
+    - firewall      # ufw, fail2ban, sicurezza
+    - hermes        # HERMES Agent + configurazione
+    - mcp-servers   # odoo, github, brevo, linkedin, n8n, elevenlabs
+    - n8n           # n8n self-hosted
+    - telegram      # configura bot Telegram per HERMES
+
+  post_tasks:
+    - name: Verifica HERMES operativo
+      command: hermes --version
+      register: hermes_version
+      become: false
+
+    - name: Output finale
+      debug:
+        msg: |
+          ╔═══════════════════════════════════╗
+          ║   ✅ METODO ORBIT — Operativo!    ║
+          ║                                   ║
+          ║   HERMES: {{ hermes_version.stdout }}
+          ║                                   ║
+          ║   Prossimo passo:                 ║
+          ║   Apri Telegram → @OrbitBot       ║
+          ║   Scrivi: ciao                    ║
+          ╚═══════════════════════════════════╝

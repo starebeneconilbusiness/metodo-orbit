@@ -1,0 +1,22 @@
+[Unit]
+Description=HERMES Agent — Metodo ORBIT
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/home/ubuntu/.local/bin/hermes telegram
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=hermes-orbit
+
+# Limiti risorse Pi
+MemoryLimit=1G
+CPUQuota=80%
+
+[Install]
+WantedBy=multi-user.target

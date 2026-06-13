@@ -1,0 +1,57 @@
+---
+- name: Installa ufw
+  apt:
+    name: ufw
+    state: present
+
+- name: Policy default deny in ingresso
+  ufw:
+    direction: incoming
+    policy: deny
+
+- name: Policy default allow in uscita
+  ufw:
+    direction: outgoing
+    policy: allow
+
+- name: Apri SSH
+  ufw:
+    rule: allow
+    port: '22'
+    proto: tcp
+
+- name: Apri HERMES gateway
+  ufw:
+    rule: allow
+    port: '8642'
+    proto: tcp
+    src: 192.168.1.0/24   # solo LAN, non internet
+
+- name: Apri n8n (solo LAN)
+  ufw:
+    rule: allow
+    port: '5678'
+    proto: tcp
+    src: 192.168.1.0/24
+
+- name: Abilita ufw
+  ufw:
+    state: enabled
+
+- name: Configura fail2ban SSH
+  copy:
+    dest: /etc/fail2ban/jail.local
+    content: |
+      [sshd]
+      enabled = true
+      port = ssh
+      maxretry = 5
+      bantime = 3600
+      findtime = 600
+  notify: restart fail2ban
+
+handlers:
+  - name: restart fail2ban
+    service:
+      name: fail2ban
+      state: restarted

@@ -1,0 +1,52 @@
+---
+- name: Aggiorna apt cache
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+
+- name: Upgrade sistema completo
+  apt:
+    upgrade: dist
+    autoremove: yes
+
+- name: Installa dipendenze base
+  apt:
+    name:
+      - git
+      - curl
+      - wget
+      - python3
+      - python3-pip
+      - python3-venv
+      - nodejs
+      - npm
+      - htop
+      - ufw
+      - fail2ban
+      - jq
+      - tmux
+      - unzip
+    state: present
+
+- name: Imposta timezone Europa/Roma
+  timezone:
+    name: Europe/Rome
+
+- name: Imposta locale italiano
+  locale_gen:
+    name: it_IT.UTF-8
+    state: present
+
+- name: Crea directory struttura ORBIT
+  file:
+    path: "{{ item }}"
+    state: directory
+    owner: ubuntu
+    group: ubuntu
+    mode: '0755'
+  loop:
+    - /home/ubuntu/orbit
+    - /home/ubuntu/orbit/content/snep
+    - /home/ubuntu/orbit/content/diamrent
+    - /home/ubuntu/orbit/reports
+    - /home/ubuntu/orbit/prospecting

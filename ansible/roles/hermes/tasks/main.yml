@@ -1,0 +1,65 @@
+---
+- name: Installa HERMES Agent
+  shell: |
+    curl -sSL https://install.hermes-agent.dev | bash
+  args:
+    creates: /home/ubuntu/.local/bin/hermes
+  become: false
+
+- name: Crea directory config HERMES
+  file:
+    path: /home/ubuntu/.hermes
+    state: directory
+    owner: ubuntu
+    group: ubuntu
+    mode: '0700'
+  become: false
+
+- name: Deploy config.yaml HERMES
+  template:
+    src: config.yaml.j2
+    dest: /home/ubuntu/.hermes/config.yaml
+    owner: ubuntu
+    group: ubuntu
+    mode: '0600'
+  become: false
+
+- name: Deploy .env HERMES
+  template:
+    src: env.j2
+    dest: /home/ubuntu/.hermes/.env
+    owner: ubuntu
+    group: ubuntu
+    mode: '0600'
+  become: false
+
+- name: Deploy SOUL.md master
+  copy:
+    src: SOUL.md
+    dest: /home/ubuntu/.hermes/SOUL.md
+    owner: ubuntu
+    group: ubuntu
+    mode: '0644'
+  become: false
+
+- name: Deploy MEMORY.md iniziale
+  copy:
+    src: MEMORY.md
+    dest: /home/ubuntu/.hermes/memories/MEMORY.md
+    owner: ubuntu
+    group: ubuntu
+    mode: '0644'
+  become: false
+
+- name: Installa HERMES come servizio systemd
+  template:
+    src: hermes.service.j2
+    dest: /etc/systemd/system/hermes-telegram.service
+    mode: '0644'
+
+- name: Abilita e avvia HERMES Telegram
+  systemd:
+    name: hermes-telegram
+    enabled: yes
+    state: started
+    daemon_reload: yes
