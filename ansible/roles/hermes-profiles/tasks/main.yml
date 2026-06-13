@@ -1,0 +1,86 @@
+---
+- name: Crea directory profili
+  file:
+    path: "/home/{{ ansible_user }}/.hermes/profiles/{{ item }}"
+    state: directory
+    owner: "{{ ansible_user }}"
+    mode: '0755'
+  loop:
+    - copywriter-snep
+    - copywriter-diamrent
+    - workhunter
+    - orbit-author
+
+- name: Deploy SOUL.md master
+  copy:
+    src: "{{ playbook_dir }}/../profiles/master/SOUL.md"
+    dest: "/home/{{ ansible_user }}/.hermes/SOUL.md"
+    owner: "{{ ansible_user }}"
+    mode: '0644'
+  become: false
+
+- name: Deploy MEMORY.md iniziale
+  copy:
+    src: "{{ playbook_dir }}/../profiles/master/MEMORY.md"
+    dest: "/home/{{ ansible_user }}/.hermes/memories/MEMORY.md"
+    owner: "{{ ansible_user }}"
+    mode: '0644'
+  become: false
+
+- name: Deploy SOUL.md per ogni profilo
+  copy:
+    src: "{{ playbook_dir }}/../profiles/{{ item }}/SOUL.md"
+    dest: "/home/{{ ansible_user }}/.hermes/profiles/{{ item }}/SOUL.md"
+    owner: "{{ ansible_user }}"
+    mode: '0644'
+  loop:
+    - copywriter-snep
+    - copywriter-diamrent
+    - workhunter
+    - orbit-author
+  become: false
+
+- name: Registra cron job Daily Pack SNEP
+  command: >
+    hermes cron add daily-content-snep
+    --schedule "0 7 * * *"
+    --profile copywriter-snep
+    --prompt "Genera Daily Content Pack SNEP oggi. Salva in ~/orbit/content/snep/$(date +%Y-%m-%d)/"
+  become: false
+  ignore_errors: yes
+
+- name: Registra cron job Daily Pack DiamRent
+  command: >
+    hermes cron add daily-content-diamrent
+    --schedule "0 8 * * *"
+    --profile copywriter-diamrent
+    --prompt "Genera Daily Content Pack DiamRent oggi. Salva in ~/orbit/content/diamrent/$(date +%Y-%m-%d)/"
+  become: false
+  ignore_errors: yes
+
+- name: Registra cron job Prospect B2B
+  command: >
+    hermes cron add prospect-b2b
+    --schedule "0 9 * * 1"
+    --profile workhunter
+    --prompt "Genera lista 20 lead B2B settimanali CRI.GA.MO. 3. Salva in ~/orbit/prospecting/$(date +%Y-W%V)/"
+  become: false
+  ignore_errors: yes
+
+- name: Registra cron job Weekly Report
+  command: >
+    hermes cron add weekly-report
+    --schedule "0 18 * * 5"
+    --profile default
+    --prompt "Genera report settimanale tutte le BU. Salva in ~/orbit/reports/$(date +%Y-W%V)-report.md"
+  become: false
+  ignore_errors: yes
+
+- name: Registra cron job ORBIT-AUTHOR
+  command: >
+    hermes cron add orbit-author-weekly
+    --schedule "0 21 * * 0"
+    --profile orbit-author
+    --prompt "Leggi SYSTEM-BUILD.md e commit della settimana. Scrivi o aggiorna capitolo più rilevante in ~/metodo-orbit/book/. Commit e push su GitHub."
+  become: false
+  ignore_errors: yes

@@ -1,0 +1,52 @@
+---
+- name: Aggiungi github-mcp via gh CLI
+  command: >
+    hermes mcp add github-mcp
+    --command gh
+    --args "mcp,serve"
+  become: false
+  ignore_errors: yes
+
+- name: Aggiungi brevo-mcp via HTTP ufficiale
+  command: >
+    hermes mcp add brevo-mcp
+    --url "https://mcp.brevo.com/v1/brevo/mcp"
+    --header "Authorization=Bearer ${BREVO_MCP_TOKEN}"
+  become: false
+  environment:
+    BREVO_MCP_TOKEN: "{{ brevo_mcp_token }}"
+  ignore_errors: yes
+
+- name: Aggiungi elevenlabs-mcp
+  command: >
+    hermes mcp add elevenlabs-mcp
+    --command npx
+    --args "-y,@elevenlabs/mcp"
+    --env "ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}"
+  become: false
+  ignore_errors: yes
+
+- name: Aggiungi n8n-mcp via HTTP
+  command: >
+    hermes mcp add n8n-mcp
+    --url "{{ n8n_mcp_url }}"
+    --header "Authorization=Bearer ${MCP_N8N_MCP_API_KEY}"
+  become: false
+  ignore_errors: yes
+
+- name: Aggiungi composio-mcp via HTTP
+  command: >
+    hermes mcp add composio-mcp
+    --url "https://mcp.composio.dev/mcp"
+    --header "x-composio-api-key=${COMPOSIO_API_KEY}"
+  become: false
+  ignore_errors: yes
+
+- name: Verifica MCP server attivi
+  command: hermes mcp list
+  become: false
+  register: mcp_list
+
+- name: Mostra MCP attivi
+  debug:
+    msg: "{{ mcp_list.stdout }}"

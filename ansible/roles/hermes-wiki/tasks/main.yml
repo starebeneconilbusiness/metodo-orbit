@@ -1,0 +1,24 @@
+---
+- name: Crea struttura wiki ORBIT
+  file:
+    path: "/home/{{ ansible_user }}/metodo-orbit/wiki/{{ item }}"
+    state: directory
+    owner: "{{ ansible_user }}"
+    mode: '0755'
+  loop:
+    - clienti
+    - metodo
+    - business
+    - tecnico
+
+- name: Crea directory content ORBIT
+  file:
+    path: "/home/{{ ansible_user }}/orbit/{{ item }}"
+    state: directory
+    owner: "{{ ansible_user }}"
+    mode: '0755'
+  loop:
+    - content/snep
+    - content/diamrent
+    - reports
+    - prospecting
