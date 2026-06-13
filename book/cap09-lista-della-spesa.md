@@ -39,3 +39,29 @@ Il Pi si ripaga con:
 - 0.03 giorni di consulenza IT
 
 Poi lavora gratis per sempre.
+
+---
+
+## Piano Pro — Con Video Giornaliero
+
+### Costi mensili aggiuntivi
+- Higgsfield PLUS: $59/mese (~€54)
+
+### Totale Piano Pro
+- Hardware: €108-133 (una volta)
+- Mensile: €65-70/mese
+
+### Capacità video
+- 137 video Kling 3.0/mese
+- Unlimited Seedance 2.0
+- Unlimited immagini Flux.2 Pro
+
+### Pricing cliente Piano Pro
+- €59/mese per cliente
+- Break even: 2 clienti
+- Da 3 clienti: tutto profitto
+
+### Confronto
+- Agenzia copy + video: €3.000-5.000/mese
+- ORBIT Pro: €70/mese
+- Risparmio annuo: fino a €59.160
