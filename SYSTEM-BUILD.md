@@ -48,16 +48,34 @@ Implicazione per il libro:
 
 ---
 
-### 2026-06-13 — Correzione architetturale
+### 2026-06-13 — Correzione architetturale importante
 
-HERMES e Paperclip non sono alternativi.
-Esiste hermes-paperclip-adapter ufficiale di NousResearch
-che permette di eseguire HERMES come agente gestito
-dentro una company Paperclip.
+HERMES e Paperclip non sono alternativi — sono complementari.
 
-Implicazione per ORBIT:
-- Versione Base: Pi + HERMES standalone (quello attuale)
-- Versione Pro: Pi + HERMES + paperclip-adapter → dashboard
+Esiste hermes-paperclip-adapter ufficiale NousResearch
+che esegue HERMES come dipendente gestito dentro Paperclip.
+HERMES porta memoria, tool, MCP, skills — Paperclip porta
+governance, UI, org chart, cost tracking, heartbeat.
 
-Upgrade path per clienti avanzati.
-Da documentare nel libro cap 16.
+Architettura reale:
+  Paperclip (control plane)
+    └── hermes-paperclip-adapter
+          └── HERMES (cervello + memoria + tool + MCP)
+
+Due versioni del prodotto ORBIT:
+
+ORBIT Base (quello attuale):
+  Pi + HERMES standalone + Telegram
+  → semplice, leggero, €0 overhead
+  → ideale per primo cliente
+
+ORBIT Pro (upgrade path):
+  Pi + HERMES + hermes-paperclip-adapter + Paperclip UI
+  → org chart visuale per il cliente
+  → dashboard unificata per gestire N Pi da remoto
+  → ideale quando hai 5+ clienti attivi
+
+Implicazione libro:
+  Cap 14: vendi ORBIT Base (€197 + €29/mese)
+  Cap 16: upgrade a ORBIT Pro quando scala
+  "Da 1 a 10 clienti senza cambiare architettura"
