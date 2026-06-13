@@ -79,3 +79,17 @@ Implicazione libro:
   Cap 14: vendi ORBIT Base (€197 + €29/mese)
   Cap 16: upgrade a ORBIT Pro quando scala
   "Da 1 a 10 clienti senza cambiare architettura"
+
+---
+
+### 2026-06-13 — Decisione architetturale finale
+
+Un solo HERMES sul Pi per cliente.
+Profili multipli per funzioni diverse.
+Niente CEO/CTO/CMO separati sul Pi.
+
+La complessità multi-agente ha senso solo con
+Paperclip come control plane e N clienti da gestire.
+Non prima.
+
+Regola ORBIT: aggiungi risultati, non complessità.
