@@ -133,18 +133,18 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
-### 2026-06-14 — Visione ecosistema ORBIT completa
+### 2026-06-14 — Visione ecosistema completa
 
-Espansione del modello da prodotto singolo a ecosistema 7 livelli:
-Libro → Profili → Pi → VPS → Paperclip → SaaS → Consulting
+Espansione del modello da prodotto singolo a ecosistema.
+7 livelli di prodotto identificati:
+libro → profili → Pi → VPS → Paperclip → SaaS → consulting
 
-Nuovi concetti:
-- Modello partner: revenue share 30/70 (partner 30%, creator 70%)
-- Marketplace profili HERMES verticali (futuro)
-- VPS tiers: Nano/Standard/Pro/Agency
-- Paperclip Package per enterprise
+Nuovo: modello partner con revenue share 30/70.
+Nuovo: marketplace profili HERMES (futuro).
+Nuovo: VPS tiers Nano/Standard/Pro/Agency.
+Nuovo: Paperclip Package per enterprise.
 
-Stack tecnico SaaS:
+Stack tecnico SaaS definito:
 - Frontend: Next.js 14
 - Backend: FastAPI
 - Provisioning: Hetzner API + Ansible
@@ -156,6 +156,53 @@ Prossimi passi:
 2. VPS Hetzner CX32 per produzione
 3. Tailscale per accesso remoto
 4. Landing page MVP
+
+---
+
+### 2026-06-14 — Libro Metodo ORBIT completato
+
+ORBIT-AUTHOR ha scritto tutti i 17 capitoli + intro + conclusione + 3 appendici.
+Totale: 21 file, ~2.300 righe, ~18.000 parole stimate.
+Libro pronto per revisione di Gabriele (intro + conclusione skeleton).
+
+Struttura finale:
+- 00-introduzione.md (skeleton — da compilare)
+- cap01-08: Parte 1 — Fondamenta (problema, agenzie, AI agent, tre business, architettura, daily pack, funnel, scalare)
+- cap09-10: Parte 2 — Sistema (lista spesa, cervello, brand bible)
+- cap11-15: Parte 3 — Automazione e Business (automazioni, vendita, abbonamento)
+- cap16-17: Parte 4 — Visione (scala o vendi, ecosistema)
+- 18-conclusione.md (skeleton — da compilare)
+- appendice-a-glossario.md
+- appendice-b-checklist.md
+- appendice-c-tool.md
+
+Prossimo step: Gabriele compila intro e conclusione.
+Poi export PDF per Amazon KDP.
+
+---
+
+### 2026-06-14 — Piano Clienti Zero
+
+Decisione strategica: SNEP e Diamante Rent
+sono i clienti zero del Metodo ORBIT.
+
+Piano settimana 16-20 giugno 2026:
+- Lunedì: setup VPS + dominio + infra
+- Martedì: filming onboarding SNEP
+- Mercoledì: filming onboarding DiamRent
+- Giovedì: filming sistema completo + Ansible
+- Venerdì: metriche e risultati reali
+
+Output attesi:
+- 2 video completi (formato lungo YouTube)
+- 4 reel 9:16 (Instagram/TikTok)
+- Numeri reali settimana 1 per il libro
+- Primo post reale pubblicato su Facebook SNEP
+- Prima iscrizione webinar DiamRent
+
+Questi dati aggiornano i capitoli 06, 07, 14.
+ORBIT-AUTHOR domenica 21/6 fa il primo
+aggiornamento con dati reali.
 
 ---
 

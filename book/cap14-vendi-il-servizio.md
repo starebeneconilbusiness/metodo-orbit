@@ -1,119 +1,129 @@
 # Capitolo 14 — Il Tuo Primo Cliente Agenzia
 
-## Il bacino di acquisizione è già nelle tue mani
+## Il bacino di acquisizione che hai già
 
-Hai un network marketing. Hai un team. Hai un gruppo Facebook o Telegram di persone che ti seguono.
+Hai un problema.
+Non sai come trovare il tuo primo cliente per il servizio ORBIT.
 
-Questo è il tuo primo bacino di acquisizione.
+In realtà ce l'hai già.
+Non lo vedi perché lo dai per scontato.
 
-Non devi andare su LinkedIn a freddo. Non devi comprare lead. Non devi fare cold outreach.
+I tuoi clienti network marketing.
+Quelli per cui già generi contenuti ogni giorno.
+Quelli che vedono i risultati del sistema
+sui propri social, nelle proprie email, nei propri gruppi.
 
-Hai già un gruppo di persone che:
-- Ti conoscono
-- Hanno visto i risultati del sistema sui TUOI contenuti
-- Stesso金剛Confuso金刚Confuso金刚
-- Si chiedono "come lo fai?"
-
-Quella domanda è l'apertura. Non devi crearla. Esiste già.
+Sono il tuo bacino di acquisizione naturale.
 
 ## Come nasce la conversazione
 
-Non devi vendere niente. Devi rispondere a una domanda.
+Non devi fare cold outreach.
+Non devi convincere nessuno.
+La conversazione nasce da sola.
 
-"Il tuo feed è sempre attivo. Posti ogni giorno. Chi ti fa i contenuti?"
+Il tuo cliente NM vede i contenuti che genera il sistema.
+Vede i like. I commenti. Le condivisioni.
+Vede i lead che arrivano dalle email.
+Vede le iscrizioni ai webinar.
 
-Ecco. Quella è l'apertura. E tu rispondi:
+E un giorno ti chiede:
 
-"Ho costruito un sistema automatizzato con un Raspberry Pi e un'AI. Mi genera i contenuti ogni mattina. Ho scritto un libro se vuoi i dettagli. E se ti interessa, posso fare lo stesso per il tuo brand."
+"Come fai a postare così spesso?"
+"Chi ti fa i contenuti?"
+"Come funziona?"
 
-Niente pitch. Niente pressione. Solo una risposta onesta a una domanda reale.
+Quella è l'apertura.
+Non devi cercarla. Viene da sola.
+
+## Il pitch
+
+Quando arriva la domanda, non vendere.
+Spiega.
+
+"Uso un sistema AI che genera contenuti ogni giorno.
+Funziona 24/7. Costa meno di un caffè al giorno.
+Posso fare lo stesso per te."
+
+Non parlare di Raspberry Pi.
+Non parlare di HERMES.
+Non parlare di MCP server.
+
+Parla di risultati:
+"5 contenuti al giorno. Su Facebook, Instagram, email, WhatsApp.
+Tutti personalizzati per il tuo brand. Approvati da te prima di partire."
 
 ## Il pricing
 
-Ecco i numeri. Sono quelli che uso. Puoi cambiarli.
+Ecco come strutturo il pacchetto base:
 
-### Pacchetto Setup (una tantum)
-- Pi 4 4GB + SSD + alimentatore: €197
-- Setup iniziale completo incluso
-- Configurazione agente + Brand Bible
-- Primo mese incluso
+**Setup una tantum: €97**
+- Configurazione agente
+- Brand Bible
+- Collegamento social e email
+- Test primo Daily Pack
 
-Alternativa VPS (nessun hardware da spedire):
-- Setup iniziale: €97
-- VPS incluso per il primo mese
-
-### Pacchetto Mensile (ricorrente)
-- Pi: €29/mese (hosting, manutenzione, aggiornamenti)
-- VPS Nano: €9/mese
-- VPS Standard: €19/mese
-- VPS Pro: €39/mese
-
-Cosa include il canone mensile:
-- Agenti operativi 24/7
-- Daily Content Pack (5 asset/giorno)
-- Report settimanale
-- Aggiornamenti automatici
+**Canone mensile: €29/mese**
+- Daily Pack giornaliero (5 asset)
+- Pubblicazione automatica
+- Report mensile
 - Supporto via Telegram
 
-## Cosa NEL pacchetto base
+**Totale primo anno: €445**
+(€97 setup + €29 x 12 = €445)
 
-- 1 agente HERMES con profilo dedicato
-- Brand Bible (compilata insieme)
-- 5 asset/giorno (Facebook, LinkedIn, Email, WhatsApp, Story)
-- Automazione pubblicazione (Composio + Brevo)
-- Report settimanale via Telegram
-- Gate di approvazione nelle prime 2 settimane
+Confronta: un'agenzia tradizionale costa €1.500-3.000/mese.
+Il tuo servizio costa €29/mese.
+Il cliente risparmia €1.471-2.971 al mese.
 
-Cosa NON è incluso (va in upgrade):
-- Video (richiede Higgsfield, +€59/mese)
-- Più di 5 asset/giorno
-- Secondo brand/cliente
-- Supporto telefonico (solo Telegram)
+Non stai vendendo tecnologia.
+Stai vendendo risultati a un prezzo che sembra un errore di stampa.
 
-## Come onboardare in 47 minuti
+## L'onboarding in 47 minuti
 
-Ecco il processo esatto. L'ho cronometrato.
+Il primo cliente è il più lungo.
+Dopo il primo, ogni nuovo cliente è più veloce.
 
-**Minuto 0-5**: Chiedi il nome del brand, il prodotto principale, il target. Registri tutto.
+Ecco il processo:
 
-**Minuto 5-15**: Compila la Brand Bible insieme al cliente (o fallo compilare a lui con il template del capitolo 11).
+**Minuto 0-5:** Chiamata di benvenuto. Spieghi cosa farai.
+**Minuto 5-20:** Compili la Brand Bible insieme (template del cap 11).
+**Minuto 20-35:** Configuri l'agente (copia profilo, adatti SOUL.md).
+**Minuto 35-45:** Generi il primo pack di test. Lo revisionate insieme.
+**Minuto 45-47:** Collego i canali (Facebook, Instagram, email, WhatsApp).
 
-**Minuto 15-30**: Crea il profilo copywriter su HERMES. Carica la Brand Bible. Configura i cron job.
+47 minuti. Il cliente ha il suo agente operativo.
+Tu sei già al cliente successivo.
 
-**Minuto 30-40**: Primo test: genera un pack manuale. Mostra il risultato al cliente. Correggi il tono se serve.
+## Come gestire il supporto
 
-**Minuto 40-45**: Configura Composio (Facebook + Instagram) e Brevo (email). Prima email di prova.
+Il supporto è il punto critico.
+Se non lo gestisci bene, diventa un lavoro a tempo pieno.
 
-**Minuto 45-47**: Spiegai al cliente come funziona il gate di approvazione. Manda il messaggio su Telegram con l'anteprima del primo giorno.
+Ecco le regole:
 
-Fatto. 47 minuti. Un nuovo cliente operativo.
+1. **Supporto solo via Telegram** — niente telefonate, niente WhatsApp personale
+2. **Risposta entro 24 ore** — non subito, non in tempo reale
+3. **FAQ automatica** — le domande più comuni hanno risposta nel bot
+4. **Ticket system** — Paperclip o n8n per tracciare le richieste
 
-## Come gestire il supporto senza impazzire
+Con 10 clienti avrai circa 2-3 richieste di supporto a settimana.
+Gestibili in 30 minuti.
 
-Il cliente avrà domande. Ne avrà il primo mende, poi si calmera.
-
-Ecco come gestire:
-
-1. **Canale unico**: tutto passa su Telegram. Niente email, niente telefonate, niente messaggi sparsi.
-
-2. **Orario di risponde**: definsici un orario (es. 10:00-12:00 e 15:00-17:00). Fuori quelli rispondi quando puoi.
-
-3. **FAQ vivente**: ogni domanda nuova diventa una riga nella FAQ del cliente. La prossima volta rispondi con un link.
-
-4. **Proattivo**: non aspettare che il cliente segnali problemi. Il report settimanale è il tuo strumento. Se va tutto bene, il cliente sta bene. Se c'è un problema, lo vedi prima tu.
-
-5. **Limite chiaro**: "Gestisco il technology stack. I contenuti li approvate voi. La strategia commerciale è vostra." Tre ruoli separati. Zero sovrapposizioni.
+Con 50 clienti serve un sistema più strutturato.
+Ma a quel punto hai i numeri per assumere qualcuno.
 
 ## Takeaway
 
-Il tuo primo cliente non è uno sconosciuto su LinkedIn. È qualcuno del tuo network che ha visto i risultati e ha chiesto "come lo fai?". Parti da lì.
+Il tuo primo cliente NM è il tuo bacino di acquisizione.
+La domanda "come fai?" è l'apertura naturale.
+Non vendere tecnologia. Vendere risultati.
+Setup €97 + €29/mese. Onboarding 47 minuti.
+Poi scala.
 
 ## Azione
 
-Conta le persone del tuo network che ti hanno fatto quella domanda negli ultimi 30 giorni.
-
-Se sono almeno 3, mandagli un messaggio. Oggi.
-
-"Ho scritto un libro su come ho automatizzato i miei contenuti con un Raspberry Pi. Se ti interessa come fare lo stesso per il tuo brand, posso mostrartelo."
-
-Riposa. E lascia che il libro faccia il lavoro pesante.
+Guarda i tuoi clienti NM attivi.
+Quale di loro vede i risultati del sistema
+e potrebbe chiederti "come fai?".
+Chiamalo stasieddì. Non per vendere.
+Per mostrare. La vendita viene dopo.

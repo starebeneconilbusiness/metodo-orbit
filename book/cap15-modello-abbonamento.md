@@ -2,140 +2,146 @@
 
 ## La differenza tra vendere una volta e incassare ogni mese
 
-Hai venduto il primo setup. €197. Benvenuto.
+Hai venduto il primo setup.
+€97 una tantum. Benvenuto.
 
-Ma quei €197 li hai incassati una volta. Il prossimo mese quel cliente non ti paga nulla. E se ne va, non torna.
+Ma quei €97 li incassi una volta.
+Poi il cliente se ne va. E tu devi trovarne un altro.
 
-Ora immagina un altro scenario.
+C'è un modello migliore.
 
-Stesso cliente. Stesso setup. Ma ogni mese ti paga €29.
+Un modello in cui il cliente paga ogni mese.
+E tu incassi ogni mese.
+Senza rifare il lavoro.
 
-Dopo 12 mesi: €197 + €348 = €545. Più del doppio.
+Si chiama abbonamento.
+È il modello che usa Netflix. Spotify. Ogni SaaS al mondo.
 
-Dopo 24 mesi: €197 + €696 = €893. Più del quadruplo.
-
-E tu non hai fatto nulla di più. Il sistema gira da solo. Il cliente è contento. I contenuti escono ogni giorno.
-
-Questo è il modello di abbonamento. E è il cuore della rendita ORBIT.
+Ed è il modello che usa ORBIT.
 
 ## Come strutturare il canone mensile
 
-Il cliente paga per:
-- **Hosting del sistema** (Pi o VPS)
-- **Manutenzione** (aggiornamenti, fix, monitoraggio)
-- **Energia** (il Pi corre 24/7, qualcuno deve pagare la corrente)
-- **Il tuo tempo** (anche se minimo, il supporto esiste)
+Il cliente non paga per la tecnologia.
+Paga per il servizio.
 
-Non stai vendendo "un prezzo". Stai vendendo "pace mentale". Il cliente non deve pensare a nulla. Tu gestisci. Lui incassa.
+Ogni mattina riceve 5 contenuti.
+Ogni settimana riceve un report.
+Ogni mese ha i social pieni di post calibrati.
+Le email partono. I messaggi WhatsApp partono.
 
-### I tier
+Tutto automatico. Tutto personalizzato.
 
-**Tier 1 — Pi Base (€29/mese)**
-- Raspberry Pi 4 4GB dedicato
-- 5 asset/giorno
-- Report settimanale
-- Supporto Telegram
+Per questo servizio paga un canone mensile.
 
-**Tier 2 — VPS Standard (€49/mese)**
-- Server cloud (Hetzner CX32)
-- 5 asset/giorno
-- Report settimanale + analisi KPI
-- Supporto Telegram prioritario
+**Piano Base: €29/mese**
+- Daily Pack (5 asset/giorno)
+- Pubblicazione automatica
+- Report mensile
 
-**Tier 3 — VPS Pro (€79/mese)**
-- Server cloud (Hetzner CPX31)
-- 10 asset/giorno
-- Report settimanale + analisi KPI + suggerimenti
-- Supporto Telegram + call mensile 30 min
+**Piano Growth: €59/mese**
+- Tutto del Base
+- Email marketing avanzato
+- Analisi KPI settimanale
 
-**Tier 4 — Agency (€149/mese)**
-- Server cloud dedicato
-- Fino a 3 brand/clienti
-- Dashboard Paperclip inclusa
-- Supporto dedicato
+**Piano Pro: €149/mese**
+- Tutto del Growth
+- Video giornaliero (Higgsfield)
+- Supporto prioritario
 
-## La gestione tecnica: API keys e auto-suspend
+## La gestione tecnica: tu controlli, loro usano
 
-Ogni cliente ha le sue API keys. Tu le gestisci. Lui non le vede.
+Ogni cliente ha le sue API key.
+Tu le gestisci. Il cliente non ci tocca.
 
-Perché?
+Se il cliente paga: tutto funziona.
+Se non paga: il sistema si auto-sospende in 24 ore.
 
-Perché se il cliente ha le keys, può:
-- Cambiare la configurazione
-- Rompere qualche cosa
-- Andarsene e portarsi il sistema
+Niente discussioni. Niente solleciti.
+Il sistema è on oppure è off.
 
-Con le keys tu:
-- Tu controlli, lui usa
-- Se non paga → auto-suspend in 24h
-- Se rinnova → auto-resume immediato
+Se il cliente rinnova: auto-resume immediato.
+I contenuti ripartono dal giorno dopo.
 
-### Come funziona l'auto-suspend
+Questo lo gestisci con un semplice script sul Pi.
+Controlla lo stato del pagamento (Stripe).
+Se pagato: cron job attivi.
+Se non pagato: cron job sospesi.
 
-Ogni notte un cron job controlla lo statio di ogni cliente:
+## I numeri che contano
 
-1. Verifica pagamento (Stripe)
-2. Se pagato → tutto ok, prosegui
-3. Se non pagato da 3 giorni → invia reminder
-4. Se non pagato da 7 giorni → sospende il servizio
-5. Se paga → riattiva immediatamente
-
-Zero intervento manuale. Il sistema gestisce tutto.
-
-### Come funziona l'auto-resume
-
-Il cliente paga. Stripe notifica il sistema. Il sistema riattiva il profile copywriter, riavvia i cron job, manda un messaggio di benvenuto.
-
-Tempo totale: meno di 5 minuti. Zero click da parte tua.
-
-## I numeri reali
-
-Ecco cosa significa "rendita" in pratica:
+Ecco perché il modello abbonamento cambia tutto:
 
 **10 clienti a €29/mese = €290/mese ricorrenti**
-- Lavoro mensile: ~2-3 ore (supporto + report)
-- Guadagno netto: ~€250/mese
-- Zero lavoro aggiuntivo rispetto al primo cliente
+- Lavoro mensile: ~2 ore (supporto + monitoring)
+- Revenue annuo: €3.480
 
 **50 clienti a €29/mese = €1.450/mese ricorrenti**
-- Lavoro mensile: ~8-10 ore
-- Guadagno netto: ~€1.300/mese
-- Stai lavorando meno di un part-time
+- Lavoro mensile: ~5 ore
+- Revenue annuo: €17.400
 
 **100 clienti a €29/mese = €2.900/mese ricorrenti**
-- Qui assumi qualcuno per il supporto
-- Tu gestisci la strategia
-- Guadagno netto: ~€2.000/mese
+- Lavoro mensile: ~8 ore (a questo punto assumi qualcuno)
+- Revenue annuo: €34.800
 
-**Con mix di tier (media €49/mese):**
-- 100 clienti = €4.900/mese
-- 200 clienti = €9.800/mese
+Zero lavoro aggiuntivo per ogni nuovo cliente.
+Il Pi lavora per tutti allo stesso modo.
+Il costo marginale è zero.
 
-## Dal Pi al VPS al SaaS: stessa logica, scala diversa
+## Dal Pi al VPS al SaaS
 
-Il modello è identico. Cambia solo l'hardware:
+La logica è sempre la stessa.
+Cambia solo la scala.
 
-**Pi**: un cliente, un Pi, €29/mese. Scalabile fino a ~20 clienti (poi serve Paperclip).
+**Pi (1-5 clienti):**
+- Hardware tuo. Costo zero aggiunto.
+- Gestito da te. Telegram come interfaccia.
 
-**VPS**: un server, N clienti, €9-79/mese ciascuno. Scalabile fino a ~100 clienti.
+**VPS (5-50 clienti):**
+- Server cloud. €9-39/mese.
+- Stessa identica configurazione.
+- Ansible lo installa in 15 minuti.
 
-**SaaS**: piattaforma self-service, il cliente si registra e paga da solo. Scalabile a infinito.
+**SaaS (50+ clienti):**
+- Piattaforma self-service.
+- Il cliente si registra e paga da solo.
+- Zero intervento manuale.
 
-La logica è sempre la same:
-1. Il cliente paga
-2. Il sistema gira
-3. Tu controlli
-4. Se non paga → auto-suspend
-5. Se paga → auto-resume
+Stessa architettura. Stessi profili. Stessi cron job.
+Scala diversa.
+
+## Il Piano Pro con Video
+
+Quando aggiungi Higgsfield (video AI),
+il pricing sale e il valore percepito esplode.
+
+**Piano Pro Video: €59/mese per cliente**
+- 137 video Kling 3.0/mese
+- Unlimited Seedance 2.0
+- Unlimited immagini Flux.2 Pro
+
+**Break even: 2 clienti**
+2 x €59 = €118/mese. Meno di Higgsfield ($59).
+Da 3 clienti in su: tutto profitto.
+
+**Confronto:**
+- Agenzia copy + video: €3.000-5.000/mese
+- ORBIT Pro: €70/mese (Higgsfield + OpenRouter)
+- Risparmio annuo del cliente: fino a €59.160
 
 ## Takeaway
 
-Vendere una volta è un lavoro. Vendere ogni mese è una rendita. Il setup è lo stesso. Il mantenimento è quasi zero. La differenza è tutta nel modello di pricing.
+Vendere una volta è un lavoro.
+Vendere ogni mese è un asset.
+Costruisci il modello abbonamento dall'inizio.
+€29/mese sembra poco. Moltiplicato per 100 clienti
+diventa €2.900/mese di rendita.
+Per sempre.
 
 ## Azione
 
-Se hai già un cliente, proponi il modello di abbonamento oggi.
-
-"Il setup è fatto. Ora propongo un canone mensile di €29 per manutenzione, aggiornamenti e supporto. Se ti va, parti domani. Se preferisci gestire da solo, nessun problema — ma ogni fix o aggiornamento costa €50/ora."
-
-Lascia che i numeri parlino.
+Apri Stripe. Crea un prodotto "ORBIT Base — €29/mese".
+Crea il link di pagamento.
+Mandalo al tuo cliente NM più vicino.
+Quando il primo pagamento mensile arriva,
+capirai che hai costruito qualcosa di diverso.
+Hai costruito un asset.

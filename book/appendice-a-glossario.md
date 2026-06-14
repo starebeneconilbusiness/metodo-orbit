@@ -1,77 +1,39 @@
 # Appendice A — Glossario
 
-I termini tecnici usati nel libro, spiegati in italiano semplice.
+## I termini tecnici usati nel libro, spiegati in italiano semplice
 
----
+### AI Agent
+Un programma che non solo risponde a domande, ma agisce autonomamente. Riceve un obiettivo, decide come raggiungerlo, esegue i passi, ricorda cosa ha fatto. Non è un chatbot: è un lavoratore digitale.
 
-## AI Agent
-Un programma che non si limita a rispondere a domande, ma **agisce autonomamente**. Riceve un obietttivo, decide come raggiungerlo, esegue i passi, verifica il risultato. Differenza chiave: un tool risponde, un agente agisce.
+### MCP Server
+"Model Context Protocol Server". Un ponte tra l'agente AI e i servizi esterni (email, social, database). Senza MCP l'agente è isolato. Con MCP può pubblicare su Facebook, inviare email, gestire file.
 
-## MCP Server
-**Model Context Protocol**. Uno standard che permette a un agente AI di parlare con servizi esterni (GitHub, Facebook, email, database). Pensalo come una "presa universale" che collega l'agente al mondo.
+### Cron Job
+Un'operazione programmata che si esegue automaticamente a un orario definito. Come una sveglia per il Pi. Alle 07:00 sveglia l'agente e gli dice "genera i contenuti di oggi".
 
-## Cron Job
-Un'**azione programmata** che si esegue automaticamente a un orario definito. Come una sveglia per il Pi: ogni giorno alle 07:00 il sistema si sveglia e genera i contenuti.
+### Daily Content Pack
+I 5 contenuti che l'agente genera ogni mattina per un cliente: post Facebook, post LinkedIn, email, script WhatsApp, testo Story. Un pacchetto completo di comunicazione giornaliera.
 
-## Daily Content Pack
-I **5 contenuti** che l'agente genera ogni mattina per un cliente: post Facebook, post LinkedIn, email, script WhatsApp, testo Story. Un pacchetto completo, pronto per essere pubblicato.
+### Brand Bible
+Il documento che descrive chi è il cliente: prodotto, target, tone of voice, parole vietate, framing approvato. Senza Brand Bible l'agente genera contenuti generici. Con la Brand Bible genera contenuti che convertono.
 
-## Brand Bible
-Il **documento di identità** del brand. Contiene: prodotto, target, tone of voice, parole vietate, framing approvato. Senza Brand Bible l'agente genera contenuti generici. Con la Brand Bible genera contenuti che convertono.
+### SOUL.md
+L'anima dell'agente. Un file di testo che dice all'agente chi è, cosa fa, come lo fa. Ogni profilo ha il suo SOUL.md.
 
-## SOUL.md
-Il file che definisce **chi è l'agente**. La sua identità, il suo ruole, le sue regole. Ogni profilo HERMES ha il suo SOUL.md.
+### MEMORY.md
+La memoria dell'agente. Contiene i fatti importanti: chi è il cliente, cosa ha fatto ieri, cosa deve fare oggi. Senza MEMORY l'agente dimentica tutto a ogni nuova sessione.
 
-## MEMORY.md
-Il file che contiene **tutto ciò che l'agente sa** del progetto: clienti, infrastruttura, decisioni, stato attuale. È la sua memoria a lungo termine.
+### Provisioning
+Il processo di creazione automatica di un nuovo server (VPS) con tutto il software già installato. Da zero a operativo in 15 minuti, senza intervento manuale.
 
-## Provisioning
-Il processo di **creazione automatica** di un nuovo server (Pi o VPS) con tutto il software necessario. Da zero a operativo in 15 minuti, senza intervento manuale.
+### VPS
+"Virtual Private Server". Un server virtuale nel cloud. Come avere un computer remoto che gira 24/7. Costa €9-79/mese. Alternativa al Raspberry Pi per chi non vuole hardware fisico.
 
-## VPS
-**Virtual Private Server**. Un server virtuale nel cloud. Alternativa al Pi fisico: nessun hardware da gestire, scalabile, raggiungibile ovunque.
+### LLM
+"Large Language Model". Il modello di linguaggio che è il cervello dell'agente. GPT-4, Claude, owl-alpha sono tutti LLM. L'agente usa l'LLM per ragionare, scrivere, decidere.
 
-## LLM
-**Large Language Model**. Il "cervello" linguistico dell'AI. Esempi: Claude, GPT, Gemini, owl-alpha. Il modello che genera il testo, risponde alle domande, ragiona.
+### Token
+L'unità di misura del lavoro dell'LLM. Un token è circa 3-4 caratteri di testo. Un post Facebook è ~200 token. Un capitolo del libro è ~5.000 token. Si paga per token: circa $1-3 per milione di token.
 
-## Token
-L'unità di misura del testo per un LLM. Un token ≈ 4 caratteri ≈ ¾ di parola. Il costo dell'AI si calcola in token: quanti token usi, quanto paghi.
-
-## Inferenza
-Il momento in cui il LLM **genera una risposta**. Tu mandi un input (prompt), il modello "inferisce" (calcola) l'output. L'inferenza è quella che costa (in token/euro).
-
-## Composio
-Piattaforma che connette l'agente ai **social network** (Facebook, Instagram, LinkedIn) e a 250+ altri servizi. Gratuito fino a 20.000 chiamate/mese.
-
-## Brevo
-Piattaforma di **email marketing**. Invia email automatiche, traccia aperture e click. Gratuito fino a 300 email/giorno.
-
-## Tailscale
-**VPN mesh** che connette i tuoi dispositivi come se fossero nella stessa rete locale, anche se sono in parti opposte del mondo. Gratuito fino a 3 dispositivi.
-
-## HERMES
-L'**agente AI** su cui gira tutto il Metodo ORBIT. Open source, by Nos Research. Gestisce profili, cron job, MCP server, memoria, skills.
-
-## n8n
-Piattazione di **automazione workflow**. Collega servizi tra loro: "quando arriva una email, crea un task". Self-hosted, gratuito.
-
-## Stripe
-Piattaforma di **pagamenti online**. Gestisce abbonamenti, pagamenti one-time, fatturazione automatica. Usato per il modello di rendita ORBIT.
-
-## Hetzner
-Provider di **server cloud** tedesco. Prezzi bassissimi (€4-15/mese per un VPS). Affidabile, veloce, in Europa.
-
-## Higgsfield
-Piattaforma di **generazione video AI**. Crea video professionali da testo. Piano PLUS: €59/mese, 137 video Kling 3.0, unlimited Seedance 2.0.
-
-## Paperclip
-Piattaforma di **gestione agenti AI**. Dashboard visuale, org chart, approvazione contenuti, cost tracking. Per chi gestisce team o più clienti.
-
-## Ansible
-Strumento di **automazione server**. Definisci in un file YAML cosa deve essere installato su un server, e Ansible lo fa. Usato nel playbook ORBIT per setup in 1 comando.
-
-## GitHub
-Piattaforma di **versioning codice**. Salva ogni modifica ai file del progetto. Permette di tornare indietro, collaborare, documentare.
-
-## Docker
-Tecnologia di **containerizzazione**. Impacchetta un'applicazione con tutto ciò che le serve per funzionare. Isola, riproduce, scala.
+### Inferenza
+Il processo con cui l'LLM genera testo. Quando l'agente scrive un post, sta facendo inferenza. Costa token. L'inferenza è il costo principale del sistema.

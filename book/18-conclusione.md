@@ -8,8 +8,7 @@
 
 ## Dove trovarmi
 [GitHub: starebeneconilbusiness
- Telegram: @VadaLinux
- Sito: orbitmethod.com (coming soon)]
+ Telegram: Sito: orbitmethod.com (coming soon)]
 
 ## Un'ultima cosa
 [La frase finale — quella che resta]

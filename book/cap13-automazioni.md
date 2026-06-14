@@ -1,113 +1,116 @@
 # Capitolo 13 — Le Automazioni verso il Mondo
 
-## Da generazione a pubblicazione: il flusso completo in 30 minuti
+## Da contenuto generato a contenuto pubblicato: il flusso completo
 
-L'agente ha generato i 5 asset. Sono salvati in cartella. Sono corretti.
+L'agente ha generato 5 contenuti.
+Sono salvati in una cartella sul Pi.
+Sono perfetti.
 
-Ma sono ancora lì. Su disco. Nel Pi. Da soli.
+Ma nessuno li ha visti.
 
-Nessuno li ha visti. Nessuno ha cliccato. Nessuno ha comprato.
+Perché generare contenuti è solo metà del lavoro.
+L'altra metà è portarli dove sono i tuoi clienti.
+Su Facebook. Su Instagram. Nella loro email. Nel loro WhatsApp.
 
-Manca il pezzo finale: **portare i contenuti dove sono le persone**.
+Questa è la fase di automazione.
+Ed è qui che il sistema smette di essere "un esperimento"
+e diventa un'agenzia che lavora per te 24 ore al giorno.
 
 ## Il flusso completo
 
-Ecco cosa succede ogni mattina, dal risveglio del sistema alla pubblicazione:
+Ogni mattina il sistema fa questo:
 
-**07:00** — Il cron job si attiva. L'agente legge la Brand Bible, sceglie il tema del giorno, genera i 5 asset Chinese.
+**07:00** — L'agente genera il Daily Pack (5 asset)
+**07:05** — I contenuti vengono salvati nella cartella del giorno
+**07:10** — Il sistema invia una notifica su Telegram: "Pack pronto, 5 asset"
+**07:15** — Tu apri Telegram, leggi, approvi (o richiedi modifiche)
+**07:20** — I contenuti approvati partono automaticamente:
+          → Post su Facebook e Instagram (via Composio)
+          → Email ai contatti (via Brevo)
+          → Messaggio WhatsApp broadcast
 
-**07:04** — I file sono salvati. Il sistema controlla la qualità automaticamente (lunghezza, CTA presente, forbidden words).
+**07:25** — Fatto. Zero clic manuali. Zero copia-incolla.
 
-**07:05** — I contenuti pronti per essere pubblicati.
+## I canali e come funzionano
 
-E qui si dividono le acque.
+### Facebook e Instagram — Composio
 
-## I canali di uscita
+Composio è il ponte tra l'agente e i social.
+Quando il post è pronto, Composio lo pubblica direttamente
+sulla pagina Facebook o sul profilo Instagram del cliente.
 
-### Facebook e Instagram → Composio
+Niente aprire il telefono. Niente cercare l'app.
+Il contenuto parte dal Pi e arriva sul social.
 
-Composio è il ponte tra l'agente e i social. Ha oltre 250 tool. Quelli che usiamo:
+### Email — Brevo
 
-- **Facebook Pages**: pubblica post su una pagina Facebook
-- **Instagram Business**: pubblica post e reel su Instagram
-- **Meta Business Suite**: gestisce entrambi da un'unica interfaccia
+Brevo è il sistema di email marketing.
+Quando l'email è pronta, Brevo la invia a tutta la lista
+dei contatti del cliente.
 
-Come funziona: l'agente prepara il testo e l'immagine. Composio lo pubblica. Zero click da parte tua.
+Con personalizzazione: ogni email contiene il nome del destinatario.
+Non "Ciao amico" ma "Ciao Marco".
+La differenza nel tasso di apertura è enorme.
 
-### Email → Brevo
+### WhatsApp — broadcast
 
-Brevo è il sistema di email marketing. Ha un piano gratuito che copre fino a 300 email/giorno. Più che sufficiente per iniziare.
+Il messaggio WhatsApp viene inviato come broadcast
+ai contatti che hanno accettato di ricevere comunicazioni.
+Max 3 righe. Max 3 emoji. CTA diretta.
 
-Come funziona: l'agente genera il testo dell'email. Brevo lo invia alla lista contatti. Traccia aperture e click.
+## Il gate di approvazione: perché esiste
 
-### WhatsApp → Template + invio manuale (per ora)
+A questo punto potresti pensare:
+"Pubblico tutto in automatico. Zero controllo."
 
-WhatsApp è il canale più potente per la conversione. Ma è anche il più delicato. Non esistono API gratuite per inviare messaggi in massa senza rischiare il ban.
+**No. Non nelle prime due settimane.**
 
-La soluzione: l'agente genera lo script. Tu (o il cliente) lo copia e inoltra. Sono 3 righe. 15 secondi.
+Nelle prime due settimane il gate di approvazione è attivo.
+Tu ricevi i contenuti su Telegram.
+Li leggi. Li approvi o li modifichi.
+Solo dopo partono.
 
-In futuro, con l'API Business di WhatsApp integrata in Composio, anche questo diventerà automatico.
+Perché? Perché l'agente deve ancora imparare il brand.
+I primi contenuti sono buoni ma non perfetti.
+Due settimane di feedback umano lo portano al livello giusto.
 
-## Il gate di approvazione: perché non pubblicare mai tutto subito
+Dopo due settimane, se i contenuti sono costantemente approvati
+senza modifiche, puoi disattivare il gate.
+A quel punto il sistema è completamente automatico.
 
-Qui arrivo a un punto importante. Un punto che nessuno menziona nei tutorial.
+## Come togliere il gate
 
-**Non pubblicare mai in automatico senza checkpoint umano nelle prime 2 settimane.**
+Seguo questa regola:
 
-Perché?
-
-Perché l'agente è bravo. Ma non è perfetto. Nelle prime settimane sta ancora imparando il tono, il target, il brand. Può fare errori che tu vedi subito e lui no.
-
-Un post che suona troppo "corporate" per un pubblico NM.
-Un hashtag sbagliato.
-Un CTA che punta alla pagina sbagliata.
-Un tono troppo aggressivo (o troppo blando).
-
-Errori piccoli. Ma sui social, errori piccoli diventano danni grandi.
-
-### Come funziona il gate
-
-Nelle prime 2 settimane:
-
-1. L'agente genera i contenuti
-2. Li salva in cartella
-3. Ti invia un messaggio su Telegram con l'anteprima
-4. Tu leggi. Correggi se serve. Approvi.
-5. Solo dopo l'approvazione, il sistema pubblica
-
-Dopo 2 settimane di contenuti approvati senza correzioni:
-
-1. L'agente genera i contenuti
-2. Li salva in cartella
-3. Il sistema pubblica direttamente
-4. Ti invia un report alla fine della settimana
-
-Il gate è stato rimosso. L'agente è affidabile.
-
-### Come toglierlo
-
-Non c'è un interruttore. C'è un processo:
-
-- Settimana 1-2: approvazione manuale di ogni contenuto
-- Settimana 3-4: approvazione a campione (solo 1 su 5)
-- Settimana 5+: pubblicazione automatica + report settimanale
-
-Se a qualsiasi momento noti un problema, torni al gate pieno. Senza colpa. Senza fretta.
+- Settimana 1-2: gate attivo, approvazione manuale
+- Settimana 3: gate attivo, ma approvazione rapida (sì/no)
+- Settimana 4: se 90%+ dei contenuti sono approvati senza modifiche
+  → gate disattivato, pubblicazione automatica
+- Sempre: notifica post-pubblicazione su Telegram per monitoraggio
 
 ## Il numero che conta
 
 Da generazione a pubblicazione: **meno di 30 minuti**.
+Zero intervento manuale dopo l'approvazione.
+Zero copia-incolla. Zero login su piattaforme.
 
-Zero intervento manuale (dopo il periodo di gate).
+Il contenuto nasce alle 07:00.
+Alle 07:30 è già sui social, nelle email, su WhatsApp.
+Tu stai ancora bevendo il caffè.
 
-Questo è il dato che cambia tutto. Perché il tempo che non spendi a pubblicare è tempo che spendi a vendere, a parlare con i clienti, a far crescere il business.
+Questo è il Metodo ORBIT.
 
 ## Takeaway
 
-Generare contenuti è il 50% del lavoro. Portarli dove sono le persone è l'altro 50%. Composio e Brevo chiudono il ciclo. Il gate di approvazione ti protegge nelle prime settimane. Poi sparisce.
+Generare contenuti è il 50% del lavoro.
+Portarli dove sono i clienti è l'altro 50%.
+Con Composio, Brevo e WhatsApp broadcast
+il flusso è completamente automatico.
+Ma nelle prime due settimane: controlla sempre.
 
 ## Azione
 
-Se non l'hai fatto, configura Composio oggi. Collega la pagina Facebook e l'account Instagram del tuo cliente. Fai un test: genera un post e pubblicalo.
-
-Quando funziona, hai chiuso il ciclo. Il sistema è completo.
+Apri Composio e collega la tua pagina Facebook.
+Fallo oggi. Ci vogliono 5 minuti.
+Quando il primo post partirà da solo, capirai
+perché questo sistema cambia tutto.
