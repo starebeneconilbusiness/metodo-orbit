@@ -15,35 +15,40 @@ Tutti i modelli AI sembrano uguali
 finché non guardi il conto a fine mese.
 
 Un post Facebook scritto da un modello premium
-costa 25 volte di più dello stesso post
-scritto da un modello economico.
+costa circa €0.025 per 1.000 token.
+Lo stesso post scritto da un modello economico
+costa €0.001 per 1.000 token.
 
 Il risultato? Quasi identico per un post base.
 La differenza di costo? 25 volte.
 
-Moltiplicato per 30 post al mese per 2 clienti:
-modello premium: €1.50/mese solo per i post
-modello economico: €0.06/mese per gli stessi post
+Moltiplicato per 30 post al mese
+per 2 clienti:
+Modello premium: €1.50/mese solo per i post
+Modello economico: €0.06/mese per gli stessi post
 
 ## Le cinque regole d'oro
 
 ### Regola 1 — Modello economico per i task che si ripetono
 
 I cron job girano ogni giorno.
-Daily Pack, monitoraggio, budget check.
+Daily Pack, monitoraggio, check di budget.
 Anche un piccolo risparmio per task
 diventa significativo × 30 giorni × 12 mesi.
 
-Per tutto ciò che gira in automatico ogni giorno: modello economico.
+Per tutto ciò che gira in automatico
+ogni giorno: modello economico.
 
 ### Regola 2 — Modello creativo per il copy che deve convincere
 
 Quando il testo deve persuadere,
-vendere, conquistare la fiducia di qualcuno
+quando deve vendere, quando deve
+conquistare la fiducia di qualcuno
 che non ti conosce ancora —
 investi nel modello migliore.
 
-Un post LinkedIn che porta un lead da €500
+Un post LinkedIn scritto da un modello creativo
+che porta un lead da €500
 è costato €0.006.
 Il ROI è 83.000%.
 
@@ -83,7 +88,7 @@ per spendere il minimo con il massimo risultato:
 | Copywriter post base | economico | €0.30 |
 | Copywriter LinkedIn | creativo | €1.80 |
 | Email marketing | creativo | €1.20 |
-| Monitoraggio | economico | €0.30 |
+| Monitoraggio social | economico | €0.30 |
 | Report settimanali | veloce | €0.02 |
 | Budget check | veloce | €0.01 |
 | Brand Bible (setup) | premium | €0.50 * |
@@ -123,7 +128,9 @@ E può dimezzare il tuo costo mensile.
 
 ## Azione
 
-Controlla quale modello sta usando ogni agente.
+Apri la configurazione del tuo agente.
+Vai su ogni profilo che hai creato.
+Controlla quale modello sta usando.
 Cambia i cron job automatici su modello economico.
 Tieni il modello creativo solo per il copy
 che deve convincere qualcuno.

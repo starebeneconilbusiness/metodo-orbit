@@ -119,7 +119,7 @@ Implicazione libro:
 
 ---
 
-### 2026-06-13 — Decisione architetturale finale
+## 2026-06-13 — Decisione architetturale finale
 
 Un solo HERMES sul Pi per cliente.
 Profili multipli per funzioni diverse.
@@ -133,109 +133,7 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
-### 2026-06-14 — Visione ecosistema completa
-
-Espansione del modello da prodotto singolo a ecosistema.
-7 livelli di prodotto identificati:
-libro → profili → Pi → VPS → Paperclip → SaaS → consulting
-
-Nuovo: modello partner con revenue share 30/70.
-Nuovo: marketplace profili HERMES (futuro).
-Nuovo: VPS tiers Nano/Standard/Pro/Agency.
-Nuovo: Paperclip Package per enterprise.
-
-Stack tecnico SaaS definito:
-- Frontend: Next.js 14
-- Backend: FastAPI
-- Provisioning: Hetzner API + Ansible
-- Billing: Stripe subscriptions
-- Database: PostgreSQL
-
-Prossimi passi:
-1. Registro dominio orbitmethod.com
-2. VPS Hetzner CX32 per produzione
-3. Tailscale per accesso remoto
-4. Landing page MVP
-
----
-
-### 2026-06-14 — Libro Metodo ORBIT completato
-
-ORBIT-AUTHOR ha scritto tutti i 17 capitoli + intro + conclusione + 3 appendici.
-Totale: 21 file, ~2.300 righe, ~18.000 parole stimate.
-Libro pronto per revisione di Gabriele (intro + conclusione skeleton).
-
-Struttura finale:
-- 00-introduzione.md (skeleton — da compilare)
-- cap01-08: Parte 1 — Fondamenta (problema, agenzie, AI agent, tre business, architettura, daily pack, funnel, scalare)
-- cap09-10: Parte 2 — Sistema (lista spesa, cervello, brand bible)
-- cap11-15: Parte 3 — Automazione e Business (automazioni, vendita, abbonamento)
-- cap16-17: Parte 4 — Visione (scala o vendi, ecosistema)
-- 18-conclusione.md (skeleton — da compilare)
-- appendice-a-glossario.md
-- appendice-b-checklist.md
-- appendice-c-tool.md
-
-Prossimo step: Gabriele compila intro e conclusione.
-Poi export PDF per Amazon KDP.
-
----
-
-### 2026-06-14 — Piano Clienti Zero
-
-Decisione strategica: SNEP e Diamante Rent
-sono i clienti zero del Metodo ORBIT.
-
-Piano settimana 16-20 giugno 2026:
-- Lunedì: setup VPS + dominio + infra
-- Martedì: filming onboarding SNEP
-- Mercoledì: filming onboarding DiamRent
-- Giovedì: filming sistema completo + Ansible
-- Venerdì: metriche e risultati reali
-
-Output attesi:
-- 2 video completi (formato lungo YouTube)
-- 4 reel 9:16 (Instagram/TikTok)
-- Numeri reali settimana 1 per il libro
-- Primo post reale pubblicato su Facebook SNEP
-- Prima iscrizione webinar DiamRent
-
-Questi dati aggiornano i capitoli 06, 07, 14.
-ORBIT-AUTHOR domenica 21/6 fa il primo
-aggiornamento con dati reali.
-
----
-
-### 2026-06-14 — Problema accesso remoto identificato
-
-Problema: Pi non raggiungibile via SSH da fuori LAN.
-Impatto: impossibile intervenire manualmente quando fuori casa.
-Soluzione scelta: Tailscale (VPN mesh, gratuito, 5 min setup).
-Alternatives valutate: Cloudflare Tunnel, NetBird/Wireguard.
-Motivo scelta Tailscale: semplicità assoluta, zero config router,
-funziona anche da mobile, gratuito fino a 3 dispositivi.
-Capitolo libro: cap12-accesso-remoto.md
-
-### 2026-06-14 — Model Routing
-
-Non tutti i task richiedono il modello migliore.
-Il segreto è usare il modello giusto per ogni job.
-
-- Task meccanici → modello economico
-- Copy marketing → modello creativo
-- Analisi B2B → modello ragionativo
-
-Questo si chiama model routing.
-ORBIT lo fa automaticamente.
-
-Implicazione libro: ogni profilo HERMES può avere
-un modello diverso assegnato. Il Daily Pack SNEP
-usa un modello creativo. Il budget check usa
-un modello economico. Zero spreco.
-
----
-
-### 2026-06-13 — Model Routing
+## 2026-06-13 — Model Routing
 
 Principio chiave: non tutti i task richiedono il modello migliore.
 Task meccanici → modello economico
@@ -247,7 +145,7 @@ Risparmio stimato: 70% del budget AI.
 
 ---
 
-### 2026-06-13 — Higgsfield in arrivo
+## 2026-06-13 — Higgsfield in arrivo
 
 Abbonamento Higgsfield attivo dal 27 giugno 2026.
 Higgsfield CLI già installato e loggato sul sistema.
@@ -286,7 +184,7 @@ Sviluppi paralleli aperti:
 
 ---
 
-### 2026-06-14 — Parte 1 del libro completa
+## 2026-06-14 — Parte 1 del libro completa
 
 ORBIT-AUTHOR ha scritto i capitoli 01-08 della Parte 1:
 
@@ -305,16 +203,11 @@ Totale Parte 1: 8 capitoli, ~1.200 righe
 
 Struttura capitoli: hook → storia → sistema → risultato → takeaway → azione
 
-Prossimi capitoli da scrivere: cap11, cap13, cap14, cap15
-(cap09, 10, 12, 16, 17 già scritti)
-
-Capitoli totali finora: 13/17
-
 ---
 
-### 2026-06-14 — Libro COMPLETATO — 17/17 capitoli
+## 2026-06-14 — Libro COMPLETATO — 19/19 capitoli
 
-ORBIT-AUTHOR ha scritto tutti i 17 capitoli mancanti:
+ORBIT-AUTHOR ha scritto tutti i capitoli mancanti:
 - cap11a-brand-bible.md — La Brand Bible
 - cap11b-model-routing.md — Il Modello Giusto al Momento Giusto
 - cap13-automazioni.md — Le Automazioni verso il Mondo
@@ -328,8 +221,71 @@ Plus:
 - appendice-b-checklist.md
 - appendice-c-tool.md
 
-Totale libro: 21 file, ~2.300 righe, ~18.000 parole stimate.
-Pagine stimate: 80-100 pagine formato A5.
+Totale libro: 23 file, ~2.800 righe, ~22.000 parole stimate.
+Pagine stimate: 90-110 pagine formato A5.
 
 Prossimo step: Gabriele compila intro e conclusione.
 Poi export PDF per Amazon KDP.
+
+---
+
+## 2026-06-14 — Visione ecosistema completa
+
+Espansione del modello da prodotto singolo a ecosistema.
+7 livelli di prodotto identificati:
+libro → profili → Pi → VPS → Paperclip → SaaS → consulting
+
+Nuovo: modello partner con revenue share 30/70.
+Nuovo: marketplace profili HERMES (futuro).
+Nuovo: VPS tiers Nano/Standard/Pro/Agency.
+Nuovo: Paperclip Package per enterprise.
+
+Stack tecnico SaaS definito:
+- Frontend: Next.js 14
+- Backend: FastAPI
+- Provisioning: Hetzner API + Ansible
+- Billing: Stripe subscriptions
+- Database: PostgreSQL
+
+Prossimi passi:
+1. Registro dominio orbitmethod.com
+2. VPS Hetzner CX32 per produzione
+3. Tailscale per accesso remoto
+4. Landing page MVP
+
+---
+
+## 2026-06-14 — Problema accesso remoto identificato
+
+Problema: Pi non raggiungibile via SSH da fuori LAN.
+Impatto: impossibile intervenire manualmente quando fuori casa.
+Soluzione scelta: Tailscale (VPN mesh, gratuito, 5 min setup).
+Alternatives valutate: Cloudflare Tunnel, NetBird/Wireguard.
+Motivo scelta Tailscale: semplicità assoluta, zero config router,
+funziona anche da mobile, gratuito fino a 3 dispositivi.
+Capitolo libro: cap12-accesso-remoto.md
+
+---
+
+## 2026-06-14 — Piano Clienti Zero
+
+Decisione strategica: SNEP e Diamante Rent
+sono i clienti zero del Metodo ORBIT.
+
+Piano settimana 16-20 giugno 2026:
+- Lunedì: setup VPS + dominio + infra
+- Martedì: filming onboarding SNEP
+- Mercoledì: filming onboarding DiamRent
+- Giovedì: filming sistema completo + Ansible
+- Venerdì: metriche e risultati reali
+
+Output attesi:
+- 2 video completi (formato lungo YouTube)
+- 4 reel 9:16 (Instagram/TikTok)
+- Numeri reali settimana 1 per il libro
+- Primo post reale pubblicato su Facebook SNEP
+- Prima iscrizione webinar DiamRent
+
+Questi dati aggiornano i capitoli 06, 07, 14.
+ORBIT-AUTHOR domenica 21/6 fa il primo
+aggiornamento con dati reali.

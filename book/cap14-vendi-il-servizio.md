@@ -1,134 +1,152 @@
 # Capitolo 14 — Il Tuo Primo Cliente Agenzia
 
-## Il bacino di acquisizione che hai già
+## Il bacino che hai già
 
-Hai un problema. Non sai dove trovare il primo cliente
-per vendere il servizio ORBIT.
+Hai un problema.
+Ti serve il tuo primo cliente pagante
+per validare il modello di business.
 
-In realtà ce l'hai già.
+Ma non hai budget per la pubblica.
+Non hai un sito. Non hai una lista email.
+Non hai follower sui social.
 
-I gruppi dei tuoi clienti network marketing
-sono il tuo primo bacino di acquisizione.
-Sono persone che hanno già visto i risultati
-del sistema applicati ai propri contenuti.
-Sanno che funziona. Hanno visto i numeri.
+Tranquillo. Hai qualcosa di meglio:
+hai i gruppi.
+
+I gruppi dei tuoi clienti NM sono il tuo primo
+bacino di acquisizione. Non gruppi esterni.
+Non cold outreach. Gente che ti conosce già.
+Gente che ha già visto i risultati del sistema
+sui propri contenuti.
 
 La domanda naturale arriva da sola:
-"Come lo fai? Chi ti gestisce i social?"
+"Come fai a fare tutta questa roba?"
 
-Quella è l'apertura. Non devi cercarla.
-Arriva.
+Quella è l'apertura.
 
-## Il pitch in 30 secondi
+## Come nasce la conversazione
 
-Non presentare il sistema. Presenta il risultato.
+Non devi vendere nulla.
+Devi solo rispondere onesto.
 
-"Gestisco i social di [cliente NM] con un sistema automatizzato.
-Ogni mattina genera 5 contenuti pronti per essere pubblicati.
-Zero lavoro manualo. Zero agenzie. Zero costi fissi.
-Il costo? Meno di un caffè al giorno."
+Qualcuno nel gruppo chiede:
+"Chi gestisce i tuoi social? Hai un'agenzia?"
 
-Se la persona chiede "come funziona?",
-allora vai nel dettaglio.
-Se non chiede, non spiegare.
-Il risultato parla da solo.
+Tu rispondi:
+"No, ho un sistema automatizzato che funziona
+24/7 su un Raspberry Pi. Mi genera i contenuti
+ogni mattina. Io faccio solo approvare."
 
-## Il pricing
+La domanda successiva è sempre la stessa:
+"E quanto costa?"
 
-Ecco come strutturare il pacchetto base:
+E qui hai due opzioni.
 
-**Setup una tantum: €97**
-- Configurazione HERMES per il cliente
+## Opzione A — Rivendi il sistema
+
+"Costa circa €10/mese di costi di sistema.
+Ma la configurazione la faccio io, e per te
+costerebbe €197 di setup una volta sola
+più €29/mese di gestione."
+
+Cliente: "Mi interesse. Come faccio?"
+
+Fatto. Hai il tuo primo cliente.
+
+## Opzione B — Offri entrambe le opzioni
+
+"Due opzioni. O ti configuro tutto su un tuo Pi
+(€197 una volta + €29/mese), oppure
+se vuoi non pensarci proprio,
+ci penso io a tutto per €49/mese."
+
+Due prezzi. Stesso cliente. Scelta sua.
+
+## Cosa include il pacchetto base
+
+Setup una tantum (€197):
+- Configurazione HERMES per il brand del cliente
 - Brand Bible compilata insieme
-- Configurazione MCP server (Composio, Brevo)
-- Test e calibrazione 2 settimane
+- Profili copywriter personalizzati
+- Configurazione Composio per i canali del cliente
+- Setup Brevo per email marketing
+- Test Daily Pack per 7 giorni
+- Documentazione personalizzata
 
-**Canone mensile: €29/mese**
-- Daily Pack automatico (5 asset/giorno)
-- Pubblicazione automatica sui social
+Canone mensile (€29-49/mese):
+- Generazione Daily Pack automatica
+- Review e approvazione contenuti (prime 2 settimane)
+- Pubblicazione automatica
 - Report settimanale
-- Supporto via Telegram
-
-**Totale primo anno: €445**
-(€97 setup + €29 × 12 = €445)
-
-Confronto: un'agenzia tradizionale costa €500-1.500/mese.
-Il tuo servizio costa €29/mese.
-Il cliente risparmia €5.645-17.555 il primo anno.
-
-## Cosa includere nel pacchetto base
-
-Non promettere la luna. Promettere il Daily Pack.
-
-Il pacchetto base include:
-- 5 contenuti al giorno (Facebook, LinkedIn, Email, WhatsApp, Story)
-- Pubblicazione automatica (dopo calibrazione 2 settimane)
-- Report settimanale con metriche
-- Modifiche illimitate al tone of voice (entro ragionevole)
-
-Non include:
-- Gestione community (risposte ai commenti)
-- Advertising a pagamento
-- Video editing
-- Consulenza strategica (questo è il prossimo livello)
+- Supporto via messaggio entro 24 ore
+- Aggiornamenti sistema inclusi
 
 ## Come onboardare in 47 minuti
 
-Sì, 47 minuti. È il tempo medio che ho misurato.
+Sembra poco. Non lo è.
 
-**Minuto 0-10: Brand Bible**
-Compila il template del capitolo 11 insieme al cliente.
-Due pagine. Domande semplici. Il cliente sa le risposte.
+Ecco l'esatto processo:
 
-**Minuto 10-20: Configurazione profilo**
-Crea il profilo copywriter del cliente su HERMES.
-Carica la Brand Bible. Configura il tone of voice.
+**Minuto 0-5: Chiamata di allineamento**
+Capisci il brand, il target, il tono.
+Compiliate la Brand Bible insieme.
+(10 domande, risposte brevi.)
 
-**Minuto 20-30: Setup MCP**
-Configura Composio per i social del cliente.
-Configura Brevo per le email.
-Testa la connessione.
+**Minuto 5-15: Configurazione HERMES**
+Crei il profilo copywriter per il cliente.
+Carichi la Brand Bible.
+Configuri i canali.
 
-**Minuto 30-40: Primo Daily Pack**
-Genera il primo pack insieme al cliente.
-Mostra i 5 asset. Spiega come funziona.
-Chiedi feedback.
+**Minuto 15-30: Primo Daily Pack di test**
+Generi il primo pack insieme al cliente.
+Lui corregge, tu adatti.
+Il sistema impara.
 
-**Minuto 40-47: Go live**
-Approva il primo pack.
-Programma la pubblicazione.
-Il sistema è operativo.
+**Minuto 30-40: Setup pubblicazione**
+Configuri Composio per i canali del cliente.
+Testi la pubblicazione di un post.
+
+**Minuto 40-47: Documentazione e consegna**
+Gli mandi il documento con i dati di accesso.
+Gli spieghi come funziona (3 punti, non di più).
+Chiudi.
 
 ## Come gestire il supporto senza impazzire
 
-Il cliente avrà domande. Ne avrà tante.
-Ecco come gestirle senza diventare il suo assistente personale:
+Regola uno: **tutto passa su Telegram.**
+Niente email. Niente chiamate non necessarie.
+Niente "posso chiederti una cosa?"
 
-1. **Crea un FAQ** — Le prime 10 domande che ti fai
-   diventano il documento di supporto.
+Regola due: **rispondi entro 24 ore.**
+Non subito. Non in tempo reale.
+Entro 24 ore è perfetto. Il cliente ha pace.
 
-2. **Usa un gruppo Telegram** — Un gruppo dedicato
-   per ogni cliente. Le domande vanno lì, non in privato.
+Regola tre: **crea una FAQ dopo il primo mese.**
+Ogni domanda che ti fai, aggiungila alla FAQ.
+Dopo 3 clienti, la FAQ è completa.
+Dopo 5 clienti, zero domande nuove.
 
-3. **Limita gli orari** — Supporto 9-12 e 14-18.
-   Fuori orario: domani. Punto.
-
-4. **Automatizza le risposte comuni** — Se ti chiedi
-   la stessa cosa 3 volte, scrivi una risposta tipo
-   e riutilizzala.
+Regola quattro: **se un cliente chiede qualcosa
+che non sapevi, aggiornalo per tutti.**
+Il sistema migliora con ogni cliente.
+Non da solo.
 
 ## Takeaway
 
-Il tuo primo cliente non viene da LinkedIn.
-Viene dal gruppo NM dove tutti hanno visto
-i tuoi contenuti performare.
-La domanda "come lo fai?" è il tuo biglietto da visita.
-Rispondi con i risultati, non con la tecnologia.
+Il tuo primo cliente è più vicino di quanto pensi.
+È nel gruppo che frequenta già.
+Lascia che il sistema parli per te.
+Quando ti chiedono "come fai?", rispondi onesto.
+La vendita si fa da sola.
 
 ## Azione
 
-Pensa al tuo cliente NM attivo.
-Hai già i risultati visibili?
-Se sì, la prossima volta che qualcuno chiede
-"come fai a postare così spesso?",
-rispondi: "Ho un sistema. Posso farlo anche per te."
+Oggi. Proprio oggi.
+Pensa al gruppo più attivo in cui sei.
+Pensa a chi potrebbe essere interessato.
+Non vendere. Mostra.
+Fai uno screenshot del Daily Pack di oggi.
+Postalo nel gruppo con una frase semplice:
+"Questo è quello che produce il mio sistema ogni mattina."
+
+Aspetta. Qualcuno chiederà.

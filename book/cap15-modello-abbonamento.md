@@ -2,134 +2,138 @@
 
 ## La differenza tra vendere una volta e incassare ogni mese
 
-Hai venduto il primo setup. €97 una tantum.
-Il cliente è contento. I contenuti funzionano.
+Vendi il setup una volta: €197.
+Lunedì c'è, martedì non c'è più.
+Mercoledì arriva un altro cliente: altri €197.
+Ma è lavoro sempre nuovo.
 
-Ma quei €97 li hai incassati una volta.
-Il mese prossimo? Zero. A meno che non vendi un altro setup.
+Ora immagina questo:
+lo stesso cliente paga €29 ogni mese.
+Senza chiedere nulla. Senza negoziare.
+Automatico.
 
-C'è un modo migliore.
+Mese 1: €197 + €29 = €226
+Mese 2: €29
+Mese 3: €29
+...
+Mese 12: €545 totali da un solo cliente.
 
-## Il canone mensile
+Con 10 clienti: €5.450/anno.
+Con 50 clienti: €27.250/anno.
 
-Il vero valore del Metodo ORBIT non è il setup.
-È il servizio continuativo.
+Zero lavoro aggiuntivo dal mese 2 in poi.
 
-Ogni mattina il sistema genera contenuti.
-Ogni giorno il cliente riceve valore.
-Ogni mese il cliente paga per continuare a riceverlo.
+Questo è il modello che genera rendita.
+Ecco come funziona.
 
-Questo è il modello di abbonamento.
-È il modello che trasforma un lavoro occasionale
-in una rendita mensile.
+## Come strutturare il canone mensile
 
-## Come strutturare il canone
+Il canone non è "paghi e ti dò un servizio".
+È "paghi e il sistema continua a girare".
 
-**Piano Base — €29/mese**
-- Daily Pack automatico (5 asset/giorno)
-- Pubblicazione su 2 piattaforme
+Include:
+- Generazione Daily Pack automatica
+- Pubblicazione sui canali configurati
 - Report settimanale
+- Supporto base (entro 24 ore)
+- Aggiornamenti del sistema
+- Monitoraggio uptime
 
-**Piano Growth — €59/mese**
-- Daily Pack completo (5 asset/giorno)
-- Pubblicazione su 4 piattaforme
-- Email marketing (fino a 500 contatti)
-- Report settimanale + call mensile
+Non include:
+- Nuovi canali (€29 extra per canale)
+- Contenuti extra fuori pack (€97 pack aggiuntivo)
+- Consulenza strategica (€97/ora)
 
-**Piano Pro — €149/mese**
-- Tutto di Growth
-- Video settimanali (con Higgsfield)
-- Gestione community base
-- Supporto prioritario
+## La gestione delle API key
 
-## La gestione tecnica delle API key
+Ogni cliente ha le sue API key:
+- Token per i suoi canali social
+- Chiave per il suo account email
+- Credenziali per il suo bot Telegram
 
-Ogni cliente ha le sue API key.
-Tu le gestisci. Loro non toccano nulla.
+Tu controlli l'infrastruttura.
+Loro controllano i contenuti.
+Separazione netta.
 
-Come funziona:
-1. Il cliente ti dà le chiavi delle sue piattaforme
-   (Facebook, Instagram, LinkedIn, Brevo)
-2. Tu le carichi nel profilo HERMES del cliente
-3. Il sistema le usa per pubblicare
-4. Il cliente non ha accesso alla configurazione tecnica
-
-Questo è importante per due motivi:
-- **Sicurezza** — Il cliente non può rompere nulla
-- **Dipendenza** — Se il cliente vuole andarsene,
-  deve chiederti di disattivare il sistema
+Le key vengono salvate nel profilo HERMES
+del cliente. Crittografate. Accessibili solo
+dal sistema, mai in chiaro nei log.
 
 ## Auto-suspend: se non pagano, si fermano
 
-Il sistema controlla il pagamento ogni giorno.
-Se un cliente non ha pagato entro il giorno 5 del mese:
+Questo è il punto chiave del modello.
+
+Se un cliente non paga:
 - Giorno 1: reminder automatico via Telegram
-- Giorno 3: secondo reminder
-- Giorno 5: auto-suspend — il sistema si ferma
-- Giorno 15: avviso di cancellazione dati
+- Giorno 3: secondo reminder + link di pagamento
+- Giorno 7: il sistema sospende il Daily Pack
+- Giorno 14: sospensione totale
 
-Se il cliente paga: auto-resume immediato.
-Zero intervento manuale.
+Niente chiamate. Niente messaggi imbarazzanti.
+Il sistema si ferma da solo.
 
-Questo non è crudele. È sostenibile.
-Non puoi dare servizio gratis a chi non paga.
+Quando il cliente paga:
+- Riattivazione automatica entro 1 ora
+- Daily Pack riparte dal giorno successivo
+- Zero intervento manuale
 
 ## I numeri reali
 
-Ecco cosa significa il modello di abbonamento:
+**Scenario conservativo — 10 clienti:**
+- 10 × €29/mese = €290/mese ricorrenti
+- Annualizzato: €3.480/anno
+- Costo tuo: ~€15/mese (proporzionale)
+- Margine: €275/mese
 
-**10 clienti a €29/mese = €290/mese ricorrenti**
-€290 ogni mese. Senza vendere nulla di nuovo.
-Il sistema lavora. I clienti pagano.
+**Scenario realistico — 50 clienti:**
+- 50 × €29/mese = €1.450/mese ricorrenti
+- Annualizzato: €17.400/anno
+- Costo tuo: ~€75/mese
+- Margine: €1.375/mese
 
-**50 clienti a €29/mese = €1.450/mese ricorrenti**
-€17.400/anno. Da un sistema che gira su un Raspberry Pi.
-
-**100 clienti (mix piani) = €2.900/mese ricorrenti**
-€34.800/anno. Stesso Pi. Stesso sistema.
-Solo più profili.
+**Scenario ambizioso — 100 clienti:**
+- Mix di piani (€29/€49/€79)
+- Media: €42/mese per cliente
+- €4.200/mese ricorrenti
+- Annualizzato: €50.400/anno
 
 ## Dal Pi al VPS al SaaS
 
-La logica è sempre la stessa. Cambia la scala.
+La logica è sempre la stessa:
+tu controlli, il sistema gira, il cliente paga.
+
+La scala cambia:
 
 **Pi (1-5 clienti):**
-Un Pi, un HERMES, più profili.
-Costo: €10-16/mese.
-Semplice. Economico. Ideale per iniziare.
+Hardware tuo a casa. Massima privacy.
+Costo: €0/mese per l'hardware che già possiedi.
 
 **VPS (5-50 clienti):**
-Un server cloud Hetzner.
-Più potenza. Più affidabilità.
-Costo: €9-39/mese.
-Scalabile. Professionale.
+Server cloud dedicato. Performance migliori.
+Spedizione hardware a ogni cliente: zero.
+Costo: €9-79/mese per VPS Hetzner.
 
 **SaaS (50+ clienti):**
-Un VPS per cliente (o condiviso).
-Provisioning automatico.
-Zero setup manuale.
-Costo: €9-79/mese per cliente.
-Margine: €20-70/mese per cliente.
-
-## Il concetto chiave
-
-Non vendere il setup. Vendi il servizio.
-Il setup è il costo di acquisizione.
-Il canone è la rendita.
-
-Un cliente che paga €29/mese per 24 mesi
-ti genera €696.
-Il setup di €97 è stato ripagato in 4 giorni.
+Il cliente si registra, paga, e il sistema
+crea tutto automaticamente.
+Costo: €79-199/mese infrastruttura.
+Margine crescente.
 
 ## Takeaway
 
-Il Metodo ORBIT non è un prodotto che vendi una volta.
-È un servizio che vendi ogni mese.
-La rendita è il vero gioco.
+Vendere una volta è lavorare ogni mese.
+Vendere ogni mese è far lavorare il sistema per te.
+Il Daily Pack non costa nulla in più al mese.
+Il canone è quasi tutto margine.
+
+Costruisci ricorrente. Non una tantum.
 
 ## Azione
 
-Se hai già un cliente attivo,
-proponi il canone mensile oggi.
-€29/mese. Setup incluso.
-Se dice sì, hai appena creato la tua prima rendita.
+Calcola il tuo numero.
+Quanti clienti reali potresti raggiungere
+nei prossimi 90 giorni?
+Moltiplica per €29.
+Quella è la tua rendita tra 3 mesi.
+
+Ora lavora per arrivarci.
