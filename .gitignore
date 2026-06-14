@@ -1,1 +1,20 @@
+# ORBIT — .gitignore
+
+# Backup files
 .hermes-memories-backup.md
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Secrets (never commit)
+.env
+*.key
+*.pem
