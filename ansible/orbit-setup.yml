@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 # ═══════════════════════════════════════════════
 # METODO ORBIT — Playbook di Setup Completo
 # Uso: ansible-playbook orbit-setup.yml -i inventory/hosts.yml
@@ -21,12 +20,37 @@
     - name: telegram_allowed_users
       prompt: "Telegram User ID (il tuo)"
       private: false
+    - name: github_token
+      prompt: "GitHub Personal Access Token"
+      private: true
+    - name: brevo_mcp_token
+      prompt: "Brevo MCP Token"
+      private: true
+    - name: elevenlabs_api_key
+      prompt: "ElevenLabs API Key"
+      private: true
+    - name: n8n_mcp_url
+      prompt: "n8n MCP URL (es. https://n8n.crigamo3.com/mcp-server/http)"
+      private: false
+    - name: n8n_api_key
+      prompt: "n8n MCP API Key"
+      private: true
+    - name: composio_api_key
+      prompt: "Composio API Key"
+      private: true
+    - name: tailscale_authkey
+      prompt: "Tailscale Auth Key (da tailscale.com/settings/keys)"
+      private: true
 
   roles:
     - base          # sistema base, dipendenze, locale
     - firewall      # ufw, fail2ban, sicurezza
     - hermes        # HERMES Agent + configurazione
-    - mcp-servers   # odoo, github, brevo, linkedin, n8n, elevenlabs
+    - gh-cli        # GitHub CLI
+    - mcp-servers   # github, brevo, elevenlabs, n8n, composio
+    - hermes-profiles  # copywriter-snep, copywriter-diamrent, workhunter, orbit-author
+    - hermes-wiki   # struttura wiki + content directories
+    - tailscale     # accesso remoto VPN mesh
     - n8n           # n8n self-hosted
     - telegram      # configura bot Telegram per HERMES
 
@@ -48,40 +72,3 @@
           ║   Apri Telegram → @OrbitBot       ║
           ║   Scrivi: ciao                    ║
           ╚═══════════════════════════════════╝
-=======
-- name: Setup Metodo ORBIT — Raspberry Pi
-  hosts: orbit_pi
-  become: yes
-  vars_prompt:
-    - name: github_token
-      prompt: "GitHub Personal Access Token"
-      private: true
-    - name: brevo_mcp_token
-      prompt: "Brevo MCP Token"
-      private: true
-    - name: elevenlabs_api_key
-      prompt: "ElevenLabs API Key"
-      private: true
-    - name: n8n_mcp_url
-      prompt: "n8n MCP URL (es. https://n8n.crigamo3.com/mcp-server/http)"
-      private: false
-    - name: n8n_api_key
-      prompt: "n8n MCP API Key"
-      private: true
-    - name: composio_api_key
-      prompt: "Composio API Key"
-      private: true
-
-  roles:
-    - system-update
-    - docker
-    - hermes-core
-    - gh-cli
-    - mcp-servers
-    - hermes-profiles
-    - hermes-wiki
-    - n8n
-    - litellm
-    - orbit-directories
-    - orbit-cron
->>>>>>> 1e45793 (ansible: playbook completo — setup Pi in 1 comando)

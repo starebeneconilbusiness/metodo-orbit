@@ -1,0 +1,19 @@
+---
+- name: Installa Tailscale
+  shell: |
+    curl -fsSL https://tailscale.com/install.sh | sh
+  args:
+    creates: /usr/bin/tailscale
+
+- name: Avvia Tailscale con SSH abilitato
+  command: tailscale up --ssh --authkey {{ tailscale_authkey }}
+  become: true
+
+- name: Mostra IP Tailscale
+  command: tailscale ip -4
+  register: tailscale_ip
+  become: false
+
+- name: Output IP
+  debug:
+    msg: "Pi raggiungibile via Tailscale: {{ tailscale_ip.stdout }}"
