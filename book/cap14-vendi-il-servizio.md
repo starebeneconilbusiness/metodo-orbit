@@ -1,152 +1,143 @@
 # Capitolo 14 — Il Tuo Primo Cliente Agenzia
 
-## Il bacino che hai già
+## Il Bacino che Hai Già
 
-Hai un problema.
-Ti serve il tuo primo cliente pagante
-per validare il modello di business.
+### HOOK
 
-Ma non hai budget per la pubblica.
-Non hai un sito. Non hai una lista email.
-Non hai follower sui social.
+Stai leggendo questo libro per imparare a usare il sistema ORBIT.
 
-Tranquillo. Hai qualcosa di meglio:
-hai i gruppi.
+Ma il sistema è già attivo.
+Stai già generando contenuti per i tuoi clienti NM.
+Stai già vedendo i risultati.
 
-I gruppi dei tuoi clienti NM sono il tuo primo
-bacino di acquisizione. Non gruppi esterni.
-Non cold outreach. Gente che ti conosce già.
-Gente che ha già visto i risultati del sistema
-sui propri contenuti.
+La domanda non è "come si fa?"
+La domanda è: "come lo vendo a qualcun altro?"
 
-La domanda naturale arriva da sola:
-"Come fai a fare tutta questa roba?"
+---
 
-Quella è l'apertura.
+### IL BACINO CHE HAI GIÀ
 
-## Come nasce la conversazione
+I gruppi dei tuoi clienti NM sono il tuo primo bacino di acquisizione.
 
-Non devi vendere nulla.
-Devi solo rispondere onesto.
+Hai già visto i risultati del sistema sui propri contenuti.
+Hai già visto i post che l'agente genera ogni mattina.
+Hai già visto il tempo che risparmi.
 
-Qualcuno nel gruppo chiede:
-"Chi gestisce i tuoi social? Hai un'agenzia?"
+La domanda naturale che arriva è: "Come lo fai?"
 
-Tu rispondi:
-"No, ho un sistema automatizzato che funziona
-24/7 su un Raspberry Pi. Mi genera i contenuti
-ogni mattina. Io faccio solo approvare."
+Quella è l'apertura. Non devi cercarla. Arriva da sola.
 
-La domanda successiva è sempre la stessa:
-"E quanto costa?"
+---
 
-E qui hai due opzioni.
+### IL PITCH
 
-## Opzione A — Rivendi il sistema
+Non vendere il sistema. Vendere il risultato.
 
-"Costa circa €10/mese di costi di sistema.
-Ma la configurazione la faccio io, e per te
-costerebbe €197 di setup una volta sola
-più €29/mese di gestione."
+Non dire: "Ho un agente AI su un Raspberry Pi che genera contenuti automatici."
 
-Cliente: "Mi interesse. Come faccio?"
+Di': "I miei clienti NM hanno un sistema che genera 5 contenuti al giorno, 7 giorni su 7, per ogni brand che gestiscono. Zero lavoro manualo. Zero costi fissi."
 
-Fatto. Hai il tuo primo cliente.
+Il primo interessa un tecnico.
+Il secondo interessa un imprenditore.
 
-## Opzione B — Offri entrambe le opzioni
+Tu parli con imprenditori.
 
-"Due opzioni. O ti configuro tutto su un tuo Pi
-(€197 una volta + €29/mese), oppure
-se vuoi non pensarci proprio,
-ci penso io a tutto per €49/mese."
+---
 
-Due prezzi. Stesso cliente. Scelta sua.
+### IL PRICING
 
-## Cosa include il pacchetto base
+Ecco i numeri. Sono semplici. Non complicarli.
 
-Setup una tantum (€197):
-- Configurazione HERMES per il brand del cliente
-- Brand Bible compilata insieme
-- Profili copywriter personalizzati
-- Configurazione Composio per i canali del cliente
-- Setup Brevo per email marketing
-- Test Daily Pack per 7 giorni
-- Documentazione personalizzata
+**Setup una tantum: €97**
+Installazione, configurazione, Brand Bible, primo test.
+Una volta. Non si ripete.
 
-Canone mensile (€29-49/mese):
-- Generazione Daily Pack automatica
-- Review e approvazione contenuti (prime 2 settimane)
-- Pubblicazione automatica
+**Canone mensile Base: €29/mese**
+- Daily Pack (5 asset/giorno)
 - Report settimanale
-- Supporto via messaggio entro 24 ore
-- Aggiornamenti sistema inclusi
+- Supporto via Telegram
 
-## Come onboardare in 47 minuti
+**Canone mensile Growth: €49/mese**
+- Tutto del Base
+- Email marketing (Brevo)
+- LinkedIn outreach
 
-Sembra poco. Non lo è.
+**Canone mensile Pro: €79/mese**
+- Tutto del Growth
+- Video settimanale (Higgsfield)
+- Analisi KPI mensile
 
-Ecco l'esatto processo:
+**Setup Pi fisico (opzionale): €197**
+Pi 4 4GB + SSD + case + alimentatore.
+Preconfigurato. Attacchi alla corrente, funziona.
 
-**Minuto 0-5: Chiamata di allineamento**
-Capisci il brand, il target, il tono.
-Compiliate la Brand Bible insieme.
-(10 domande, risposte brevi.)
+**Setup VPS cloud (opzionale): €9-39/mese**
+Stessa cosa del Pi, ma su cloud.
+Zero hardware da gestire.
 
-**Minuto 5-15: Configurazione HERMES**
-Crei il profilo copywriter per il cliente.
-Carichi la Brand Bible.
-Configuri i canali.
+---
 
-**Minuto 15-30: Primo Daily Pack di test**
-Generi il primo pack insieme al cliente.
-Lui corregge, tu adatti.
-Il sistema impara.
+### COME ONBORARE IN 47 MINUTI
 
-**Minuto 30-40: Setup pubblicazione**
-Configuri Composio per i canali del cliente.
-Testi la pubblicazione di un post.
+Sembra poco. È tutto qui.
 
-**Minuto 40-47: Documentazione e consegna**
-Gli mandi il documento con i dati di accesso.
-Gli spieghi come funziona (3 punti, non di più).
-Chiudi.
+**Minuto 0-5:** Chiedi al cliente: cosa vendi, chi lo compra, come parla.
+Scrivi le risposte. È la Brand Bible.
 
-## Come gestire il supporto senza impazzire
+**Minuto 5-15:** Compila la Brand Bible nel sistema.
+Crea il profilo copywriter. Collega i canali (Facebook, Instagram, email).
 
-Regola uno: **tutto passa su Telegram.**
-Niente email. Niente chiamate non necessarie.
-Niente "posso chiederti una cosa?"
+**Minuto 15-30:** Primo Daily Pack.
+L'agente genera i 5 asset del giorno.
+Li mostri al cliente. "Ecco cosa uscirà domani."
 
-Regola due: **rispondi entro 24 ore.**
-Non subito. Non in tempo reale.
-Entro 24 ore è perfetto. Il cliente ha pace.
+**Minuto 30-40:** Configura le automazioni.
+Composio per i social. Brevo per le email.
+Test di pubblicazione su un post.
 
-Regola tre: **crea una FAQ dopo il primo mese.**
-Ogni domanda che ti fai, aggiungila alla FAQ.
-Dopo 3 clienti, la FAQ è completa.
-Dopo 5 clienti, zero domande nuove.
+**Minuto 40-47:** Spieghi al cliente come funziona il gate di approvazione.
+"Come funziona: ogni mattina ricevi i contenuti, li approvi, vengono pubblicati. Dopo 2 settimane togli il gate e il sistema va da solo."
 
-Regola quattro: **se un cliente chiede qualcosa
-che non sapevi, aggiornalo per tutti.**
-Il sistema migliora con ogni cliente.
-Non da solo.
+47 minuti. Un cliente onboardato.
 
-## Takeaway
+---
 
-Il tuo primo cliente è più vicino di quanto pensi.
-È nel gruppo che frequenta già.
-Lascia che il sistema parli per te.
-Quando ti chiedono "come fai?", rispondi onesto.
-La vendita si fa da sola.
+### COME GESTIRE IL SENZA IMPAZZIRE
 
-## Azione
+Il supporto è il punto critico. Ecco come gestirlo:
 
-Oggi. Proprio oggi.
-Pensa al gruppo più attivo in cui sei.
-Pensa a chi potrebbe essere interessato.
-Non vendere. Mostra.
-Fai uno screenshot del Daily Pack di oggi.
-Postalo nel gruppo con una frase semplice:
-"Questo è quello che produce il mio sistema ogni mattina."
+**Regola 1 — Tutto via Telegram.**
+Niente email di supporto. Niente chiamate. Telegram.
+Il cliente scrive, tu rispondi. Semplice.
 
-Aspetta. Qualcuno chiederà.
+**Regola 2 — Le domande si ripetono.**
+Dopo 3 clienti avrai visto tutte le domande.
+Crea una FAQ. Quando arriva una domanda nuova, aggiungila.
+
+**Regola 3 — Il sistema si auto-diagnostica.**
+Se un cron job fallisce, l'agente ti avvisa.
+Spesso il problema è un token scaduto o una API key da rinnovare.
+Il cliente non deve sapere che c'è stato un problema.
+
+**Regola 4 — Fattura il 1° di ogni mese.**
+Stripe. Automatico. Niente "ti mando il bonifico."
+Se non paga, il sistema si auto-sospende in 24 ore.
+
+---
+
+### TAKEAWAY
+
+Il tuo primo cliente NM non lo cerchi.
+Lo hai già. È il cliente che vede i tuoi risultati e chiede "come lo fai?"
+
+La risposta è questo libro. E il sistema che hai costruito mentre lo leggevi.
+
+---
+
+### AZIONE
+
+Prendi il tuo cliente NM più risultato.
+Mostragli un Daily Pack generato dal sistema.
+Se gli piace, proponi: "Posso fare lo stesso per il tuo altro brand. €97 di setup, €29/mese."
+
+Se dice sì, hai appena iniziato la tua aggenzia AI.

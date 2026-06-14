@@ -1,139 +1,136 @@
 # Capitolo 15 — Il Modello che Genera Rendita
 
-## La differenza tra vendere una volta e incassare ogni mese
+## Da Vendita Una Tantum a Incasso Ogni Mese
 
-Vendi il setup una volta: €197.
-Lunedì c'è, martedì non c'è più.
-Mercoledì arriva un altro cliente: altri €197.
-Ma è lavoro sempre nuovo.
+### HOOK
 
-Ora immagina questo:
-lo stesso cliente paga €29 ogni mese.
-Senza chiedere nulla. Senza negoziare.
-Automatico.
+Vendere una volta è sopravvivere.
+Incassare ogni mese è costruire un business.
 
-Mese 1: €197 + €29 = €226
-Mese 2: €29
-Mese 3: €29
-...
-Mese 12: €545 totali da un solo cliente.
+La differenza tra un freelance e un imprenditore?
+Il freelance vende il suo tempo una volta.
+L'imprendore vende un servizio che si rinnova.
 
-Con 10 clienti: €5.450/anno.
-Con 50 clienti: €27.250/anno.
+---
 
-Zero lavoro aggiuntivo dal mese 2 in poi.
+### IL PROBLEMA DELLA VENDITA UNA TANTUM
 
-Questo è il modello che genera rendita.
-Ecco come funziona.
+Hai venduto il setup a €97. Ottimo. Hai coperto il tuo tempo.
 
-## Come strutturare il canone mensile
+Ma il mese prossimo? Devi trovare un altro cliente.
+E quello dopo? Un altro.
 
-Il canone non è "paghi e ti dò un servizio".
-È "paghi e il sistema continua a girare".
+È una corsa infinita. Ogni mese riparti da zero.
 
-Include:
-- Generazione Daily Pack automatica
-- Pubblicazione sui canali configurati
-- Report settimanale
-- Supporto base (entro 24 ore)
-- Aggiornamenti del sistema
-- Monitoraggio uptime
+Ora immagina: quel cliente paga €29 ogni mese.
+Non una volta. Per sempre.
 
-Non include:
-- Nuovi canali (€29 extra per canale)
-- Contenuti extra fuori pack (€97 pack aggiuntivo)
-- Consulenza strategica (€97/ora)
+Il primo mese: €97 + €29 = €126
+Il secondo mese: €29
+Il sesto mese: €145 totali
+Il dodicesimo mese: €345 totali
 
-## La gestione delle API key
+E tu non hai fatto nulla di più.
+Il sistema lavora da solo.
 
-Ogni cliente ha le sue API key:
-- Token per i suoi canali social
-- Chiave per il suo account email
-- Credenziali per il suo bot Telegram
+---
 
-Tu controlli l'infrastruttura.
-Loro controllano i contenuti.
-Separazione netta.
+### COME STRUTTURARE IL CANONE MENSILE
 
-Le key vengono salvate nel profilo HERMES
-del cliente. Crittografate. Accessibili solo
-dal sistema, mai in chiaro nei log.
+**Tre livelli. Tre prezzi. Tre tipi di cliente.**
 
-## Auto-suspend: se non pagano, si fermano
+**Base — €29/mese**
+Per il cliente che vuole solo i contenuti.
+Daily Pack, report settimanale, supporto base.
+Margine: altissimo. Il sistema fa tutto.
 
-Questo è il punto chiave del modello.
+**Growth — €49/mese**
+Per il cliente che vuole anche email marketing e LinkedIn.
+Più valore per il cliente. Più ricorrente per te.
+Margine: altissimo + upsell naturale.
 
-Se un cliente non paga:
-- Giorno 1: reminder automatico via Telegram
-- Giorno 3: secondo reminder + link di pagamento
-- Giorno 7: il sistema sospende il Daily Pack
-- Giorno 14: sospensione totale
+**Pro — €79/mese**
+Per il cliente che vuole tutto, incluso video.
+Higgsfield incluso. Analisi KPI. Supporto prioritario.
+Margine: buono. Il video ha un costo, ma il prezzo lo copre.
 
-Niente chiamate. Niente messaggi imbarazzanti.
-Il sistema si ferma da solo.
+---
 
-Quando il cliente paga:
-- Riattivazione automatica entro 1 ora
-- Daily Pack riparte dal giorno successivo
-- Zero intervento manuale
+### LA GESTIONE TECNICA: API KEY E AUTO-SUSPEND
 
-## I numeri reali
+Ogni cliente ha le sue API key.
+Tu le gestisci. Loro non toccano nulla.
 
-**Scenario conservativo — 10 clienti:**
-- 10 × €29/mese = €290/mese ricorrenti
-- Annualizzato: €3.480/anno
-- Costo tuo: ~€15/mese (proporzionale)
-- Margine: €275/mese
+**Se non pagano: auto-suspend in 24 ore.**
+Stripe ti avvia il sistema.
+Se il pagamento fallisce, il cron job si disattiva.
+Il cliente riceve un messaggio: "Servizio sospeso per mancato pagamento. Per riattivare, aggiorna il metodo di pagamento."
 
-**Scenario realistico — 50 clienti:**
-- 50 × €29/mese = €1.450/mese ricorrenti
-- Annualizzato: €17.400/anno
-- Costo tuo: ~€75/mese
-- Margine: €1.375/mese
+Niente litigi. Niente solleciti. Il sistema gestisce.
 
-**Scenario ambizioso — 100 clienti:**
-- Mix di piani (€29/€49/€79)
-- Media: €42/mese per cliente
-- €4.200/mese ricorrenti
-- Annualizzato: €50.400/anno
+**Se rinnovano: auto-resume immediato.**
+Il pagamento va a buon fine.
+Il cron job si riattiva.
+Il cliente riceve: "Servizio riattivato. Il tuo prossimo pack sarà pronto domattina alle 07:00."
 
-## Dal Pi al VPS al SaaS
+---
 
-La logica è sempre la stessa:
-tu controlli, il sistema gira, il cliente paga.
+### I NUMERI REALI
 
-La scala cambia:
+**Con 10 clienti a €29/mese:**
+€290/mese ricorrenti
+€3.480/anno
+Zero lavoro aggiuntivo
 
-**Pi (1-5 clienti):**
-Hardware tuo a casa. Massima privacy.
-Costo: €0/mese per l'hardware che già possiedi.
+**Con 50 clienti (mix Base/Growth/Pro):**
+€1.450/mese ricorrenti
+€17.400/anno
+Quasi zero lavoro aggiuntivo
 
-**VPS (5-50 clienti):**
-Server cloud dedicato. Performance migliori.
-Spedizione hardware a ogni cliente: zero.
-Costo: €9-79/mese per VPS Hetzner.
+**Con 100 clienti:**
+€2.900/mese ricorrenti
+€34.800/anno
+Serve qualcuno che ti aiuti con il supporto. Ma il sistema gira da solo.
 
-**SaaS (50+ clienti):**
-Il cliente si registra, paga, e il sistema
-crea tutto automaticamente.
-Costo: €79-199/mese infrastruttura.
-Margine crescente.
+---
 
-## Takeaway
+### DAL PI AL VPS AL SASSA: STESSA LOGICA, SCALA DIVERSA
 
-Vendere una volta è lavorare ogni mese.
-Vendere ogni mese è far lavorare il sistema per te.
-Il Daily Pack non costa nulla in più al mese.
-Il canone è quasi tutto margine.
+**ORBIT Base (Pi):**
+Un cliente. Un Pi. €29/mese.
+Perfetto per iniziare. Perfetto per il primo cliente.
 
-Costruisci ricorrente. Non una tantum.
+**ORBIT Pro (VPS):**
+Fino a 10 clienti su un VPS Hetzner.
+€9-39/mese di server. €290-790/mese di ricorrente.
+Margine: enorme.
 
-## Azione
+**ORBIT Platform (SaaS):**
+100+ clienti. Dashboard self-service.
+Il cliente si registra, paga, e il sistema si configura da solo.
+€2.900+/mese. Scalabile quasi all'infinito.
 
-Calcola il tuo numero.
-Quanti clienti reali potresti raggiungere
-nei prossimi 90 giorni?
-Moltiplica per €29.
-Quella è la tua rendita tra 3 mesi.
+Stessa architettura. Stessi profili. Stessi cron job.
+Cambia solo l'hardware sotto.
 
-Ora lavora per arrivarci.
+---
+
+### TAKEAWAY
+
+Non vendere il setup. Vendi il canone.
+Il setup copre il tuo tempo. Il canone costruisce il tuo futuro.
+
+Un cliente che paga €29/mese per 24 mesi vale €696.
+Non €97.
+
+Pensa in ricorrente. Sempre.
+
+---
+
+### AZIONE
+
+Se hai già clienti a cui fai il setup,
+proponi loro il canone mensile.
+"Setup €97 una tantum. Poi €29/mese per il Daily Pack automatico. Se non ti piace, cancelli. Nessun impegno."
+
+Se non hai ancora clienti, il prossimo capitolo ti spiega come trovarli.

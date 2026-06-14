@@ -1,124 +1,115 @@
 # Capitolo 13 — Le Automazioni verso il Mondo
 
-## Da generato a pubblicato: il flusso completo
+## Dai Contenuti al Mondo Reale
 
-L'agente ha generato il contenuto.
-È nella cartella, con la data di oggi.
-Perfetto.
+### HOOK
 
-Ma nessuno lo ha visto.
+L'agente ha generato 5 asset perfetti.
+Sono salvati in una cartella sul Pi.
+Con la data di oggi. Ben organizzati.
 
-Il contenuto più brillante del mondo
-non serve a nulla se resta in una cartella.
+Ma nessuno li ha ancora visti.
 
-Ora vediamo come esce.
+Perché generare contenuti che nessuno pubblica è come scrivere una lettera e non spedirla.
 
-## Il flusso in 30 minuti
+---
 
-Alle 07:00 il Daily Pack è pronto.
-5 asset per SNEP. 5 per DiamRent.
-Tutti salvati, tutti corretti.
+### IL FLUSSO COMPLETO
 
-Cosa succede dopo?
+Ecco cosa succede tra le 07:00 e le 07:30, ogni giorno, senza che tu tocchi nulla:
 
-### Minuto 0-5: Generazione
-Il profilo copywriter ha lavorato.
-I file sono nella cartella del giorno.
-L'agente ti manda un messaggio su Telegram
-con il riepilogo di cosa ha prodotto.
+**07:00** — Il cron job si attiva. L'agente legge la Brand Bible del cliente. Genera i 5 asset. Li salva nella cartella del giorno.
 
-### Minuto 5-10: Review (solo prime 2 settimane)
-Tu apri i file. Li leggi.
-Controlli che il tono sia giusto,
-che non ci siano errori,
-che il CTA sia corretto.
+**07:05** — I contenuti sono pronti. Ma non vengono pubblicati subito. Vanno nel "box di approvazione."
 
-Nelle prime 2 settimane questo passo è obbligatorio.
-Non perché l'agente sbagli — ma perché
-devi imparare a fidarti.
-E per farlo, devi verificare.
+**07:05-07:15** — Tu ricevi un messaggio su Telegram con l'anteprima dei 5 asset. Li leggi. Se va bene, rispondi "OK." Se qualcosa non ti piace, scrivi cosa cambiare.
 
-### Minuto 10-25: Pubblicazione
-I contenuti approvati vengono inviati
-alle piattaforme tramite Composio:
+**07:15** — L'agente prende l'OK (o le correzioni) e attiva le automazioni.
 
-- **Facebook e Instagram** → Composio pubblica direttamente
-- **LinkedIn** → Composio invia il post sul profilo
-- **Email** → Brevo invia alla lista contatti
-- **WhatsApp** → Composio invia il broadcast
+**07:15-07:25** — Composio pubblica su Facebook e Instagram. Brevo accoda le email nella sequenza. Lo script WhatsApp è pronto per il broadcast.
 
-Zero copia-incolla. Zero login manuali.
-Un click di approvazione, e il sistema pubblica tutto.
+**07:30** — Tutto è live. I contenuti sono sui social, in coda nelle email, pronti su WhatsApp.
 
-### Minuto 25-30: Log e conferma
-Il sistema registra cosa è stato pubblicato,
-su quale canale, a che ora.
-Ti manda una conferma: "5/5 pubblicati."
+Tu sei ancora a fare colazione.
 
-Fine. Ci ha messo 30 minuti.
-Di cui 5 di lavoro tuo.
+---
 
-## Il gate di approvazione: perché esiste
+### I CANALI, UNO PER UNO
 
-Potrei aver configurato tutto in automatico.
-Zero review umana. Pubblicazione immediata.
+**Facebook e Instagram — via Composio**
 
-Ma non lo faccio. E te lo sconsiglio.
+Composio è il ponte tra l'agente e i social. Quando l'agente ha il post pronto, lo passa a Composio che lo pubblica direttamente sulla pagina Facebook o sul profilo Instagram del cliente.
 
-Nelle prime 2 settimane il gate di approvazione
-serve a tre cose:
+Nessun copia-incolla. Nessun login manuale. Zero errori di formattazione.
 
-1. **Ti fai fiducia** — vedi che l'agente fa bene il suo lavoro
-2. **L'agente impara** — i tuoi feedback migliorano i pack futuri
-3. **Eviti disastri** — un contenuto sbagliato su Facebook è pubblico per sempre
+**Email Marketing — via Brevo**
 
-Dopo 2 settimane di review,
-conosci il livello di qualità.
-A quel punto puoi togliere il gate.
-L'agente pubblica in automatico.
-Tu controlli i report il venerdì.
+Le email non vengono inviate una alla volta. Vengono accodate in una sequenza automatica.
 
-## Come togliere il gate
+Il primo giorno il lead riceve l'email 1.
+Il terzo giorno l'email 2.
+Il settimo giorno l'email 3.
 
-Quando sei sicuro — e lo sarai —
-modifica il cron job:
+Tutto programmato. Tutto automatico. Se il lead risponde, la sequenza si adatta.
 
-Prima:
-"Genera il pack → salva → notifica → attendi approvazione → pubblica"
+**WhatsApp — via broadcast**
 
-Dopo:
-"Genera il pack → salva → pubblica → notifica"
+Lo script WhatsApp non si connette a WhatsApp Web (instabile, rischioso).
+È un testo pronto da copiare e incollare in una lista broadcast.
 
-Una riga di differenza. Ma cambia tutto.
-Da sistema semi-automatico a sistema completamente autonomo.
+Tre righe. Tre emoji. Una CTA.
+Copia, incolla, invia. 30 secondi.
 
-## Il numero che conta
+---
 
-Da generazione a pubblicazione: **meno di 30 minuti**.
-Di cui **5 minuti di lavoro tuo** (solo all'inizio).
-Poi: **zero intervento manuale**.
+### IL GATE DI APPROVVIGIONE
 
-Confrontalo con il modello tradizionale:
-scrivere un post: 30 minuti.
-Trovare l'immagine: 20 minuti.
-Programmare la pubblicazione: 10 minuti.
-Totale per un singolo post: 1 ora.
+**Perché non pubblicare mai in automatico fin dall'inizio.**
 
-Il sistema ORBIT produce 5 asset in 4 minuti.
-Il modello tradizionale produce 1 asset in 1 ora.
+Nelle prime 2 settimane, ogni contenuto passa dal tuo occhio umano.
 
-Non è un miglioramento. È un cambiamento di paradigma.
+Non perché l'agente non sa cosa fa. Ma perché tu devi imparare a fidarti.
+E l'agente deve imparare il tuo standard.
 
-## Takeaway
+Dopo 2 settimane di OK consecutivi, il gate si apre.
+L'agente pubblica direttamente. Tu controlli il report il venerdì.
 
-Il contenuto che non viene pubblicato non serve.
-Automatizza la pubblicazione ma mantieni il controllo
-nelle prime 2 settimane. Poi lascia che il sistema
-lavori da solo.
+Se qualcosa non va, chiudi il gate. Corri. Riapri.
 
-## Azione
+È come un nuovo dipendente. Non lo lasci solo il primo giorno.
+Ma dopo 2 settimane di lavoro buono, gli dai fiducia.
 
-Se non l'hai fatto, configura Composio
-per Facebook e LinkedIn oggi stesso.
-Un solo canale. Testa la pubblicazione automatica.
-Quando funziona, aggiungi gli altri.
+---
+
+### IL NUMERO CHE CONTA
+
+Da generazione a pubblicazione: **meno di 30 minuti.**
+Zero intervento manuale (dopo il periodo di apprendimento).
+
+Confronta con il metodo tradizionale:
+- Brief con l'agenzia: 2 giorni
+- Bozza contenuti: 3 giorni
+- Revisione: 2 giorni
+- Pubblicazione: 1 giorno
+
+Totale: 8 giorni. Contro 30 minuti.
+
+---
+
+### TAKEAWAY
+
+Generare contenuti è solo metà del lavoro.
+L'altra metà è farli arrivare alle persone giuste, nel momento giusto, sul canale giusto.
+
+Le automazioni sono i braccio che portano i contenuti dal Pi al mondo.
+
+---
+
+### AZIONA
+
+Se non l'hai fatto, configura Composio per Facebook e Instagram del tuo cliente principale.
+Collega Brevo per l'email marketing.
+Prepara lo script WhatsApp.
+
+Una volta collegati, il flusso è: genera → approva → pubblica → misura.
+Tutto prima della fine della colazione.
