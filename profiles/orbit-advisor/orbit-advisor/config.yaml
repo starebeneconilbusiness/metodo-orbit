@@ -1,0 +1,18 @@
+model:
+  default: openrouter/owl-alpha
+  provider: openrouter
+
+mcp_servers:
+  - github-mcp
+  - n8n-mcp
+  - brevo-mcp
+
+tools:
+  web_search:
+    enabled: true
+  file_read:
+    enabled: true
+  code_execution:
+    enabled: false
+  delegation:
+    enabled: false
