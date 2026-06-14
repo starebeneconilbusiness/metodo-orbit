@@ -2,124 +2,159 @@
 
 ## Il documento che separa i contenuti generici da quelli che convertono
 
-Ho fatto un test.
+Hai configurato l'agente. Hai scritto la SOUL.md. Hai impostato i cron job.
 
-Ho chiesto all'agente di generare un post per un cliente network marketing senza dargli nessun contesto sul brand. Solo il nome del prodotto.
+Alle 07:00 del primo mattina l'agente genera il Daily Pack.
 
-Il post era perfetto. Grammatica impeccabile, struttura solida, CTA chiaro.
+E tu leggi il post Facebook.
 
-Era anche completamente inutile.
+Ed è... corretto. Tecnicamente perfetto. Niente errori.
 
-Poteva essere di chiunque. Non aveva il sapore di quel brand specifico. Non parlava come parla quella community. Non usava le parole che quelle persone usano.
+Ma non suona come te. Non suona come il tuo cliente. Suona come un copywriter che ha letto un brief di 3 righe e ha fatto del suo meglio.
 
-Poi ho scritto un documento di 3 pagine: la Brand Bible.
+Manca qualcosa.
 
-Ho ridomandato lo stesso post.
+Manca la **Brand Bible**.
 
-La differenza era come confrontare un biglietto generico con una lettera scritta a mano da un amico.
+## Il problema che nessuno vede
+
+Senza Brand Bible, l'agente genera contenuti generici. Funziona, ma non converte. È come un nuovo dipendente che non ha mai visto il prodotto, non ha mai parlato con un cliente, non ha mai sentito il founder raccontare la storia.
+
+Può scrivere frasi corrette. Ma non può scrivere frasi che toccano le corde giuste.
+
+Perché non sa:
+- Quali parole usa il founder e quali odia
+- Quali storie raccontano i clienti soddisfatti
+- Quali promesse sono state fatte (e mantenute)
+- Quali promesse NON devono mai essere fatte
+- Come si chiama il prodotto, il programma, il team
+- Qual è il dolore specifico del loro target
+
+La Brand Bible è il documento che risolve tutto questo.
 
 ## Cosa contiene una Brand Bible
 
-La Brand Bible non è un documento corporate. È un documento pratico che dice all'agente **come parlare di questo brand specifico**.
+Non è un documento da 100 pagine. È un file di testo. Compilato una volta, aggiornato quando serve.
 
-Contiene sei sezioni.
+Ecco le sezioni:
 
-**1. Prodotto**
-Cosa vendi. Non le caratteristiche tecniche — i benefici per la persona specifica. "Acqua pura per la famiglia" non "filtro a 5 stadi con osmosi inversa".
+### 1. Il Prodotto
+- Nome completo e abbreviazione
+- Cosa fa (in una frase)
+- Beneficio principale (in una frase)
+- Benefizi secondari (3-5 punti)
+- Prezzo e formato (goldbox, kit, abbonamento)
 
-**2. Target**
-Chi è la persona che compra. Età, vita quotidiana, cosa la preoccupa, cosa desidera. Più è specifico, meglio l'agente scrive.
+### 2. Il Target
+- Chi è (età, sesso, situazione)
+- Cosa vuole (non il prodotto, il risultato)
+- Cosa teme (il dolore che lo tiene sveglio)
+- Cosa ha già provato (e perché non ha funzionato)
+- Dove si trova (online e offline)
 
-**3. Tone of Voice**
-Come parla il brand. Formale? Amichevole? Diretto? Empatico? Tre aggettivi bastano, con un esempio per ciascuno.
+### 3. Tone of Voice
+- 3 aggettivi che descrivono il tono
+- 3 aggettivi che NON descrivono il tono
+- Esempio di frase "nel tono giusto"
+- Esempio di frase "nel tono sbagliato"
 
-**4. Content Pillars**
-I 5 temi principali su cui ruota il contenuto. Ogni settimana deve coprirli tutti. Niente settimane "solo vendita" o "solo educazione".
+### 4. Content Pillars
+- I 5 pilastri di contenuto
+- Per ogni pilastro: tema, esempio di hook, CTA tipo
 
-**5. Forbidden Words**
-Le parole e le espressioni che quel brand non usa mai. Questa sezione è critica nel network marketing. "Guadagna facile", "passive income", "piramide", "downline" — fuori. Sempre.
+### 5. Forbidden Words
+- Parole e frasi vietate (assolute)
+- Parole da usare con cautela
+- Alternative approvate
 
-**6. Framing Approvato**
-Le frasi e le formulazioni che il brand usa per parlare di sé, del prodotto, dell'opportunità. Queste sono le "frasi chiave" che l'agente deve usare.
+### 6. Framing Approvato
+- Come si parla del team/opportunità
+- Come si parla dei guadagni (se si parla)
+- Come si rispondono alle obiezioni comuni
 
-## L'esempio concreto
+### 7. Social Proof
+- Testimonianze chiave (anonimizzate se serve)
+- Dati e numeri da citare
+- Storie di successo (prima/dopo)
 
-Prendi un brand di benessere che vende un purificatore d'acqua.
+## Esempio concreto: Brand Bible per un brand di benessere
 
-Senza Brand Bible, l'agente scrive:
-> "Acquista il nostro purificatore d'acqua rivoluzionario! Migliora la tua salute oggi stesso!"
+Prodotto: purificatore d'acqua domestico
+Beneficio: acqua pura per tutta la famiglia, senza plastica
+Target: donne 35-55, famiglia, salute e ambiente
+Tone: empatico, professionale, mai aggressivo
+Pillars: educazione, stile di vita, social proof, opportunità, stagionalità
+Forbidden: MLM, guadagna facile, reclutamento, piramidale
+Framing team: "ambassador", "consulente benessere", "squadra"
 
-Con la Brand Bible, l'agente scrive:
-> "L'estate è alle porte. Quanta acqua BEVI davvero oggi? Con [prodotto] nella tua casa, hai sempre acqua pura per tutta la famiglia. 💧"
+Con questa Brand Bible, l'agente genera contenuti che sembrano scritti da chi conosce il brand da anni. Senza, genera contenuti che sembrano scritti da uno sconosciuto.
 
-Stesso prodotto. Stesso obiettivo. Risultati completamente diversi.
+## Template compilabile
 
-## Il template compilabile
-
-Crea un file chiamato `brand-bible.md` per ogni cliente. Compila queste sezione:
+Copia questo template, compila una sezione alla volta. Non serve essere perfetti. Serve essere specifico.
 
 ```
-# Brand Bible — [Nome Brand]
+# BRAND BIBLE — [Nome Brand]
 
 ## Prodotto
-- Cosa vende:
-- Beneficio principale:
-- Beneficio secondario:
-- URL prodotto:
+Nome:
+Cosa fa:
+Benefizio principale:
+Benefizi secondari:
+1.
+2.
+3.
 
 ## Target
-- Età:
-- Sesso:
-- Dove vive:
-- Cosa la preoccupa:
-- Cosa desidera:
+Chi è:
+Cosa vuole:
+Cosa teme:
+Cosa ha già provato:
+Dove si trova:
 
 ## Tone of Voice
-- Aggettivo 1: [esempio]
-- Aggettivo 2: [esempio]
-- Aggettivo 3: [esempio]
+È:
+1.
+2.
+3.
+Non è:
+1.
+2.
+3.
+Frase giusta:
+Frase sbagliata:
 
 ## Content Pillars
-1. [Tema 1]
-2. [Tema 2]
-3. [Tema 3]
-4. [Tema 4]
-5. [Tema 5]
+1. [Nome]: tema / hook tipo / CTA tipo
+2. [Nome]: tema / hook tipo / CTA tipo
+3. [Nome]: tema / hook tipo / CTA tipo
+4. [Nome]: tema / hook tipo / CTA tipo
+5. [Nome]: tema / hook tipo / CTA tipo
 
 ## Forbidden Words
-- [parola 1]
-- [parola 2]
-- [parola 3]
+Assolute:
+- [parola]
+- [parola]
+Con cautela:
+- [parola] → usa invece: [alternativa]
 
 ## Framing Approvato
-- "[frase 1]"
-- "[frase 2]"
-- "[frase 3]"
+Team:
+Guadagni:
+Obiezioni:
 
-## Esempio post buono
-[Inserisci un post che ti piace come esempio]
-
-## Esempio post cattivo
-[Inserisci un post che NON vuoi come esempio]
+## Social Proof
+Testimonianza 1:
+Testimonianza 2:
+Dati:
 ```
-
-## Come si usa
-
-Quando configuri il profilo HERMES del cliente, la Brand Bible va nel SOUL.md del profilo copywriter. L'agente la legge ogni mattina prima di generare i contenuti.
-
-Senza Brand Bible → contenuti generici → nessuna conversione.
-Con Brand Bible → contenuti mirati → fiducia → vendite.
 
 ## Takeaway
 
-La Brand Bible è il documento più importante del sistema. Non il playbook tecnico. Non il setup del Pi. Questo.
-
-Tre pagine che dicono all'agente chi è il tuo cliente e come parlargli.
+Senza Brand Bible l'agente genera contenuti corretti. Con la Brand Bible genera contenuti che convertono. La differenza è tutta qui.
 
 ## Azione
 
-Prendi un foglio. Compila il template per il tuo brand principale. Non pensarci troppo — 20 minuti bastano per la prima versione.
+Crea la Brand Bible del tuo cliente oggi. Non domani. Non "quando hai tempo". Oggi. Una pagina. Sei sezioni. 30 minuti.
 
-Poi chiedi all'agente di generare un post prima e dopo avergli dato la Brand Bible.
-
-La differenza ti convincerà.
+Poi mettila nella cartella del profilo copywriter e guardai la differenza nel prossimo Daily Pack.

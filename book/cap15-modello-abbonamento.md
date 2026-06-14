@@ -2,172 +2,140 @@
 
 ## La differenza tra vendere una volta e incassare ogni mese
 
-C'è un momento nella vita di ogni costruttore di sistemi in cui capisce una cosa fondamentale:
+Hai venduto il primo setup. €197. Benvenuto.
 
-Vendere una volta è faticoso.
-Incassare ogni mese è geometria.
+Ma quei €197 li hai incassati una volta. Il prossimo mese quel cliente non ti paga nulla. E se ne va, non torna.
 
-Se vendi il setup a €97 una tantum, quel cliente ti paga una volta.
-Se gli vendi l'abbonamento a €29/mese, quel cliente ti paga per sempre.
+Ora immagina un altro scenario.
 
-Dopo 12 mesi, il cliente one-time ti ha dato €97.
-Il cliente abbonato ti ha dato €348.
+Stesso cliente. Stesso setup. Ma ogni mese ti paga €29.
 
-Dopo 24 mesi: €97 vs €696.
-Dopo 36 mesi: €97 vs €1.044.
+Dopo 12 mesi: €197 + €348 = €545. Più del doppio.
 
-Non è un'opinione. È aritmetica.
+Dopo 24 mesi: €197 + €696 = €893. Più del quadruplo.
+
+E tu non hai fatto nulla di più. Il sistema gira da solo. Il cliente è contento. I contenuti escono ogni giorno.
+
+Questo è il modello di abbonamento. E è il cuore della rendita ORBIT.
 
 ## Come strutturare il canone mensile
 
-Il canone mensile non è un "extra". È il cuore del modello.
+Il cliente paga per:
+- **Hosting del sistema** (Pi o VPS)
+- **Manutenzione** (aggiornamenti, fix, monitoraggio)
+- **Energia** (il Pi corre 24/7, qualcuno deve pagare la corrente)
+- **Il tuo tempo** (anche se minimo, il supporto esiste)
 
-Ecco come funziona:
+Non stai vendendo "un prezzo". Stai vendendo "pace mentale". Il cliente non deve pensare a nulla. Tu gestisci. Lui incassa.
 
-**Il cliente paga €29/mese.**
-In cambio, il sistema gira 24/7 sul tuo Pi (o su un VPS).
-Genera contenuti ogni giorno.
-Li pubblica automaticamente.
-Ti manda report ogni settimana.
+### I tier
 
-Il cliente non tocca nulla. Tu non tocchi nulla.
-Il sistema lavora da solo.
+**Tier 1 — Pi Base (€29/mese)**
+- Raspberry Pi 4 4GB dedicato
+- 5 asset/giorno
+- Report settimanale
+- Supporto Telegram
 
-**Il tuo costo reale per quel cliente: €0.**
+**Tier 2 — VPS Standard (€49/mese)**
+- Server cloud (Hetzner CX32)
+- 5 asset/giorno
+- Report settimanale + analisi KPI
+- Supporto Telegram prioritario
 
-Il Pi è acceso. HERMES gira. I MCP server sono connessi.
-Aggiungere un cliente non aumenta i costi.
-Il Pi non sa se sta servendo 1 cliente o 10.
-Consuma la stessa corrente. Usa la stessa CPU.
+**Tier 3 — VPS Pro (€79/mese)**
+- Server cloud (Hetzner CPX31)
+- 10 asset/giorno
+- Report settimanale + analisi KPI + suggerimenti
+- Supporto Telegram + call mensile 30 min
 
-Il margine è quasi puro.
+**Tier 4 — Agency (€149/mese)**
+- Server cloud dedicato
+- Fino a 3 brand/clienti
+- Dashboard Paperclip inclusa
+- Supporto dedicato
 
-## La gestione delle API key
+## La gestione tecnica: API keys e auto-suspend
 
-Ogni cliente ha le sue API key:
-- Facebook access token
-- Instagram access token
-- Brevo API key
-- LinkedIn access token
-
-Queste key sono configurate nel profilo HERMES del cliente.
-Tu le gestisci. Il cliente non ci accede direttamente.
+Ogni cliente ha le sue API keys. Tu le gestisci. Lui non le vede.
 
 Perché?
 
-Perché se il cliente smette di pagare, tu puoi sospendere il servizio immediatamente. Basta disattivare il profilo. Niente key da revocare. Niente accesso da rimuovere. Un comando e il sistema si ferma.
+Perché se il cliente ha le keys, può:
+- Cambiare la configurazione
+- Rompere qualche cosa
+- Andarsene e portarsi il sistema
 
-**Se non pagano: auto-suspend in 24h.**
+Con le keys tu:
+- Tu controlli, lui usa
+- Se non paga → auto-suspend in 24h
+- Se rinnova → auto-resume immediato
 
-Il sistema controlla lo stato del pagamento ogni giorno.
-Se il pagamento non è arrivato entro la scadenza + 24h di tolleranza:
-- I cron job del cliente vengono disattivati
-- I contenuti smettono di essere generati
-- Il cliente riceve una notifica: "Servizio sospeso per mancato pagamento"
+### Come funziona l'auto-suspend
 
-**Se rinnovano: auto-resume immediato.**
+Ogni notte un cron job controlla lo statio di ogni cliente:
 
-Non devi fare nulla. Il sistema riattiva tutto automaticamente.
-I cron job ripartono. Il Daily Pack torna a uscire.
-Il cliente non perde nessun giorno di contenuti.
+1. Verifica pagamento (Stripe)
+2. Se pagato → tutto ok, prosegui
+3. Se non pagato da 3 giorni → invia reminder
+4. Se non pagato da 7 giorni → sospende il servizio
+5. Se paga → riattiva immediatamente
+
+Zero intervento manuale. Il sistema gestisce tutto.
+
+### Come funziona l'auto-resume
+
+Il cliente paga. Stripe notifica il sistema. Il sistema riattiva il profile copywriter, riavvia i cron job, manda un messaggio di benvenuto.
+
+Tempo totale: meno di 5 minuti. Zero click da parte tua.
 
 ## I numeri reali
 
-Facciamo i conti con 10 clienti:
+Ecco cosa significa "rendita" in pratica:
 
-- 10 clienti × €29/mese = **€290/mese ricorrenti**
-- Costo Pi: €0.50/mese (corrente)
-- Costo OpenRouter: €10-15/mese (diviso tra tutti i clienti)
-- Costo VPS (se usi cloud): €9-39/mese
+**10 clienti a €29/mese = €290/mese ricorrenti**
+- Lavoro mensile: ~2-3 ore (supporto + report)
+- Guadagno netto: ~€250/mese
+- Zero lavoro aggiuntivo rispetto al primo cliente
 
-**Margine: €240-280/mese con 10 clienti.**
+**50 clienti a €29/mese = €1.450/mese ricorrenti**
+- Lavoro mensile: ~8-10 ore
+- Guadagno netto: ~€1.300/mese
+- Stai lavorando meno di un part-time
 
-Con 50 clienti:
-- 50 × €29 = **€1.450/mese ricorrenti**
-- Costo VPS Pro: €39/mese
-- Costo OpenRouter: €30-50/mese
+**100 clienti a €29/mese = €2.900/mese ricorrenti**
+- Qui assumi qualcuno per il supporto
+- Tu gestisci la strategia
+- Guadagno netto: ~€2.000/mese
 
-**Margine: €1.360-1.380/mese con 50 clienti.**
-
-Con 100 clienti:
-- 100 × €29 = **€2.900/mese ricorrenti**
-- Costo VPS Agency: €79/mese
-- Costo OpenRouter: €50-80/mese
-
-**Margine: €2.740-2.770/mese con 100 clienti.**
-
-Zero lavoro aggiuntivo. Il sistema scala da solo.
+**Con mix di tier (media €49/mese):**
+- 100 clienti = €4.900/mese
+- 200 clienti = €9.800/mese
 
 ## Dal Pi al VPS al SaaS: stessa logica, scala diversa
 
-**Livello 1 — Pi (1-5 clienti)**
-Tutto gira sul tuo Raspberry Pi a casa.
-Costo: €0.50/mese corrente.
-Semplice. Leggero. Ideale per iniziare.
+Il modello è identico. Cambia solo l'hardware:
 
-**Livello 2 — VPS (5-50 clienti)**
-Passi a un VPS Hetzner.
-Costo: €9-39/mese.
-Più potenza. Più affidabilità. Stessa configurazione.
+**Pi**: un cliente, un Pi, €29/mese. Scalabile fino a ~20 clienti (poi serve Paperclip).
 
-**Livello 3 — SaaS (50+ clienti)**
-Ogni cliente ha il suo VPS dedicato.
-Provisioning automatico tramite Ansible + Hetzner API.
-Il cliente si registra, paga, e in 20 minuti ha il suo agente.
-Zero intervento manuale.
+**VPS**: un server, N clienti, €9-79/mese ciascuno. Scalabile fino a ~100 clienti.
 
-La logica è sempre la stessa: HERMES + profili + cron job + MCP server.
-Cambia solo l'hardware sotto.
+**SaaS**: piattaforma self-service, il cliente si registra e paga da solo. Scalabile a infinito.
 
-## Il prezzo giusto
-
-Non abbassare mai il prezzo. Se un cliente dice "€29 è troppo", non scendere.
-
-Invece, aggiungi valore:
-
-- **Piano Base:** €29/mese — Daily Pack + social posting
-- **Piano Pro:** €59/mese — Base + email marketing + LinkedIn outreach
-- **Piano Agency:** €149/mese — Pro + video (Higgsfield) + report avanzati
-
-Tre livelli. Il cliente sceglie. Tu non perdi nessuno.
-
-## La domanda che ti faranno
-
-"Ma se un cliente vuole andarsene?"
-
-Vada. Non trattieni nessuno.
-
-Il modello funziona solo se il cliente resta perché vuole, non perché è bloccato.
-
-Se il sistema funziona, il cliente non se ne va.
-I contenuti escono ogni giorno. I lead arrivano. Le vendite crescono.
-Perché andarsene?
-
-Il tasso di abbandono medio di un sistema che funziona: meno del 5% annuo.
-Su 100 clienti, ne perdi 5 all'anno.
-Ne acquisisci 10-20 nuovi.
-
-La crescita è naturale.
+La logica è sempre la same:
+1. Il cliente paga
+2. Il sistema gira
+3. Tu controlli
+4. Se non paga → auto-suspend
+5. Se paga → auto-resume
 
 ## Takeaway
 
-Il modello a abbonamento non è un dettaglio.
-È il modello.
-
-Una vendita = un pagamento.
-Un abbonamento = una rendita.
-
-Costruisci una rendita. Non una vendita.
+Vendere una volta è un lavoro. Vendere ogni mese è una rendita. Il setup è lo stesso. Il mantenimento è quasi zero. La differenza è tutta nel modello di pricing.
 
 ## Azione
 
-Apri un foglio Excel (o Google Sheets).
-Crea una tabella con tre colonne: Clienti, Prezzo/mese, Costo/mese.
-Inserisci i numeri per 10, 50, 100 clienti.
+Se hai già un cliente, proponi il modello di abbonamento oggi.
 
-Guarda i numeri.
-Pensa a cosa faresti con €2.900 al mese che arrivano automaticamente.
+"Il setup è fatto. Ora propongo un canone mensile di €29 per manutenzione, aggiornamenti e supporto. Se ti va, parti domani. Se preferisci gestire da solo, nessun problema — ma ogni fix o aggiornamento costa €50/ora."
 
-Poi apri Stripe e crea il tuo primo prodotto in abbonamento.
-
-È l'ultimo step per trasformare il Metodo ORBIT da prodotto a business.
+Lascia che i numeri parlino.

@@ -1,159 +1,119 @@
 # Capitolo 14 — Il Tuo Primo Cliente Agenzia
 
-## Il bacino di acquisizione che hai già
+## Il bacino di acquisizione è già nelle tue mani
 
-Hai costruito il sistema.
-Lo usi per i tuoi clienti network marketing.
-Funziona.
+Hai un network marketing. Hai un team. Hai un gruppo Facebook o Telegram di persone che ti seguono.
 
-Ora ti faccio una domanda: "Come lo fai?"
+Questo è il tuo primo bacino di acquisizione.
 
-Questa domanda te la faranno. Ogni giorno. Da ogni persona del tuo gruppo che vede i post pubblicati automaticamente.
+Non devi andare su LinkedIn a freddo. Non devi comprare lead. Non devi fare cold outreach.
 
-Non hanno bisogno di sapere come funziona HERMES. Non hanno bisogno di capire cosa è un MCP server. Hanno bisogno di sapere una cosa sola:
+Hai già un gruppo di persone che:
+- Ti conoscono
+- Hanno visto i risultati del sistema sui TUOI contenuti
+- Stesso金剛Confuso金刚Confuso金刚
+- Si chiedono "come lo fai?"
 
-"Come posso avere lo stesso sistema per il mio brand?"
+Quella domanda è l'apertura. Non devi crearla. Esiste già.
 
-Ecco il tuo primo bacino di acquisizione. Grande quanto il tuo network.
+## Come nasce la conversazione
 
-## L'apertura
+Non devi vendere niente. Devi rispondere a una domanda.
 
-Non devi cercare clienti. Ti cercano loro, perché hanno visto i risultati.
+"Il tuo feed è sempre attivo. Posti ogni giorno. Chi ti fa i contenuti?"
 
-La conversazione è semplice:
+Ecco. Quella è l'apertura. E tu rispondi:
 
-> "Ti ho visto i post che escono ogni giorno sul gruppo. Chi te li scrive?"
+"Ho costruito un sistema automatizzato con un Raspberry Pi e un'AI. Mi genera i contenuti ogni mattina. Ho scritto un libro se vuoi i dettagli. E se ti interessa, posso fare lo stesso per il tuo brand."
 
-> "Li scrive un sistema. Glielo configuro per te a €197 una tantum più €29 al mese."
-
-Niente presentazioni. Niente slide. Niente "lascia che ti spieghi la mia azienda".
-
-I risultati parlano. Il prezzo chiude.
+Niente pitch. Niente pressione. Solo una risposta onesta a una domanda reale.
 
 ## Il pricing
 
-Ecco cosa vendi:
+Ecco i numeri. Sono quelli che uso. Puoi cambiarli.
 
-**Setup una tantum: €97**
-- Creazione profilo HERMES personalizzato
-- Brand Bible compilata insieme al cliente
-- Configurazione Daily Pack per il suo brand
-- Primo pack generato sotto supervisione
+### Pacchetto Setup (una tantum)
+- Pi 4 4GB + SSD + alimentatore: €197
+- Setup iniziale completo incluso
+- Configurazione agente + Brand Bible
+- Primo mese incluso
 
-**Abbonamento mensile: €29/mese**
-- Daily Pack 5 asset/giorno, 7 giorni su 7
-- Pubblicazione automatica su Facebook, Instagram, LinkedIn
-- Email marketing via Brevo (fino a 500 contatti)
+Alternativa VPS (nessun hardware da spedire):
+- Setup iniziale: €97
+- VPS incluso per il primo mese
+
+### Pacchetto Mensile (ricorrente)
+- Pi: €29/mese (hosting, manutenzione, aggiornamenti)
+- VPS Nano: €9/mese
+- VPS Standard: €19/mese
+- VPS Pro: €39/mese
+
+Cosa include il canone mensile:
+- Agenti operativi 24/7
+- Daily Content Pack (5 asset/giorno)
+- Report settimanale
+- Aggiornamenti automatici
+- Supporto via Telegram
+
+## Cosa NEL pacchetto base
+
+- 1 agente HERMES con profilo dedicato
+- Brand Bible (compilata insieme)
+- 5 asset/giorno (Facebook, LinkedIn, Email, WhatsApp, Story)
+- Automazione pubblicazione (Composio + Brevo)
 - Report settimanale via Telegram
-- Supporto via chat
+- Gate di approvazione nelle prime 2 settimane
 
-**Totale primo anno: €445** (€97 + 12 × €29)
+Cosa NON è incluso (va in upgrade):
+- Video (richiede Higgsfield, +€59/mese)
+- Più di 5 asset/giorno
+- Secondo brand/cliente
+- Supporto telefonico (solo Telegram)
 
-Il cliente guadagna già dalla prima settimana. I contenuti sono sui social. I lead arrivano. Tu non fai nulla.
+## Come onboardare in 47 minuti
 
-## Cosa include il pacchetto base
+Ecco il processo esatto. L'ho cronometrato.
 
-Sii chiaro su cosa include:
+**Minuto 0-5**: Chiedi il nome del brand, il prodotto principale, il target. Registri tutto.
 
-✅ Post automatici su Facebook, Instagram, LinkedIn
-✅ Email marketing automatico
-✅ Report settimanale
-✅ Brand Bible personalizzata
-✅ Configurazione iniziale
-✅ Supporto via chat
+**Minuto 5-15**: Compila la Brand Bible insieme al cliente (o fallo compilare a lui con il template del capitolo 11).
 
-❌ Gestione gruppi Facebook (quello lo fa il cliente)
-❌ Creazione sito web
-❌ Consulenza marketingStrategica (vendilo separatamente a €350/giorno)
-❌ Gestione WhatsApp broadcast (il cliente copia e incolla 3 righe)
+**Minuto 15-30**: Crea il profilo copywriter su HERMES. Carica la Brand Bible. Configura i cron job.
 
-Metti nero su bianco cosa include e cosa non include. Evita sorprese.
+**Minuto 30-40**: Primo test: genera un pack manuale. Mostra il risultato al cliente. Correggi il tono se serve.
 
-## Onboarding in 47 minuti
+**Minuto 40-45**: Configura Composio (Facebook + Instagram) e Brevo (email). Prima email di prova.
 
-Sì, 47 minuti. È il tempo medio che ho misurato.
+**Minuto 45-47**: Spiegai al cliente come funziona il gate di approvazione. Manda il messaggio su Telegram con l'anteprima del primo giorno.
 
-**Minuto 0-10:** Compila la Brand Bible insieme al cliente. In videochiamata o in vocale, non importa. Tu fai le domande, lui risponde. Compili il template.
-
-**Minuto 10-20:** Crei il profilo HERMES. Copini la Brand Bible nel SOUL.md del profilo copywriter. Collega Facebook e Instagram tramite Composio. Configuri Brevo.
-
-**Minuto 20-35:** Generi il primo Daily Pack sotto supervisione del cliente. Lui legge i 5 asset. Correggete insieme se necessario. Questo è il momento di calibrazione.
-
-**Minuto 35-45:** Attivate la pubblicazione automatica. Controllate che il primo post esca su Facebook e Instagram. Controllate che l'email arrivi nella casella.
-
-**Minuto 45-47:** Il cliente apre Telegram. Vede il report del primo pack. Sorride.
-
-Fatto. 47 minuti.
+Fatto. 47 minuti. Un nuovo cliente operativo.
 
 ## Come gestire il supporto senza impazzire
 
-Il cliente avrà domande. Ne avrà tantissime.
+Il cliente avrà domande. Ne avrà il primo mende, poi si calmera.
 
-La soluzione: crea un documento FAQ con le 20 domande più comuni e risposte preimpostate.
+Ecco come gestire:
 
-Ecco le prime 10:
+1. **Canale unico**: tutto passa su Telegram. Niente email, niente telefonate, niente messaggi sparsi.
 
-1. **Come cambio il tema del giorno?** — Scrivi al tuo agente su Telegram: "Tema di oggi: [tema]"
-2. **Come aggiungo un nuovo prodotto?** — Aggiorna la Brand Bible
-3. **Come fermo la pubblicazione?** — Scrivi "pausa" al tuo agente
-4. **Come riattivo?** — Scrivi "riprendi"
-5. **Perché il post non è uscito?** — Controlla report nelle impostazioni
-6. **Posso cambiare il tono dei post?** — Sì, modifica la Brand Bible
-7. **Come aggiungo contatti alla lista email?** — Da Brevo, importa CSV
-8. **Quanto costa aggiungere LinkedIn?** — Incluso nel pacchetto
-9. **Posso avere un secondo brand?** — Sì, secondo profilo a €47
-10. **Cosa succede se non pago?** — Auto-sospensione dopo 24h di mancato pagamento
+2. **Orario di risponde**: definsici un orario (es. 10:00-12:00 e 15:00-17:00). Fuori quelli rispondi quando puoi.
 
-Con questa FAQ risolvi l'80% delle richieste senza aprire il ticket.
+3. **FAQ vivente**: ogni domanda nuova diventa una riga nella FAQ del cliente. La prossima volta rispondi con un link.
 
-## Il supporto tecnico
+4. **Proattivo**: non aspettare che il cliente segnali problemi. Il report settimanale è il tuo strumento. Se va tutto bene, il cliente sta bene. Se c'è un problema, lo vedi prima tu.
 
-Per il restante 20%, hai due opzioni:
-
-**Opzione A:** Gestisci tu il supporto via Telegram. 10 minuti al giorno media.
-
-**Opzione B:** Crea un gruppo Telegram "ORBIT Support" dove i clienti si aiutano a vicenda. Moderato da te. Funziona sorprendentemente bene.
-
-Io consiglio Opzione B. I clienti sono network marketer. Amano aiutare gli altri. Diamogli modo di farlo.
-
-## Il discorso di chiusura
-
-Quando un potenziale cliente ti chiede "quanto costa", non dire subito il prezzo.
-
-Prima chiedigli:
-
-> "Quanti post pubblichi al giorno per il tuo brand?"
-
-( Risposta tipica: "Nessuno. Non ho tempo." )
-
-> "Quanto tempo passi a creare i contenuti?"
-
-( Risposta: "Tanto. Ore." )
-
-> "Quanto vale un'ora del tuo tempo?"
-
-( Risposta: "Circa €20-30." )
-
-Allora:
-
-> "Il sistema ti dà 5 post al giorno, ogni giorno, per €29 al mese. Costa meno di un'ora del tuo tempo. E lavora 24/7."
-
-A quel punto il €97 di setup non è più un costo. È un investimento che si ripaga in una settimana.
+5. **Limite chiaro**: "Gestisco il technology stack. I contenuti li approvate voi. La strategia commerciale è vostra." Tre ruoli separati. Zero sovrapposizioni.
 
 ## Takeaway
 
-Non devi cercare clienti. I tuoi colleghi network marketer sono il tuo mercato. Hanno visto i risultati. Vogliono lo stesso.
-
-Configuralo per loro. In 47 minuti.
+Il tuo primo cliente non è uno sconosciuto su LinkedIn. È qualcuno del tuo network che ha visto i risultati e ha chiesto "come lo fai?". Parti da lì.
 
 ## Azione
 
-Fai una lista di 10 persone del tuo network che potrebbero voler il sistema.
+Conta le persone del tuo network che ti hanno fatto quella domanda negli ultimi 30 giorni.
 
-Contattane una oggi.
+Se sono almeno 3, mandagli un messaggio. Oggi.
 
-Non vendere. Mostra: "Ti faccio vedere come funziona per il mio brand. Se ti piace, lo configuro per te."
+"Ho scritto un libro su come ho automatizzato i miei contenuti con un Raspberry Pi. Se ti interessa come fare lo stesso per il tuo brand, posso mostrartelo."
 
-Una. Oggi.
-
-Il prossimo cliente è a un messaggio di distanza.
+Riposa. E lascia che il libro faccia il lavoro pesante.

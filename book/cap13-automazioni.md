@@ -1,103 +1,113 @@
 # Capitolo 13 — Le Automazioni verso il Mondo
 
-## Da generazione a pubblicazione: il flusso completo
+## Da generazione a pubblicazione: il flusso completo in 30 minuti
 
-L'agente ha generato i 5 asset. Sono nella cartella del giorno. Perfetti.
+L'agente ha generato i 5 asset. Sono salvati in cartella. Sono corretti.
 
-E adesso?
+Ma sono ancora lì. Su disco. Nel Pi. Da soli.
 
-Se devi copiare e incollare manualmente ogni post, ogni email, ogni messaggio WhatsApp... hai risolto il problema della creazione, ma non quello della distribuzione.
+Nessuno li ha visti. Nessuno ha cliccato. Nessuno ha comprato.
 
-Questo capitolo parla di come i contenuti arrivano nel mondo. Senza che tu tocchi nulla.
+Manca il pezzo finale: **portare i contenuti dove sono le persone**.
 
 ## Il flusso completo
 
-**07:00** — Il Daily Pack SNEP viene generato. 5 file di testo nella cartella del giorno.
+Ecco cosa succede ogni mattina, dal risveglio del sistema alla pubblicazione:
 
-**07:05** — Il sistema legge i file e li distribuisce:
+**07:00** — Il cron job si attiva. L'agente legge la Brand Bible, sceglie il tema del giorno, genera i 5 asset Chinese.
 
-**Facebook e Instagram** → Composio MCP.
-Composio ha i tool per pubblicare su Facebook e Instagram direttamente. Post, stories, reels. Tutto programmato. Il sistema prende il testo del post, lo allega all'immagine (o la genera con Higgsfield dal 27 giugno), e pubblica.
+**07:04** — I file sono salvati. Il sistema controlla la qualità automaticamente (lunghezza, CTA presente, forbidden words).
 
-**Email** → Brevo MCP.
-Brevo è il servizio di email marketing. Il sistema prende il testo dell'email, lo inserisce in una campagna, e lo invia a tutti i contatti della lista. Segmentazione inclusa: solo chi non ha ancora comprato, solo chi ha aperto l'email precedente, solo chi si è iscritto questa settimana.
+**07:05** — I contenuti pronti per essere pubblicati.
 
-**WhatsApp** → Template salvato.
-WhatsApp non ha un'API gratuita per broadcast automatico. Qui il sistema salva lo script in un file. Tu (o il tuo cliente) copia e incolla nel broadcast list. 30 secondi di lavoro manuale. È l'unico punto del flusso che richiede un intervento umano, ed è il più semplice.
+E qui si dividono le acque.
 
-**LinkedIn** → Composio MCP.
-Stesso flusso di Facebook. Il post professionale va su LinkedIn. Composio gestisce l'autenticazione e la pubblicazione.
+## I canali di uscita
 
-## Il gate di approvazione
+### Facebook e Instagram → Composio
 
-C'è un momento critico in tutto questo: **le prime due settimane**.
+Composio è il ponte tra l'agente e i social. Ha oltre 250 tool. Quelli che usiamo:
 
-Quando il sistema parte per la prima volta, non pubblicare mai in automatico. Mai.
+- **Facebook Pages**: pubblica post su una pagina Facebook
+- **Instagram Business**: pubblica post e reel su Instagram
+- **Meta Business Suite**: gestisce entrambi da un'unica interfaccia
 
-Per due settimane, il sistema genera i contenuti e li mette in una coda di approvazione. Tu li leggi. Correggi se necessario. Approvi. Solo allora vengono pubblicati.
+Come funziona: l'agente prepara il testo e l'immagine. Composio lo pubblica. Zero click da parte tua.
+
+### Email → Brevo
+
+Brevo è il sistema di email marketing. Ha un piano gratuito che copre fino a 300 email/giorno. Più che sufficiente per iniziare.
+
+Come funziona: l'agente genera il testo dell'email. Brevo lo invia alla lista contatti. Traccia aperture e click.
+
+### WhatsApp → Template + invio manuale (per ora)
+
+WhatsApp è il canale più potente per la conversione. Ma è anche il più delicato. Non esistono API gratuite per inviare messaggi in massa senza rischiare il ban.
+
+La soluzione: l'agente genera lo script. Tu (o il cliente) lo copia e inoltra. Sono 3 righe. 15 secondi.
+
+In futuro, con l'API Business di WhatsApp integrata in Composio, anche questo diventerà automatico.
+
+## Il gate di approvazione: perché non pubblicare mai tutto subito
+
+Qui arrivo a un punto importante. Un punto che nessuno menziona nei tutorial.
+
+**Non pubblicare mai in automatico senza checkpoint umano nelle prime 2 settimane.**
 
 Perché?
 
-Perché l'agente deve ancora imparare il tono esatto del brand. La Brand Bible fa già molto, ma ci sono sfumature che solo tu conosci. Le prime due settimane sono il periodo di calibrazione.
+Perché l'agente è bravo. Ma non è perfetto. Nelle prime settimane sta ancora imparando il tono, il target, il brand. Può fare errori che tu vedi subito e lui no.
 
-Dopo due settimane di approvazione manuale, avrai visto 70 asset (14 giorni × 5 asset). A quel punto capirai se il sistema sta funzionando. Se sì, togli il gate. Se no, aggiusta la Brand Bible e riprova.
+Un post che suona troppo "corporate" per un pubblico NM.
+Un hashtag sbagliato.
+Un CTA che punta alla pagina sbagliata.
+Un tono troppo aggressivo (o troppo blando).
 
-## Come togliere il gate
+Errori piccoli. Ma sui social, errori piccoli diventano danni grandi.
 
-È una riga nel SOUL.md del profilo copywriter:
+### Come funziona il gate
 
-```
-# Modalità approvazione: ON
-```
+Nelle prime 2 settimane:
 
-Cambia in:
+1. L'agente genera i contenuti
+2. Li salva in cartella
+3. Ti invia un messaggio su Telegram con l'anteprima
+4. Tu leggi. Correggi se serve. Approvi.
+5. Solo dopo l'approvazione, il sistema pubblica
 
-```
-# Modalità approvazione: OFF
-```
+Dopo 2 settimane di contenuti approvati senza correzioni:
 
-Fatto. Da quel momento i contenuti vengono pubblicati automaticamente.
+1. L'agente genera i contenuti
+2. Li salva in cartella
+3. Il sistema pubblica direttamente
+4. Ti invia un report alla fine della settimana
+
+Il gate è stato rimosso. L'agente è affidabile.
+
+### Come toglierlo
+
+Non c'è un interruttore. C'è un processo:
+
+- Settimana 1-2: approvazione manuale di ogni contenuto
+- Settimana 3-4: approvazione a campione (solo 1 su 5)
+- Settimana 5+: pubblicazione automatica + report settimanale
+
+Se a qualsiasi momento noti un problema, torni al gate pieno. Senza colpa. Senza fretta.
 
 ## Il numero che conta
 
-Dalla generazione del contenuto alla pubblicazione: **meno di 30 minuti**.
+Da generazione a pubblicazione: **meno di 30 minuti**.
 
-L'agente genera alle 07:00. Alle 07:05 i contenuti sono sulle piattaforme. Alle 07:10 hai il report su Telegram con i link dei post pubblicati.
+Zero intervento manuale (dopo il periodo di gate).
 
-Tu ti sei svegliato, hai fatto colazione, e il lavoro è già fatto.
-
-Questo è il Metodo ORBIT.
-
-## Cosa succede se qualcosa va storto
-
-Il sistema ha un meccanismo di sicurezza: se un'API non risponde (Facebook down, Brevo timeout, qualsiasi cosa), il contenuto viene messo in coda e riprovato 5 minuti dopo. Tre tentativi. Se fallisce tutti e tre, ti arriva un avviso su Telegram.
-
-Niente contenuti persi. Niente post dimenticati. Niente scuse.
-
-## Il ruolo di ogni strumento
-
-| Strumento | Ruolo | Costo |
-|-----------|-------|-------|
-| Composio MCP | Pubblica su Facebook, Instagram, LinkedIn | €0 (20k call/mese free) |
-| Brevo MCP | Invia email marketing | €0 (free tier) |
-| n8n | Workflow speciali, trigger esterni | €0 (self-hosted) |
-| Higgsfield CLI | Genera video (dal 27 giugno) | €54/mese |
-
-Tutto integrato. Tutto automatico. Tutto dal Pi.
+Questo è il dato che cambia tutto. Perché il tempo che non spendi a pubblicare è tempo che spendi a vendere, a parlare con i clienti, a far crescere il business.
 
 ## Takeaway
 
-Generare contenuti è il 50% del lavoro.
-Distribuirli è l'altro 50%.
-
-Se generi ma non distribuisci, hai scritto un diario.
-Se generi e distribuisci automaticamente, hai un'azienda.
+Generare contenuti è il 50% del lavoro. Portarli dove sono le persone è l'altro 50%. Composio e Brevo chiudono il ciclo. Il gate di approvazione ti protegge nelle prime settimane. Poi sparisce.
 
 ## Azione
 
-Apri Composio e collega il tuo account Facebook e Instagram.
-Apri Brevo e crea la tua prima lista contatti.
-Sono due operazioni da 10 minuti che sbloccano tutto il flusso.
+Se non l'hai fatto, configura Composio oggi. Collega la pagina Facebook e l'account Instagram del tuo cliente. Fai un test: genera un post e pubblicalo.
 
-Quando fatto, il prossimo Daily Pack non sarà solo generato.
-Sarà anche pubblicato.
+Quando funziona, hai chiuso il ciclo. Il sistema è completo.
