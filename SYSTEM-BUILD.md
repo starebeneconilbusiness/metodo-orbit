@@ -133,6 +133,32 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
+### 2026-06-14 — Visione ecosistema ORBIT completa
+
+Espansione del modello da prodotto singolo a ecosistema 7 livelli:
+Libro → Profili → Pi → VPS → Paperclip → SaaS → Consulting
+
+Nuovi concetti:
+- Modello partner: revenue share 30/70 (partner 30%, creator 70%)
+- Marketplace profili HERMES verticali (futuro)
+- VPS tiers: Nano/Standard/Pro/Agency
+- Paperclip Package per enterprise
+
+Stack tecnico SaaS:
+- Frontend: Next.js 14
+- Backend: FastAPI
+- Provisioning: Hetzner API + Ansible
+- Billing: Stripe subscriptions
+- Database: PostgreSQL
+
+Prossimi passi:
+1. Registro dominio orbitmethod.com
+2. VPS Hetzner CX32 per produzione
+3. Tailscale per accesso remoto
+4. Landing page MVP
+
+---
+
 ### 2026-06-14 — Problema accesso remoto identificato
 
 Problema: Pi non raggiungibile via SSH da fuori LAN.
