@@ -133,6 +133,18 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
+### 2026-06-13 — Model Routing
+
+Principio chiave: non tutti i task richiedono il modello migliore.
+Task meccanici → modello economico
+Copy marketing → modello creativo
+Analisi B2B → modello ragionativo
+
+ORBIT lo fa automaticamente via profili + cron job.
+Risparmio stimato: 70% del budget AI.
+
+---
+
 ### 2026-06-13 — Higgsfield in arrivo
 
 Abbonamento Higgsfield attivo dal 27 giugno 2026.
