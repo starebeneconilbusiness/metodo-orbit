@@ -1,56 +1,57 @@
-# Appendice C — Tool Usati nel Libro
+# Appendice C — Lista Tool ORBIT
 
-## Lista completa con costo aggiornato a giugno 2026
+Tutti i tool usati nel libro con costo aggiornato a giugno 2026.
 
-### Core Stack (sempre attivo)
+---
 
-| Tool | Funzione | Costo |
-|------|----------|-------|
-| **HERMES Agent** | Orchestratore AI, profili, cron job | €0 (open source) |
-| **OpenRouter** | Inferenza LLM (modello owl-alpha) | ~€10-15/mese (cap $1.50/giorno) |
-| **gh CLI** | GitHub MCP server, versioning | €0 (open source) |
-| **Docker** | Containerizzazione servizi | €0 (open source) |
+## Orchestratore
 
-### MCP Server (integrazioni)
+| Tool | Ruolo | Costo |
+|------|-------|-------|
+| **HERMES Agent** | Orchestratore principale, cervello del sistema | Gratuito (open source) |
+| **OpenRouter** | Proxy AI per accesso a tutti i modelli LLM | €10-15/mese (wallet ricaricabile) |
+| **LiteLLM** | Proxy locale per gestire modelli e costi | Gratuito (open source) |
 
-| Tool | Funzione | Costo |
-|------|----------|-------|
-| **Composio** | LinkedIn, Facebook, Instagram (250+ tool) | €0 (20.000 call/mese free) |
-| **Brevo** | Email marketing, automazioni | €0 (free tier: 300 email/giorno) |
-| **ElevenLabs** | Voiceover, text-to-speech | €0 (free tier: 10.000 caratteri/mese) |
-| **n8n** | Workflow automation, webhook | €0 (self-hosted) |
+## MCP Server
 
-### Video e Immagini (Piano Pro)
+| Tool | Ruolo | Costo |
+|------|-------|-------|
+| **github-mcp** | Versioning repo Git tramite gh CLI | Gratuito |
+| **composio-mcp** | LinkedIn, Facebook, Instagram + 250 tool | Gratuito (20.000 call/mese) |
+| **brevo-mcp** | Email marketing (invio, liste, automazioni) | Gratuito (300 email/giorno) |
+| **elevenlabs-mcp** | Voiceover e sintesi vocale | Gratuito (10.000 caratteri/mese) |
+| **n8n-mcp** | Workflow automazioni self-hosted | Gratuito (self-hosted) |
 
-| Tool | Funzione | Costo |
-|------|----------|-------|
-| **Higgsfield** | Video AI (Kling 3.0, Seedance 2.0, Flux.2) | $59/mese (~€54) |
+## Video e Immagini
 
-### Accesso Remoto
+| Tool | Ruolo | Costo |
+|------|-------|-------|
+| **Higgsfield** | Generazione video AI (Kling 3.0, Seedance 2.0, Flux.2) | €54/mese (piano PLUS) |
 
-| Tool | Funzione | Costo |
-|------|----------|-------|
-| **Tailscale** | VPN mesh, accesso remoto al Pi | €0 (fino a 3 dispositivi) |
+## Accesso Remoto
 
-### Cloud e Hosting (quando scala)
+| Tool | Ruolo | Costo |
+|------|-------|-------|
+| **Tailscale** | VPN mesh per accesso remoto al Pi | Gratuito (fino a 3 dispositivi) |
 
-| Tool | Funzione | Costo |
-|------|----------|-------|
-| **Hetzner** | VPS cloud (alternativa al Pi) | €9-79/mese |
-| **GitHub** | Versioning codice, backup config | €0 (free tier) |
-| **Stripe** | Pagamenti abbonamento clienti | 1.4% + €0.25 per transazione |
+## Cloud e Hosting
 
-### Riepilogo costi mensili
+| Tool | Ruolo | Costo |
+|------|-------|-------|
+| **GitHub** | Versioning codice e documentazione | Gratuito |
+| **Hetzner** | VPS cloud per clienti senza Pi | €5-40/mese (a seconda del tier) |
+| **Stripe** | Gestione abbonamenti e pagamenti | 2.9% + €0.25 per transazione |
 
-| Piano | Tool | Costo totale |
-|-------|------|-------------|
-| **Base** | HERMES + OpenRouter + Composio + Brevo + gh CLI | €10-15/mese |
-| **Pro** | Base + Higgsfield + ElevenLabs | €64-69/mese |
-| **SaaS** | Pro + Hetzner VPS + Stripe | €73-148/mese |
+## Totale Costi Mensili
 
-### Note
-- Tutti i tool hanno piano gratuito o sono open source
-- Il costo principale è OpenRouter (inferenza)
-- Higgsfield è l'unico costo significativo aggiuntivo
-- Con 2 clienti Pro (€59 x 2 = €118) il costo Higgsfield è ripagato
-- Da 3 clienti Pro in su: tutto profitto sul video
+| Piano | Costo mensile |
+|-------|---------------|
+| **ORBIT Base** (solo AI) | €10-15/mese |
+| **ORBIT Pro** (+ video) | €65-70/mese |
+| **ORBIT VPS** (+ server cloud) | €15-55/mese |
+
+---
+
+**Nota:** Tutti i prezzi sono indicativi e soggetti a variazione.
+I piani gratuiti dei MCP server sono sufficienti per gestire
+fino a 10 clienti. Oltre, valutare piani a pagamento.

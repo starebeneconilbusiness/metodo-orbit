@@ -2,19 +2,16 @@
 
 ## Non devi sapere cosa scegliere
 
-### HOOK
-
-Uno degli ostacoli più comuni quando si inizia con il Metodo ORBIT è questo:
+Uno degli ostacoli più comuni
+quando si inizia con il Metodo ORBIT è questo:
 "Da dove comincio? Quale agente mi serve?"
 
 La risposta è: non devi saperlo tu.
 
----
+## ORBIT Advisor — il tuo consulente AI
 
-### ORBIT ADVISOR — IL TUO CONSULENTE AI
-
-Quando entri nella piattaforma Agentika per la prima volta non trovi un form.
-Trovi una conversazione.
+Quando entri nella piattaforma per la prima volta
+non trovi un form. Trovi una conversazione.
 
 ORBIT Advisor ti fa sei domande semplici.
 Cosa fai. Cosa vuoi ottenere.
@@ -29,11 +26,10 @@ gli agenti giusti per il tuo caso specifico,
 con il modello AI ottimale per ognuno,
 e il costo stimato al centesimo.
 
----
+## La libreria infinita
 
-### LA LIBRERIA INFINITA
-
-Dietro ORBIT Advisor c'è una libreria di agenti specializzati in continua crescita.
+Dietro ORBIT Advisor c'è una libreria
+di agenti specializzati in continua crescita.
 
 Copywriter per ogni settore.
 Community manager per ogni piattaforma.
@@ -45,23 +41,21 @@ L'Advisor li conosce per te.
 Ti porta quelli che servono a te,
 nel momento in cui ne hai bisogno.
 
----
+## Il preventivo prima dell'acquisto
 
-### IL PREVENTIVO PRIMA DELL'ACQUISTO
-
-Prima di attivare qualsiasi cosa vedi esattamente quanto spenderai.
+Prima di attivare qualsiasi cosa
+vedi esattamente quanto spenderai.
 
 Non stime vaghe.
 Numeri reali al centesimo.
 
-"Questa squadra ti costerà €4.22/mese di wallet spend.
- Con il wallet incluso nel tuo piano ti avanzano €5.78 ogni mese."
+"Questa squadra ti costerà €4.22/mese.
+ Con il wallet incluso nel tuo piano
+ ti avanzano €5.78 ogni mese."
 
 Questo è il rispetto per il tuo budget.
 
----
-
-### LA SQUADRA CRESCE CON TE
+## La squadra cresce con te
 
 Inizi con tre agenti.
 Dopo un mese ne aggiungi uno.
@@ -71,22 +65,18 @@ La squadra non è fissa.
 Si adatta al tuo business
 mentre il tuo business cresce.
 
----
-
-### TAKEAWAY
+## Takeaway
 
 Non esiste la squadra perfetta universale.
 Esiste la squadra perfetta per te,
 in questo momento,
 con questo budget.
-
 ORBIT Advisor la trova per te in tre minuti.
 
----
+## Azione
 
-### AZIONE
-
-Quando accedi ad Agentika per la prima volta lascia che l'Advisor ti faccia le sue domande.
+Quando accedi alla piattaforma per la prima volta
+lascia che l'Advisor ti faccia le sue domande.
 Non saltare il processo.
 La squadra che costruisce insieme a te
 è più efficiente di qualsiasi cosa

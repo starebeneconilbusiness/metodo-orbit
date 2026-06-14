@@ -1,162 +1,157 @@
-# Capitolo 11 — La Brand Bible
-## Il Documento che Guida Tutto
+# Capitolo 11a — La Brand Bible
 
----
+## Il documento che fa la differenza tra generico e autentico
 
-### HOOK
+Hai configurato l'agente. Hai scritto il SOUL.md.
+Hai caricato la Brand Bible.
 
-Hai configurato l'agente perfettamente.
-SOUL.md scritto, MEMORY.md aggiornato, cron job attivi.
+L'agente genera un post.
 
-Alle 07:00 esce il primo post.
+Lo leggi e pensi: "Sembra scritto da uno che non sa niente del moi brand."
 
-Lo levi. È... generico. Tecnicamente corretto.
-Ma non sembra scritto da chi conosce il brand.
+Riprovi. Stesso risultato.
 
-Manca qualcosa. E sai cosa manca.
+Il problema non è l'agente. È la Brand Bible.
 
----
+## Il problema che nessuno ti dice
 
-### IL PROBLEMA
+Senza Brand Bible, l'agente genera contenuti generici.
+Funziona, ma non ha quel qualcosa in più
+che fa dire al tuo cliente: "Ma come fa a conoscerci così bene?"
 
-Senza una Brand Bible, l'agente genera contenuti che vanno bene per chiunque.
+Con la Brand Bible, l'agente genera contenuti
+che sembrano scritti da chi conosce il brand da anni.
 
-Con la Brand Bible, genera contenuti che sembrano scritti da chi lavora nel brand da dieci anni.
+Non è magia. È informazione.
 
-La differenza è un documento di 3-5 pagine.
-Ma quella differenza decide se il contenuto converte o viene scrollato.
+## Cosa contiene una Brand Bible
 
----
+Una Brand Bible ORBIT ha sei sezioni.
 
-### COSA CONTIENE LA BRAND BIBLE
+### 1. Prodotto
+Cosa vendi. Benefici, non caratteristiche.
+Prezzo. Confronto con alternative.
+Pitch in una riga.
 
-La Brand Bible è un file di testo — niente software, niente tool costosi.
-Un documento strutturato che l'agente legge prima di ogni contenuto.
+Esempio:
+> "Un purificatore d'acqua domestico. Una famiglia spende €45/mese
+> in acqua in bottiglia. Con il nostro prodotto, €37/mese in 72 rate.
+> Risparmi €8/mese, zero plastica, acqua idrogenata. Dopo 72 mesi è tua."
 
-**Sezione 1 — Prodotto**
-Cosa vendi. Non le caratteristiche tecniche — i benefici per la persona che lo compra.
-Un purificatore d'acqua non vende filtri. Vende sicurezza per la famiglia.
-Un noleggio auto non vende contratti. Vede tranquillità senza pensieri.
+### 2. Target
+Chi è il tuo cliente ideale.
+Età, interessi, dove vive, cosa teme, cosa desidera.
+Non demografie astratte. Persone reali.
 
-**Sezione 2 — Target**
-Chi è la persona che compra. Età, vita quotidiana, paure, desideri.
-Non "donne 30-55" — troppo vago.
-Sì: "Mamma di due figli, 38 anni, preoccupata per la qualità dell'acqua che bevono i suoi pips, cerca soluzioni concrete non pubblicità vuote."
+Esempio:
+> "Donna, 30-45 anni, vive nel Lazio nord.
+> Interessi: benessere, integrazione alimentare, fitness.
+> Teme: spendere soldi in prodotti che non funzionano.
+> Desidera: sentirsi meglio senza dover cambiare tutto."
 
-**Sezione 3 — Tone of Voice**
-Come parla il brand. Tre aggettivi. Esempi di frasi già approvate.
-Esempio: "Professionale ma empatico. Come un amico esperto che ti consiglia qualcosa di buono. Niente superlativi, niente urgenze false."
+### 3. Tone of Voice
+Come parli. Come NON parli.
+Tre aggettivi che descrivono il tono.
+Tre frasi tipo da usare.
+Tre frasi tipo da non usare.
 
-**Sezione 4 — Content Pillars**
-I 5 pilastri di contenuto. I temi che il brand tocca settimana dopo settimana.
-Educazione. Stile di vita. Social proof. Opportunità. Stagionalità.
+Esempio:
+> Tono: professionale, empatico, concreto.
+> ✅ "Prenditi cura di chi ami. Partendo dal bicchiere d'acqua."
+> ❌ "IL MIGLIOR PURIFICATORE AL MONDO!!! COMPRA ORA!!!"
 
-**Sezione 5 — Forbidden Words**
-Le parole e le espressioni che il brand NON usa mai.
-"Guadagna facile." "Piramidal." "Passive income garantito."
-"Ultima opportunità." "Sistema rivoluzionario."
-Se non sono nella Bible, l'agente non le usa.
+### 4. Content Pillars
+I cinque temi che guidano ogni contenuto.
+Ogni post deve rientrare in uno di questi pilastri.
+Niente eccezioni.
 
-**Sezione 6 — Framing Approvato**
-Come si parla di temi sensibili. Il framing che ha funzionato.
-Non "reclutamento" — "crescita nel team."
-Non "guadagno" — "opportunità nel wellness."
-Ogni brand ha le sue parole. La Bible le fissa.
+Esempio:
+> 1. Educazione — qualità dell'acqua
+> 2. Stile di vita — abitudini sane
+> 3. Social proof — testimonianze
+> 4. Opportunità — crescita nel wellness
+> 5. Stagionalità — estate, back-to-school, ecc.
 
----
+### 5. Forbidden Words
+Le parole che non devono MAI apparire.
+Niente discussioni. Se è nella blacklist, fuori.
 
-### ESEMPIO CONCRETO
+Esempio:
+> cura, guarisce, patologia, farmaco, bruciagrassi,
+> guadagno garantito, in X giorni, prima e dopo
 
-Ecco come si presenta la Brand Bible per un brand di benessere (acqua purificata):
+### 6. Framing Approvato
+Come parli di temi sensibili.
+Come presenti l'opportunità di business.
+Come descrivi la squadra.
 
-```
-PRODOTTO: Purificatore d'acqua domestico
-BENEFICIO CHIAVE: Acqua sicura per tutta la famiglia, senza pensieri
+Esempio:
+> ✅ "Unisciti alla nostra squadra di ambassadors"
+> ❌ "Guadagna €5.000/mese lavorando 2 ore al giorno"
 
-TARGET: Famiglie 30-55, preoccupate per la salute,
-        attente alla qualità, diffidanti del marketing aggressivo
-
-TONE: Empatico, professionale, concreto
-     "Ci prendiamo cura di ciò che bevi"
-
-PILASTRI: 1) Qualità dell'acqua
-          2) Abitudini sane in famiglia
-          3) Testimonianze reali
-          4) Opportunità ambassador
-          5) Stagionalità (estate = idratazione)
-
-FORBIDDEN: MLM, piramidal, guadagna facile,
-           passive income, ultima opportunità
-
-FRAMING SQUADRA: "Ambassador del benessere"
-                 "Consulente wellness"
-                 "Squadra"
-```
-
-Tre righe per sezione. Tutto il resto lo costruisce l'agente.
-
----
-
-### TEMPLATE COMPILABILE
+## Template compilabile
 
 Copia questo template. Compilalo per il tuo brand.
-Salvalo come `brand-bible.md` nella cartella del cliente.
+Caricalo come Brand Bible dell'agente.
 
 ```
 # BRAND BIBLE — [NOME BRAND]
 
 ## Prodotto
-Cosa vendi (beneficio, non caratteristica):
-___________________________________________
+Prodotto: [nome]
+Beneficio principale: [una frase]
+Prezzo: [prezzo o range]
+Pitch: [2 righe massimo]
 
 ## Target
-Chi compra (persona reale, non dati):
-___________________________________________
+Età: [range]
+Sesso: [M/F/entrambi]
+Zona: [città, regione, raggio km]
+Interessi: [3-5 interessi]
+Pain point principale: [una frase]
+Desiderio principale: [una frase]
 
 ## Tone of Voice
-Tre aggettivi:
-1. ___________
-2. ___________
-3. ___________
+Tre aggettivi: [1] [2] [3]
+Frase tipo ✅: [esempio]
+Frase tipo ❌: [esempio contrario]
 
-Frase esempio del brand:
-"___________________________________________"
-
-## Content Pillari
-1. ___________
-2. ___________
-3. ___________
-4. ___________
-5. ___________
+## Content Pillars
+1. [nome pilar] — [descrizione una riga]
+2. [nome pilar] — [descrizione una riga]
+3. [nome pilar] — [descrizione una riga]
+4. [nome pilar] — [descrizione una riga]
+5. [nome pilar] — [descrizione una riga]
 
 ## Forbidden Words
-- ___________
-- ___________
-- ___________
-- ___________
+[parola 1], [parola 2], [parola 3], [parola 4], [parola 5]
 
 ## Framing Approvato
-Tema sensibile → Come lo parliamo:
-___________ → ___________
-___________ → ___________
-___________ → ___________
+Opportunità: [frase approvata]
+Squadra: [frase approvata]
+Prodotto: [frase approvata]
 ```
 
----
+## Il test che funziona
 
-### TAKEAWAY
+Compila la Brand Bible. Fallo generare un post.
+Mostra il post a qualcuno che conosce il brand.
 
-Senza Brand Bible, l'agente genera contenuti generici.
-Con la Brand Bible, genera contenuti che sembrano scritti dal miglior copywriter del brand.
+Se dice: "Sembra scritto da noi" → la Brand Bible funziona.
+Se dice: "È generico" → aggiungi dettagli.
 
-Un documento di 3 pagine. La differenza tra zero conversioni e un funnel che funziona.
+Ripeti finché non funziona.
 
----
+## Takeaway
 
-### AZIONE
+L'agente è solo bravo quanto la Brand Bible che gli dai.
+Un agente senza Brand Bible è un copywriter generico.
+Un agente con una buona Brand Bible è un copywriter specializzato nel tuo brand.
 
-Prendi 20 minuti. Compila il template qui sopra per il tuo brand principale.
-Salvalo come `brand-bible.md`.
-Aggiungi il path nel SOUL.md del profilo copywriter.
+## Azione
 
-Fatto. L'agente farà il resto.
+Crea la tua Brand Bible adesso.
+Usa il template qui sopra.
+Non serve che sia perfetta. Serve che esista.
+Puoi sempre migliorarla dopo.
+Ma senza, l'agente vola a occhi chiusi.

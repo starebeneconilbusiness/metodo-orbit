@@ -289,3 +289,68 @@ Output attesi:
 Questi dati aggiornano i capitoli 06, 07, 14.
 ORBIT-AUTHOR domenica 21/6 fa il primo
 aggiornamento con dati reali.
+
+---
+
+### 2026-06-14 — Libro COMPLETATO — 19/19 capitoli
+
+ORBIT-AUTHOR ha scritto tutti i capitoli mancanti:
+- cap11a-brand-bible.md — La Brand Bible
+- cap11b-model-routing.md — Il Modello Giusto al Momento Giusto
+- cap13-automazioni.md — Le Automazioni verso il Mondo
+- cap14-vendi-il-servizio.md — Il Tuo Primo Cliente Agenzia
+- cap15-modello-abbonamento.md — Il Modello che Genera Rendita
+
+Plus:
+- 00-introduzione.md — la vera storia, la vera voce
+- 18-conclusione.md (skeleton)
+- appendice-a-glossario.md
+- appendice-b-checklist.md
+- appendice-c-tool.md
+- cap18-agent-advisor.md — La Squadra Perfetta
+
+Totale libro: 23 file, ~3.500 righe, ~28.000 parole stimate.
+Pagine stimate: 110-130 pagine formato A5.
+
+Prossimo step: Gabriele compila intro e conclusione.
+Poi export PDF per Amazon KDP.
+
+---
+
+### 2026-06-14 — Agent Advisor + Libreria Agenti
+
+Nuova feature definita: ORBIT Advisor
+Onboarding conversazionale a 6 domande
+che termina con squadra personalizzata + preventivo.
+
+Libreria agenti: 8 categorie, 30+ agenti specializzati
+Categorie: Marketing, Community, Analytics,
+Lead Gen, E-commerce, Creative, Business, Tecnici
+
+Scheda agente include:
+- Recensioni clienti
+- Costo stimato mensile
+- Modello AI consigliato
+- Anteprima output reale
+
+Implementazione tecnica:
+- profiles/orbit-advisor/ su HERMES
+- API /api/advisor/recommend (FastAPI)
+- Risposta JSON strutturata → UI dinamica
+- Analytics sessioni Advisor
+
+---
+
+### 2026-06-14 — Capitolo Model Routing aggiunto
+
+Nuovo capitolo: cap11b-model-routing.md
+Titolo: "Il Modello Giusto al Momento Giusto"
+Posizione: Parte 3 — Costruiscilo Tu
+Tema: risparmio 81% con model routing ottimale.
+
+Valore per il cliente:
+- Risparmio concreto €7.80/mese
+- Wallet €10 incluso dura quasi tutto il mese
+- Comprensione del valore di ogni modello
+
+Totale libro: 18 capitoli (+ intro + conclusione + appendici)

@@ -1,136 +1,159 @@
 # Capitolo 15 — Il Modello che Genera Rendita
 
-## Da Vendita Una Tantum a Incasso Ogni Mese
+## La differenza tra vendere una volta e incassare ogni mese
 
-### HOOK
+Hai venduto il setup. €97 una tantum.
+Hai lavorato 47 minuti. Pagato.
 
-Vendere una volta è sopravvivere.
-Incassare ogni mese è costruire un business.
+Poi il cliente se ne va.
+E tu non lo rivedi mai più.
 
-La differenza tra un freelance e un imprenditore?
-Il freelance vende il suo tempo una volta.
-L'imprendore vende un servizio che si rinnova.
+Questo è il modello peggore che esiste.
 
----
+Il modello giusto è diverso:
+una tantum + canone mensile.
 
-### IL PROBLEMA DELLA VENDITA UNA TANTUM
+Una tantum per coprire il tuo tempo di setup.
+Canone mensile per il sistema che gira ogni giorno.
 
-Hai venduto il setup a €97. Ottimo. Hai coperto il tuo tempo.
+## Come strutturare il canone mensile
 
-Ma il mese prossimo? Devi trovare un altro cliente.
-E quello dopo? Un altro.
+Il cliente paga €29 al mese.
+Cosa riceve per quei €29?
 
-È una corsa infinita. Ogni mese riparti da zero.
+- Il sistema gira ogni giorno (costo per te: ~€0.30/mese in AI)
+- I contenuti vengono generati (costo: €0)
+- I contenuti vengono pubblicati (costo: €0)
+- Tu gestisci il supporto (tempo: 2 ore/mese)
 
-Ora immagina: quel cliente paga €29 ogni mese.
-Non una volta. Per sempre.
+Il tuo margine è enorme.
+Ma non è per questo che lo fai.
 
-Il primo mese: €97 + €29 = €126
-Il secondo mese: €29
-Il sesto mese: €145 totali
-Il dodicesimo mese: €345 totali
+Lo fui perché il canone mensile ti dà prevedibilità.
+Sai quanto incassi ogni mese.
+Sai quanti clienti hai.
+Sai quanto tempo dedichi a ciascuno.
 
-E tu non hai fatto nulla di più.
-Il sistema lavora da solo.
-
----
-
-### COME STRUTTURARE IL CANONE MENSILE
-
-**Tre livelli. Tre prezzi. Tre tipi di cliente.**
-
-**Base — €29/mese**
-Per il cliente che vuole solo i contenuti.
-Daily Pack, report settimanale, supporto base.
-Margine: altissimo. Il sistema fa tutto.
-
-**Growth — €49/mese**
-Per il cliente che vuole anche email marketing e LinkedIn.
-Più valore per il cliente. Più ricorrente per te.
-Margine: altissimo + upsell naturale.
-
-**Pro — €79/mese**
-Per il cliente che vuole tutto, incluso video.
-Higgsfield incluso. Analisi KPI. Supporto prioritario.
-Margine: buono. Il video ha un costo, ma il prezzo lo copre.
-
----
-
-### LA GESTIONE TECNICA: API KEY E AUTO-SUSPEND
+## La gestione delle API key
 
 Ogni cliente ha le sue API key.
-Tu le gestisci. Loro non toccano nulla.
+Tu non usi le tue per i clienti.
+Loro generano le loro key. Tu le configuri.
 
-**Se non pagano: auto-suspend in 24 ore.**
-Stripe ti avvia il sistema.
-Se il pagamento fallisce, il cron job si disattiva.
-Il cliente riceve un messaggio: "Servizio sospeso per mancato pagamento. Per riattivare, aggiorna il metodo di pagamento."
+Perché?
 
-Niente litigi. Niente solleciti. Il sistema gestisce.
+Perché se un cliente smette di pagare,
+tu disattivi le sue key.
+Non paghi tu per lui.
 
-**Se rinnovano: auto-resume immediato.**
-Il pagamento va a buon fine.
-Il cron job si riattiva.
-Il cliente riceve: "Servizio riattivato. Il tuo prossimo pack sarà pronto domattina alle 07:00."
+E se un cliente rinnova,
+tu riattivi le key.
+Tutto automatico.
 
----
+## Auto-suspend in 24 ore
 
-### I NUMERI REALI
+Se un cliente non paga,
+il sistema lo sa.
 
-**Con 10 clienti a €29/mese:**
-€290/mese ricorrenti
-€3.480/anno
-Zero lavoro aggiuntivo
+Come?
 
-**Con 50 clienti (mix Base/Growth/Pro):**
-€1.450/mese ricorrenti
-€17.400/anno
-Quasi zero lavoro aggiuntivo
+Controlla lo stato del pagamento ogni giorno.
+Se non ha pagato entro la data di scadenza,
+il sistema sospende il profilo.
 
-**Con 100 clienti:**
-€2.900/mese ricorrenti
-€34.800/anno
-Serve qualcuno che ti aiuti con il supporto. Ma il sistema gira da solo.
+Niente più cron job.
+Niente più contenuti generati.
+Niente più pubblicazioni.
 
----
+Il cliente riceve un messaggio:
+"Il servizio è stato sospeso per mancato pagamento.
+Rinnova qui: [link]"
 
-### DAL PI AL VPS AL SASSA: STESSA LOGICA, SCALA DIVERSA
+Se rinnova, tutto si riattiva in automatico.
+Se non rinnova, resta sospeso.
 
-**ORBIT Base (Pi):**
-Un cliente. Un Pi. €29/mese.
-Perfetto per iniziare. Perfetto per il primo cliente.
+Tu non devi fare nulla.
 
-**ORBIT Pro (VPS):**
-Fino a 10 clienti su un VPS Hetzner.
-€9-39/mese di server. €290-790/mese di ricorrente.
-Margine: enorme.
+## I numeri reali
 
-**ORBIT Platform (SaaS):**
-100+ clienti. Dashboard self-service.
-Il cliente si registra, paga, e il sistema si configura da solo.
-€2.900+/mese. Scalabile quasi all'infinito.
+Ecco cosa significa il modello mensile nella pratica:
 
-Stessa architettura. Stessi profili. Stessi cron job.
-Cambia solo l'hardware sotto.
+**10 clienti a €29/mese:**
+€290/mese ricorrente
+Costo tuo: ~€3/mese (AI per i cron job)
+Margine: €287/mese
 
----
+**50 clienti a €29/mese:**
+€1.450/mese ricorrente
+Costo tuo: ~€15/mese
+Margine: €1.435/mese
 
-### TAKEAWAY
+**100 clienti a €29/mese:**
+€2.900/mese ricorrente
+Costo tuo: ~€30/mese
+Margine: €2.870/mese
 
-Non vendere il setup. Vendi il canone.
-Il setup copre il tuo tempo. Il canone costruisce il tuo futuro.
+Zero lavoro aggiuntivo per ogni nuovo cliente.
+Il sistema scala da solo.
 
-Un cliente che paga €29/mese per 24 mesi vale €696.
-Non €97.
+## Dal Pi al VPS al SaaS: stessa logica, scala diversa
 
-Pensa in ricorrente. Sempre.
+Il modello è sempre lo stesso:
+setup una tantum + canone mensile.
 
----
+Cambia solo l'infrastruttura:
 
-### AZIONE
+**Pi (cliente ha il proprio hardware):**
+- Setup: €97
+- Canone: €29/mese
+- Tu gestisci da remoto via Tailscale
 
-Se hai già clienti a cui fai il setup,
-proponi loro il canone mensile.
-"Setup €97 una tantum. Poi €29/mese per il Daily Pack automatico. Se non ti piace, cancelli. Nessun impegno."
+**VPS (tu gestisci il server):**
+- Setup: €197
+- Canone: €49/mese (include costo VPS)
+- Tu controlli tutto
 
-Se non hai ancora clienti, il prossimo capitolo ti spiega come trovarli.
+**SaaS (piattaforma self-service):**
+- Setup: €0 (self-service)
+- Canone: €29-149/mese (a seconda del piano)
+- Zero intervento manuale
+
+Stessa logica. Tre livelli di scala.
+
+## Il cliente che non se ne va
+
+Il segreto del modello mensile non è acquisire.
+È trattenere.
+
+Un cliente che paga €29/mese per 12 mesi
+vale €348.
+Un cliente che paga €29/mese per 24 mesi
+vale €696.
+Un cliente che paga €29/mese per 36 mesi
+vale €1.044.
+
+Come lo tratti? Così:
+
+1. **Rispondi entro 24 ore** — sempre
+2. **Fai check-in settimanali** — 10 minuti
+3. **Migliora la Brand Bible ogni mese** — i contenuti migliorano
+4. **Aggiungi valore** — nuovi pillar, nuovi format, nuovi canali
+
+Il cliente che vede i contenuti migliorare ogni mese
+non se ne va.
+Se ne va solo chi non vede risultati.
+
+## Takeaway
+
+Non vendere una volta. Vendi ogni mese.
+Il canone mensile non è un costo per il cliente.
+È la garanzia che il sistema continua a lavorare.
+Per te, è prevedibilità.
+Per lui, è un servizio che non si ferma.
+
+## Azione
+
+Se hai già un cliente, proponi il modello mensile.
+Se non ce l'hai, prepara il pacchetto:
+€97 setup + €29/mese.
+Quando arriva il primo cliente, sai già cosa offrire.

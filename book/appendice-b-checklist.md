@@ -1,58 +1,73 @@
 # Appendice B — Checklist Setup ORBIT
 
-## Tutto quello che ti serve per partire. Niente di più.
+## Hardware
 
-### Hardware
-- [ ] Raspberry Pi 4 (4GB o 8GB)
-- [ ] SSD USB 3.0 (minimo 256GB, consigliato 500GB)
-- [ ] Case con dissipatore
+- [ ] Raspberry Pi 4 4GB (o superiore)
+- [ ] SSD USB 3.0 500GB
+- [ ] Case + dissipatore alluminio
 - [ ] Alimentatore ufficiale USB-C 5V 3A
-- [ ] MicroSD 32GB (per il boot)
-- [ ] Cavo Ethernet (consigliato per stabilità)
+- [ ] MicroSD 32GB (boot)
+- [ ] Collegamento Ethernet al router
 
-### Software base
+## Software
+
 - [ ] Raspberry Pi OS Lite (64-bit) installato
-- [ ] Docker installato e funzionante
-- [ ] Docker Compose installato
+- [ ] Docker + Docker Compose installati
 - [ ] HERMES Agent installato
-- [ ] gh CLI (GitHub) installato e autenticato
+- [ ] LiteLLM proxy configurato
+- [ ] Tailscale installato e autenticato
+- [ ] GitHub CLI installato e autenticato
 
-### Configurazione HERMES
-- [ ] SOUL.md scritto (identità dell'agente)
-- [ ] MEMORY.md scritto (contesto del cliente)
-- [ ] Profilo copywriter creato (SOUL.md dedicato)
-- [ ] MCP server configurati (minimo: github-mcp)
-- [ ] Telegram bot collegato e funzionante
+## Configurazione HERMES
 
-### Primo cliente
-- [ ] Brand Bible compilata (template cap 11)
-- [ ] Profilo copywriter adattato al cliente
-- [ ] Cron job Daily Pack attivo
-- [ ] Test manuale: generato il primo pack di 5 asset
-- [ ] Contenuti revisionati e approvati
+- [ ] SOUL.md scritto (identità agente)
+- [ ] MEMORY.md scritto (contesto business)
+- [ ] Config LiteLLM con modello primario
+- [ ] Wallet OpenRouter caricato (min €10)
+- [ ] Telegram bot configurato e funzionante
 
-### Automazioni
-- [ ] Composio collegato (Facebook + Instagram)
-- [ ] Brevo collegato (email marketing)
-- [ ] WhatsApp broadcast configurato
-- [ ] Gate di approvazione attivo (prime 2 settimane)
-- [ ] Notifica Telegram post-pubblicazione attiva
+## Profili Copywriter
 
-### Prima pubblicazione
-- [ ] Primo post pubblicato su Facebook
-- [ ] Prima email inviata via Brevo
-- [ ] Primo messaggio WhatsApp inviato
-- [ ] Prima Story pubblicata su Instagram
-- [ ] Report prima settimana generato
+- [ ] Profilo copywriter-snep creato
+- [ ] Brand Bible SNEP compilata
+- [ ] Profilo copywriter-diamrent creato
+- [ ] Brand Bible Diamante Rent compilata
+- [ ] Profilo workhunter creato
 
-### Accesso remoto
-- [ ] Tailscale installato sul Pi
-- [ ] Tailscale installato sul telefono
-- [ ] SSH via Tailscale testato
-- [ ] IP Tailscale annotato
+## MCP Server
 
-### Sicurezza
-- [ ] Firewall attivo (ufw)
-- [ ] SSH disabilitato per accesso esterno (solo Tailscale)
-- [ ] Backup automatico configurato
-- [ ] API key salvate in .env (non nel codice)
+- [ ] github-mcp (gh CLI) configurato
+- [ ] composio-mcp configurato (API key inserita)
+- [ ] brevo-mcp configurato (API key inserita)
+- [ ] elevenlabs-mcp configurato (API key inserita)
+- [ ] n8n-mcp configurato (URL + API key)
+
+## Cron Job
+
+- [ ] Daily Pack SNEP (07:00) registrato
+- [ ] Daily Pack DiamRent (08:00) registrato
+- [ ] Prospect B2B (lunedì 09:00) registrato
+- [ ] Weekly Report (venerdì 18:00) registrato
+- [ ] Budget Check (23:00) registrato
+- [ ] System Build Commit (22:00) registrato
+
+## Primo Test
+
+- [ ] Genera manualmente un Daily Pack di test
+- [ ] Verifica che i 5 asset siano corretti
+- [ ] Controlla il salvataggio in ~/orbit/content/
+- [ ] Fai commit su GitHub
+- [ ] Verifica notifica Telegram
+
+## Prima Pubblicazione
+
+- [ ] Configura Composio per il cliente
+- [ ] Testa pubblicazione su Facebook
+- [ ] Testa pubblicazione su LinkedIn
+- [ ] Testa invio email su Brevo
+- [ ] Verifica il flusso completo end-to-end
+- [ ] Primo post reale pubblicato ✅
+
+---
+
+**Setup completo. Sistema ORBIT operativo.**
