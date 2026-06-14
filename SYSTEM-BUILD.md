@@ -309,3 +309,27 @@ Prossimi capitoli da scrivere: cap11, cap13, cap14, cap15
 (cap09, 10, 12, 16, 17 già scritti)
 
 Capitoli totali finora: 13/17
+
+---
+
+### 2026-06-14 — Libro COMPLETATO — 17/17 capitoli
+
+ORBIT-AUTHOR ha scritto tutti i 17 capitoli mancanti:
+- cap11a-brand-bible.md — La Brand Bible
+- cap11b-model-routing.md — Il Modello Giusto al Momento Giusto
+- cap13-automazioni.md — Le Automazioni verso il Mondo
+- cap14-vendi-il-servizio.md — Il Tuo Primo Cliente Agenzia
+- cap15-modello-abbonamento.md — Il Modello che Genera Rendita
+
+Plus:
+- 00-introduzione.md (skeleton — da compilare da Gabriele)
+- 18-conclusione.md (skeleton — da compilare da Gabriele)
+- appendice-a-glossario.md
+- appendice-b-checklist.md
+- appendice-c-tool.md
+
+Totale libro: 21 file, ~2.300 righe, ~18.000 parole stimate.
+Pagine stimate: 80-100 pagine formato A5.
+
+Prossimo step: Gabriele compila intro e conclusione.
+Poi export PDF per Amazon KDP.

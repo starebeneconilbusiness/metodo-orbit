@@ -2,128 +2,133 @@
 
 ## Il bacino di acquisizione che hai già
 
-Hai un problema.
-Non sai come trovare il tuo primo cliente per il servizio ORBIT.
+Hai un problema. Non sai dove trovare il primo cliente
+per vendere il servizio ORBIT.
 
 In realtà ce l'hai già.
-Non lo vedi perché lo dai per scontato.
 
-I tuoi clienti network marketing.
-Quelli per cui già generi contenuti ogni giorno.
-Quelli che vedono i risultati del sistema
-sui propri social, nelle proprie email, nei propri gruppi.
+I gruppi dei tuoi clienti network marketing
+sono il tuo primo bacino di acquisizione.
+Sono persone che hanno già visto i risultati
+del sistema applicati ai propri contenuti.
+Sanno che funziona. Hanno visto i numeri.
 
-Sono il tuo bacino di acquisizione naturale.
+La domanda naturale arriva da sola:
+"Come lo fai? Chi ti gestisce i social?"
 
-## Come nasce la conversazione
+Quella è l'apertura. Non devi cercarla.
+Arriva.
 
-Non devi fare cold outreach.
-Non devi convincere nessuno.
-La conversazione nasce da sola.
+## Il pitch in 30 secondi
 
-Il tuo cliente NM vede i contenuti che genera il sistema.
-Vede i like. I commenti. Le condivisioni.
-Vede i lead che arrivano dalle email.
-Vede le iscrizioni ai webinar.
+Non presentare il sistema. Presenta il risultato.
 
-E un giorno ti chiede:
+"Gestisco i social di [cliente NM] con un sistema automatizzato.
+Ogni mattina genera 5 contenuti pronti per essere pubblicati.
+Zero lavoro manualo. Zero agenzie. Zero costi fissi.
+Il costo? Meno di un caffè al giorno."
 
-"Come fai a postare così spesso?"
-"Chi ti fa i contenuti?"
-"Come funziona?"
-
-Quella è l'apertura.
-Non devi cercarla. Viene da sola.
-
-## Il pitch
-
-Quando arriva la domanda, non vendere.
-Spiega.
-
-"Uso un sistema AI che genera contenuti ogni giorno.
-Funziona 24/7. Costa meno di un caffè al giorno.
-Posso fare lo stesso per te."
-
-Non parlare di Raspberry Pi.
-Non parlare di HERMES.
-Non parlare di MCP server.
-
-Parla di risultati:
-"5 contenuti al giorno. Su Facebook, Instagram, email, WhatsApp.
-Tutti personalizzati per il tuo brand. Approvati da te prima di partire."
+Se la persona chiede "come funziona?",
+allora vai nel dettaglio.
+Se non chiede, non spiegare.
+Il risultato parla da solo.
 
 ## Il pricing
 
-Ecco come strutturo il pacchetto base:
+Ecco come strutturare il pacchetto base:
 
 **Setup una tantum: €97**
-- Configurazione agente
-- Brand Bible
-- Collegamento social e email
-- Test primo Daily Pack
+- Configurazione HERMES per il cliente
+- Brand Bible compilata insieme
+- Configurazione MCP server (Composio, Brevo)
+- Test e calibrazione 2 settimane
 
 **Canone mensile: €29/mese**
-- Daily Pack giornaliero (5 asset)
-- Pubblicazione automatica
-- Report mensile
+- Daily Pack automatico (5 asset/giorno)
+- Pubblicazione automatica sui social
+- Report settimanale
 - Supporto via Telegram
 
 **Totale primo anno: €445**
-(€97 setup + €29 x 12 = €445)
+(€97 setup + €29 × 12 = €445)
 
-Confronta: un'agenzia tradizionale costa €1.500-3.000/mese.
+Confronto: un'agenzia tradizionale costa €500-1.500/mese.
 Il tuo servizio costa €29/mese.
-Il cliente risparmia €1.471-2.971 al mese.
+Il cliente risparmia €5.645-17.555 il primo anno.
 
-Non stai vendendo tecnologia.
-Stai vendendo risultati a un prezzo che sembra un errore di stampa.
+## Cosa includere nel pacchetto base
 
-## L'onboarding in 47 minuti
+Non promettere la luna. Promettere il Daily Pack.
 
-Il primo cliente è il più lungo.
-Dopo il primo, ogni nuovo cliente è più veloce.
+Il pacchetto base include:
+- 5 contenuti al giorno (Facebook, LinkedIn, Email, WhatsApp, Story)
+- Pubblicazione automatica (dopo calibrazione 2 settimane)
+- Report settimanale con metriche
+- Modifiche illimitate al tone of voice (entro ragionevole)
 
-Ecco il processo:
+Non include:
+- Gestione community (risposte ai commenti)
+- Advertising a pagamento
+- Video editing
+- Consulenza strategica (questo è il prossimo livello)
 
-**Minuto 0-5:** Chiamata di benvenuto. Spieghi cosa farai.
-**Minuto 5-20:** Compili la Brand Bible insieme (template del cap 11).
-**Minuto 20-35:** Configuri l'agente (copia profilo, adatti SOUL.md).
-**Minuto 35-45:** Generi il primo pack di test. Lo revisionate insieme.
-**Minuto 45-47:** Collego i canali (Facebook, Instagram, email, WhatsApp).
+## Come onboardare in 47 minuti
 
-47 minuti. Il cliente ha il suo agente operativo.
-Tu sei già al cliente successivo.
+Sì, 47 minuti. È il tempo medio che ho misurato.
 
-## Come gestire il supporto
+**Minuto 0-10: Brand Bible**
+Compila il template del capitolo 11 insieme al cliente.
+Due pagine. Domande semplici. Il cliente sa le risposte.
 
-Il supporto è il punto critico.
-Se non lo gestisci bene, diventa un lavoro a tempo pieno.
+**Minuto 10-20: Configurazione profilo**
+Crea il profilo copywriter del cliente su HERMES.
+Carica la Brand Bible. Configura il tone of voice.
 
-Ecco le regole:
+**Minuto 20-30: Setup MCP**
+Configura Composio per i social del cliente.
+Configura Brevo per le email.
+Testa la connessione.
 
-1. **Supporto solo via Telegram** — niente telefonate, niente WhatsApp personale
-2. **Risposta entro 24 ore** — non subito, non in tempo reale
-3. **FAQ automatica** — le domande più comuni hanno risposta nel bot
-4. **Ticket system** — Paperclip o n8n per tracciare le richieste
+**Minuto 30-40: Primo Daily Pack**
+Genera il primo pack insieme al cliente.
+Mostra i 5 asset. Spiega come funziona.
+Chiedi feedback.
 
-Con 10 clienti avrai circa 2-3 richieste di supporto a settimana.
-Gestibili in 30 minuti.
+**Minuto 40-47: Go live**
+Approva il primo pack.
+Programma la pubblicazione.
+Il sistema è operativo.
 
-Con 50 clienti serve un sistema più strutturato.
-Ma a quel punto hai i numeri per assumere qualcuno.
+## Come gestire il supporto senza impazzire
+
+Il cliente avrà domande. Ne avrà tante.
+Ecco come gestirle senza diventare il suo assistente personale:
+
+1. **Crea un FAQ** — Le prime 10 domande che ti fai
+   diventano il documento di supporto.
+
+2. **Usa un gruppo Telegram** — Un gruppo dedicato
+   per ogni cliente. Le domande vanno lì, non in privato.
+
+3. **Limita gli orari** — Supporto 9-12 e 14-18.
+   Fuori orario: domani. Punto.
+
+4. **Automatizza le risposte comuni** — Se ti chiedi
+   la stessa cosa 3 volte, scrivi una risposta tipo
+   e riutilizzala.
 
 ## Takeaway
 
-Il tuo primo cliente NM è il tuo bacino di acquisizione.
-La domanda "come fai?" è l'apertura naturale.
-Non vendere tecnologia. Vendere risultati.
-Setup €97 + €29/mese. Onboarding 47 minuti.
-Poi scala.
+Il tuo primo cliente non viene da LinkedIn.
+Viene dal gruppo NM dove tutti hanno visto
+i tuoi contenuti performare.
+La domanda "come lo fai?" è il tuo biglietto da visita.
+Rispondi con i risultati, non con la tecnologia.
 
 ## Azione
 
-Guarda i tuoi clienti NM attivi.
-Quale di loro vede i risultati del sistema
-e potrebbe chiederti "come fai?".
-Chiamalo stasieddì. Non per vendere.
-Per mostrare. La vendita viene dopo.
+Pensa al tuo cliente NM attivo.
+Hai già i risultati visibili?
+Se sì, la prossima volta che qualcuno chiede
+"come fai a postare così spesso?",
+rispondi: "Ho un sistema. Posso farlo anche per te."

@@ -1,116 +1,120 @@
 # Capitolo 13 — Le Automazioni verso il Mondo
 
-## Da contenuto generato a contenuto pubblicato: il flusso completo
+## I contenuti escono dal Pi. E arrivano dove devono arrivare.
 
-L'agente ha generato 5 contenuti.
-Sono salvati in una cartella sul Pi.
-Sono perfetti.
+Hai il Daily Pack generato. Cinque asset pronti.
+Sono salvati in una cartella con la data di oggi.
 
-Ma nessuno li ha visti.
+E adesso?
 
-Perché generare contenuti è solo metà del lavoro.
-L'altra metà è portarli dove sono i tuoi clienti.
-Su Facebook. Su Instagram. Nella loro email. Nel loro WhatsApp.
+Adesso devono arrivare su Facebook, Instagram, LinkedIn,
+nella casella email dei tuoi contatti, nei messaggi WhatsApp.
 
-Questa è la fase di automazione.
-Ed è qui che il sistema smette di essere "un esperimento"
-e diventa un'agenzia che lavora per te 24 ore al giorno.
+Se devi farlo a mano, hai risolto un problema
+e ne hai creato un altro.
 
 ## Il flusso completo
 
-Ogni mattina il sistema fa questo:
+Ecco cosa succede dalla generazione alla pubblicazione.
 
-**07:00** — L'agente genera il Daily Pack (5 asset)
-**07:05** — I contenuti vengono salvati nella cartella del giorno
-**07:10** — Il sistema invia una notifica su Telegram: "Pack pronto, 5 asset"
-**07:15** — Tu apri Telegram, leggi, approvi (o richiedi modifiche)
-**07:20** — I contenuti approvati partono automaticamente:
-          → Post su Facebook e Instagram (via Composio)
-          → Email ai contatti (via Brevo)
-          → Messaggio WhatsApp broadcast
+**Step 1 — Generazione (07:00)**
+Il profilo copywriter genera i 5 asset.
+Li salva in `~/orbit/content/[cliente]/YYYY-MM-DD/`.
+Ogni file ha un nome chiaro: `snep_post_facebook_20260614.txt`.
 
-**07:25** — Fatto. Zero clic manuali. Zero copia-incolla.
+**Step 2 — Gate di approvazione (07:00-09:00)**
+Tu ricevi una notifica su Telegram con il riassunto del pack.
+Puoi leggere i contenuti. Puoi approvarli.
+Puoi chiedere modifiche. Puoi scartare un asset.
 
-## I canali e come funzionano
+Nelle prime 2 settimane questo gate è fondamentale.
+Stai verificando che l'agente abbia capito il brand.
+Stai calibrando il tone of voice.
+Stai costruendo fiducia nel sistema.
 
-### Facebook e Instagram — Composio
+**Step 3 — Pubblicazione (dopo approvazione)**
+Una volta approvati, i contenuti vengono pubblicati:
+- Facebook e Instagram → via Composio MCP
+- Email → via Brevo MCP
+- LinkedIn → via Composio MCP
+- WhatsApp → script pronto per invio manuale o via Composio
 
-Composio è il ponte tra l'agente e i social.
-Quando il post è pronto, Composio lo pubblica direttamente
-sulla pagina Facebook o sul profilo Instagram del cliente.
+**Step 4 — Misura (venerdì 18:00)**
+Il Weekly Report raccoglie i dati della settimana.
+Reach, engagement, iscrizioni, conversioni.
+I numeri che contano.
 
-Niente aprire il telefono. Niente cercare l'app.
-Il contenuto parte dal Pi e arriva sul social.
+## Il gate di approvazione: perché non saltarlo
 
-### Email — Brevo
+La tentazione è forte. "Se il sistema funziona, pubblica tutto in automatico."
 
-Brevo è il sistema di email marketing.
-Quando l'email è pronta, Brevo la invia a tutta la lista
-dei contatti del cliente.
+Non farlo. Non ancora.
 
-Con personalizzazione: ogni email contiene il nome del destinatario.
-Non "Ciao amico" ma "Ciao Marco".
-La differenza nel tasso di apertura è enorme.
+Nelle prime 2 settimane il gate di approvazione umana
+è il tuo assicuratore di qualità. Stai verificando:
+- Il tone of voice è corretto?
+- Le CTA sono chiare?
+- Non ci sono errori o frasi fuori posto?
+- I contenuti rispettano le regole del brand?
 
-### WhatsApp — broadcast
+Dopo 2 settimane di approvazione sistematica,
+il sistema è calibrato. A quel punto puoi:
+- Ridurre il gate a spot check casuali
+- Automatizzare la pubblicazione diretta
+- Intervenire solo per i contenuti più importanti
 
-Il messaggio WhatsApp viene inviato come broadcast
-ai contatti che hanno accettato di ricevere comunicazioni.
-Max 3 righe. Max 3 emoji. CTA diretta.
+Ma le prime 2 settimane: approva tutto.
 
-## Il gate di approvazione: perché esiste
+## Composio: il ponte verso i social
 
-A questo punto potresti pensare:
-"Pubblico tutto in automatico. Zero controllo."
+Composio è il MCP server che connette HERMES
+direttamente a Facebook, Instagram e LinkedIn.
 
-**No. Non nelle prime due settimane.**
+Come funziona:
+1. L'agente genera il contenuto testuale
+2. Composio lo pubblica sulla piattaforma giusta
+3. L'agente riceve conferma e log
 
-Nelle prime due settimane il gate di approvazione è attivo.
-Tu ricevi i contenuti su Telegram.
-Li leggi. Li approvi o li modifichi.
-Solo dopo partono.
+Zero copia-incolla. Zero login manuali sui social.
+Zero dimenticazioni.
 
-Perché? Perché l'agente deve ancora imparare il brand.
-I primi contenuti sono buoni ma non perfetti.
-Due settimane di feedback umano lo portano al livello giusto.
+Con il piano free di Composio hai 20.000 call al mese.
+Un cliente ORBIT usa circa 1.500 call al mese.
+Anche con 10 clienti sei a 15.000 call.
+Ancora gratuito.
 
-Dopo due settimane, se i contenuti sono costantemente approvati
-senza modifiche, puoi disattivare il gate.
-A quel punto il sistema è completamente automatico.
+## Brevo: il ponte verso le email
 
-## Come togliere il gate
+Brevo MCP gestisce tutta la parte email marketing.
+Sequenze di nurturing, campagne one-shot,
+automazioni basate su azioni dell'utente.
 
-Seguo questa regola:
-
-- Settimana 1-2: gate attivo, approvazione manuale
-- Settimana 3: gate attivo, ma approvazione rapida (sì/no)
-- Settimana 4: se 90%+ dei contenuti sono approvati senza modifiche
-  → gate disattivato, pubblicazione automatica
-- Sempre: notifica post-pubblicazione su Telegram per monitoraggio
+Il piano free copre 300 email al giorno.
+Per un cliente NM con una lista di 500-2.000 contatti
+è più che sufficiente.
 
 ## Il numero che conta
 
-Da generazione a pubblicazione: **meno di 30 minuti**.
-Zero intervento manuale dopo l'approvazione.
-Zero copia-incolla. Zero login su piattaforme.
+Da generazione a pubblicazione: meno di 30 minuti.
+Zero intervento manuale (dopo il periodo di calibrazione).
 
-Il contenuto nasce alle 07:00.
-Alle 07:30 è già sui social, nelle email, su WhatsApp.
-Tu stai ancora bevendo il caffè.
+Con il metodo tradizionale: 2-3 ore per creare e pubblicare
+5 asset su 4 piattaforme.
 
-Questo è il Metodo ORBIT.
+Con ORBIT: 30 minuti totali. E il sistema lavora ogni giorno.
+Non solo quando hai tempo. Non solo quando ti ricordi.
 
 ## Takeaway
 
-Generare contenuti è il 50% del lavoro.
-Portarli dove sono i clienti è l'altro 50%.
-Con Composio, Brevo e WhatsApp broadcast
-il flusso è completamente automatico.
-Ma nelle prime due settimane: controlla sempre.
+I contenuti generati che restano in una cartella
+sono contenuti sprecati.
+L'automazione della pubblicazione è il passo finale
+che trasforma il sistema da "bella dimostrazione"
+a "macchina che genera risultati".
 
 ## Azione
 
-Apri Composio e collega la tua pagina Facebook.
-Fallo oggi. Ci vogliono 5 minuti.
-Quando il primo post partirà da solo, capirai
-perché questo sistema cambia tutto.
+Se non l'hai fatto, configura Composio oggi.
+Collegalo a Facebook e LinkedIn.
+Fai un test: genera un post e pubblicalo in automatico.
+Quando funziona la prima volta, hai capito il potenziale.

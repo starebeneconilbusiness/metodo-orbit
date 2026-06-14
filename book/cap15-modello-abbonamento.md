@@ -2,146 +2,134 @@
 
 ## La differenza tra vendere una volta e incassare ogni mese
 
-Hai venduto il primo setup.
-€97 una tantum. Benvenuto.
+Hai venduto il primo setup. €97 una tantum.
+Il cliente è contento. I contenuti funzionano.
 
-Ma quei €97 li incassi una volta.
-Poi il cliente se ne va. E tu devi trovarne un altro.
+Ma quei €97 li hai incassati una volta.
+Il mese prossimo? Zero. A meno che non vendi un altro setup.
 
-C'è un modello migliore.
+C'è un modo migliore.
 
-Un modello in cui il cliente paga ogni mese.
-E tu incassi ogni mese.
-Senza rifare il lavoro.
+## Il canone mensile
 
-Si chiama abbonamento.
-È il modello che usa Netflix. Spotify. Ogni SaaS al mondo.
+Il vero valore del Metodo ORBIT non è il setup.
+È il servizio continuativo.
 
-Ed è il modello che usa ORBIT.
+Ogni mattina il sistema genera contenuti.
+Ogni giorno il cliente riceve valore.
+Ogni mese il cliente paga per continuare a riceverlo.
 
-## Come strutturare il canone mensile
+Questo è il modello di abbonamento.
+È il modello che trasforma un lavoro occasionale
+in una rendita mensile.
 
-Il cliente non paga per la tecnologia.
-Paga per il servizio.
+## Come strutturare il canone
 
-Ogni mattina riceve 5 contenuti.
-Ogni settimana riceve un report.
-Ogni mese ha i social pieni di post calibrati.
-Le email partono. I messaggi WhatsApp partono.
+**Piano Base — €29/mese**
+- Daily Pack automatico (5 asset/giorno)
+- Pubblicazione su 2 piattaforme
+- Report settimanale
 
-Tutto automatico. Tutto personalizzato.
+**Piano Growth — €59/mese**
+- Daily Pack completo (5 asset/giorno)
+- Pubblicazione su 4 piattaforme
+- Email marketing (fino a 500 contatti)
+- Report settimanale + call mensile
 
-Per questo servizio paga un canone mensile.
-
-**Piano Base: €29/mese**
-- Daily Pack (5 asset/giorno)
-- Pubblicazione automatica
-- Report mensile
-
-**Piano Growth: €59/mese**
-- Tutto del Base
-- Email marketing avanzato
-- Analisi KPI settimanale
-
-**Piano Pro: €149/mese**
-- Tutto del Growth
-- Video giornaliero (Higgsfield)
+**Piano Pro — €149/mese**
+- Tutto di Growth
+- Video settimanali (con Higgsfield)
+- Gestione community base
 - Supporto prioritario
 
-## La gestione tecnica: tu controlli, loro usano
+## La gestione tecnica delle API key
 
 Ogni cliente ha le sue API key.
-Tu le gestisci. Il cliente non ci tocca.
+Tu le gestisci. Loro non toccano nulla.
 
-Se il cliente paga: tutto funziona.
-Se non paga: il sistema si auto-sospende in 24 ore.
+Come funziona:
+1. Il cliente ti dà le chiavi delle sue piattaforme
+   (Facebook, Instagram, LinkedIn, Brevo)
+2. Tu le carichi nel profilo HERMES del cliente
+3. Il sistema le usa per pubblicare
+4. Il cliente non ha accesso alla configurazione tecnica
 
-Niente discussioni. Niente solleciti.
-Il sistema è on oppure è off.
+Questo è importante per due motivi:
+- **Sicurezza** — Il cliente non può rompere nulla
+- **Dipendenza** — Se il cliente vuole andarsene,
+  deve chiederti di disattivare il sistema
 
-Se il cliente rinnova: auto-resume immediato.
-I contenuti ripartono dal giorno dopo.
+## Auto-suspend: se non pagano, si fermano
 
-Questo lo gestisci con un semplice script sul Pi.
-Controlla lo stato del pagamento (Stripe).
-Se pagato: cron job attivi.
-Se non pagato: cron job sospesi.
+Il sistema controlla il pagamento ogni giorno.
+Se un cliente non ha pagato entro il giorno 5 del mese:
+- Giorno 1: reminder automatico via Telegram
+- Giorno 3: secondo reminder
+- Giorno 5: auto-suspend — il sistema si ferma
+- Giorno 15: avviso di cancellazione dati
 
-## I numeri che contano
+Se il cliente paga: auto-resume immediato.
+Zero intervento manuale.
 
-Ecco perché il modello abbonamento cambia tutto:
+Questo non è crudele. È sostenibile.
+Non puoi dare servizio gratis a chi non paga.
+
+## I numeri reali
+
+Ecco cosa significa il modello di abbonamento:
 
 **10 clienti a €29/mese = €290/mese ricorrenti**
-- Lavoro mensile: ~2 ore (supporto + monitoring)
-- Revenue annuo: €3.480
+€290 ogni mese. Senza vendere nulla di nuovo.
+Il sistema lavora. I clienti pagano.
 
 **50 clienti a €29/mese = €1.450/mese ricorrenti**
-- Lavoro mensile: ~5 ore
-- Revenue annuo: €17.400
+€17.400/anno. Da un sistema che gira su un Raspberry Pi.
 
-**100 clienti a €29/mese = €2.900/mese ricorrenti**
-- Lavoro mensile: ~8 ore (a questo punto assumi qualcuno)
-- Revenue annuo: €34.800
-
-Zero lavoro aggiuntivo per ogni nuovo cliente.
-Il Pi lavora per tutti allo stesso modo.
-Il costo marginale è zero.
+**100 clienti (mix piani) = €2.900/mese ricorrenti**
+€34.800/anno. Stesso Pi. Stesso sistema.
+Solo più profili.
 
 ## Dal Pi al VPS al SaaS
 
-La logica è sempre la stessa.
-Cambia solo la scala.
+La logica è sempre la stessa. Cambia la scala.
 
 **Pi (1-5 clienti):**
-- Hardware tuo. Costo zero aggiunto.
-- Gestito da te. Telegram come interfaccia.
+Un Pi, un HERMES, più profili.
+Costo: €10-16/mese.
+Semplice. Economico. Ideale per iniziare.
 
 **VPS (5-50 clienti):**
-- Server cloud. €9-39/mese.
-- Stessa identica configurazione.
-- Ansible lo installa in 15 minuti.
+Un server cloud Hetzner.
+Più potenza. Più affidabilità.
+Costo: €9-39/mese.
+Scalabile. Professionale.
 
 **SaaS (50+ clienti):**
-- Piattaforma self-service.
-- Il cliente si registra e paga da solo.
-- Zero intervento manuale.
+Un VPS per cliente (o condiviso).
+Provisioning automatico.
+Zero setup manuale.
+Costo: €9-79/mese per cliente.
+Margine: €20-70/mese per cliente.
 
-Stessa architettura. Stessi profili. Stessi cron job.
-Scala diversa.
+## Il concetto chiave
 
-## Il Piano Pro con Video
+Non vendere il setup. Vendi il servizio.
+Il setup è il costo di acquisizione.
+Il canone è la rendita.
 
-Quando aggiungi Higgsfield (video AI),
-il pricing sale e il valore percepito esplode.
-
-**Piano Pro Video: €59/mese per cliente**
-- 137 video Kling 3.0/mese
-- Unlimited Seedance 2.0
-- Unlimited immagini Flux.2 Pro
-
-**Break even: 2 clienti**
-2 x €59 = €118/mese. Meno di Higgsfield ($59).
-Da 3 clienti in su: tutto profitto.
-
-**Confronto:**
-- Agenzia copy + video: €3.000-5.000/mese
-- ORBIT Pro: €70/mese (Higgsfield + OpenRouter)
-- Risparmio annuo del cliente: fino a €59.160
+Un cliente che paga €29/mese per 24 mesi
+ti genera €696.
+Il setup di €97 è stato ripagato in 4 giorni.
 
 ## Takeaway
 
-Vendere una volta è un lavoro.
-Vendere ogni mese è un asset.
-Costruisci il modello abbonamento dall'inizio.
-€29/mese sembra poco. Moltiplicato per 100 clienti
-diventa €2.900/mese di rendita.
-Per sempre.
+Il Metodo ORBIT non è un prodotto che vendi una volta.
+È un servizio che vendi ogni mese.
+La rendita è il vero gioco.
 
 ## Azione
 
-Apri Stripe. Crea un prodotto "ORBIT Base — €29/mese".
-Crea il link di pagamento.
-Mandalo al tuo cliente NM più vicino.
-Quando il primo pagamento mensile arriva,
-capirai che hai costruito qualcosa di diverso.
-Hai costruito un asset.
+Se hai già un cliente attivo,
+proponi il canone mensile oggi.
+€29/mese. Setup incluso.
+Se dice sì, hai appena creato la tua prima rendita.
