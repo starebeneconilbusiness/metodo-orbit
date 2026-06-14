@@ -236,3 +236,29 @@ Domenica sera 21:00 → ORBIT-AUTHOR scrive il primo capitolo.
 Sviluppi paralleli aperti:
 - wiki-llm per progetto AVANT (Engineering SPA)
 - Profilo analyst-avant su WSL2 PC aziendale
+
+---
+
+### 2026-06-14 — Parte 1 del libro completa
+
+ORBIT-AUTHOR ha scritto i capitoli 01-08 della Parte 1:
+
+| Capitolo | Titolo | Righe |
+|----------|--------|-------|
+| cap01 | Il Paradosso del Network Marketer | ~90 |
+| cap02 | Perché le Agenzie Tradizionali Non Vanno Bene | ~85 |
+| cap03 | L'Era degli AI Agent | ~75 |
+| cap04 | I Tre Business che Gestisce il Sistema | ~70 |
+| cap05 | L'Architettura a Tre Livelli | ~80 |
+| cap06 | Il Daily Content Pack | ~85 |
+| cap07 | Il Funnel Senza Ads | ~95 |
+| cap08 | Scalare Senza Assumere | ~80 |
+
+Totale Parte 1: 8 capitoli, ~1.200 righe
+
+Struttura capitoli: hook → storia → sistema → risultato → takeaway → azione
+
+Prossimi capitoli da scrivere: cap11, cap13, cap14, cap15
+(cap09, 10, 12, 16, 17 già scritti)
+
+Capitoli totali finora: 13/17
