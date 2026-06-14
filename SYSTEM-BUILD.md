@@ -133,6 +133,35 @@ Regola ORBIT: aggiungi risultati, non complessità.
 
 ---
 
+### 2026-06-14 — Problema accesso remoto identificato
+
+Problema: Pi non raggiungibile via SSH da fuori LAN.
+Impatto: impossibile intervenire manualmente quando fuori casa.
+Soluzione scelta: Tailscale (VPN mesh, gratuito, 5 min setup).
+Alternatives valutate: Cloudflare Tunnel, NetBird/Wireguard.
+Motivo scelta Tailscale: semplicità assoluta, zero config router,
+funziona anche da mobile, gratuito fino a 3 dispositivi.
+Capitolo libro: cap12-accesso-remoto.md
+
+### 2026-06-14 — Model Routing
+
+Non tutti i task richiedono il modello migliore.
+Il segreto è usare il modello giusto per ogni job.
+
+- Task meccanici → modello economico
+- Copy marketing → modello creativo
+- Analisi B2B → modello ragionativo
+
+Questo si chiama model routing.
+ORBIT lo fa automaticamente.
+
+Implicazione libro: ogni profilo HERMES può avere
+un modello diverso assegnato. Il Daily Pack SNEP
+usa un modello creativo. Il budget check usa
+un modello economico. Zero spreco.
+
+---
+
 ### 2026-06-13 — Model Routing
 
 Principio chiave: non tutti i task richiedono il modello migliore.
