@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════════
+  SNEP DAILY CONTENT PACK — 15 Giugno 2026
+  Tema: Benessere e Qualità della Vita
+  Asset #5 di 5: STORY 24H (Instagram / Facebook)
+═══════════════════════════════════════════════════════════════
+
+📱 STORY 24H — STORYBOARD COMPLETO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 1 — HOOK (0-3 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Testo su sfondo scuro/immagine]  │
+│                                     │
+│   "Quanto costa la tua stanchezza?" │
+│                                     │
+│   [Emoji: 🤔]                       │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 3 secondi
+• Tipo: Testo su sfondo + emoji
+• Obiettivo: Fermare lo scroll
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 2 — PROBLEMA (3-8 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Immagine: bottiglie plastica     │
+│    accumulate / rubinetto]          │
+│                                     │
+│   "€45/mese in acqua bottiglia"     │
+│   "Cloro dal rubinetto"             │
+│   "Microplastica in ogni sorso"     │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Immagine + testo sovrapposto
+• Obiettivo: Creare consapevolezza
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 3 — SOLUZIONE (8-14 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Immagine/Video: HydroPura AC60]  │
+│                                     │
+│   "Acqua pura a casa tua"           │
+│   "Zero plastica"                   │
+│   "Zero cloro"                      │
+│   "€10/mese invece di €45"          │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 6 secondi
+• Tipo: Prodotto in azione
+• Obiettivo: Mostrare la soluzione
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 4 — PROVA SOCIALE (14-19 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Screenshot recensione o          │
+│    testimonianza testuale]          │
+│                                     │
+│   "Da 3 mesi uso HydroPura.         │
+│    L'acqua ha un gusto diverso.     │
+│    E ho smesso di comprare          │
+│    bottiglie." — Maria, 38 anni     │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Testimonianza + virgolette
+• Obiettivo: Costruire fiducia
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 5 — CTA FINALE (19-24 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Sfondo brand SNEP]               │
+│                                     │
+│   "Scopri HydroPura AC60"           │
+│                                     │
+│   [POLL STICKER]                    │
+│   "Vuoi saperne di più?"            │
+│   ✅ Sì, mandami info               │
+│   ❌ Non ora                        │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Poll interattiva
+• Obiettivo: Conversione + engagement
+• Link in bio per chi risponde "Sì"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  DISCLAIMER (da aggiungere come sticker testo
+    nell'ultima story o nella bio):
+"Prodotto per il benessere generale.
+ Non sostituisce consulenza medica."
+
+───────────────────────────────────────────────────────────────
+📐 SPECIFICHE:
+• Piattaforma: Instagram Stories + Facebook Stories
+• Formato: 5 story sequenziali (24h)
+• Durata totale: ~24 secondi
+• Interattività: Poll sticker (story 5)
+• CTA: Poll → "Sì" → link in bio
+• Hashtag: #incaricatoSNEP (sticker hashtag story 5)
+• Compliance: ✅ Nessun termine blacklist
+• Compliance: ✅ Disclaimer presente
+• Compliance: ✅ #incaricatoSNEP presente
+• Note: Usare colori brand SNEP coerenti

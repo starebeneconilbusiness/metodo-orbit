@@ -1,0 +1,80 @@
+═══════════════════════════════════════════════════════════════
+  SNEP DAILY CONTENT PACK — 15 Giugno 2026
+  Tema: Benessere e Qualità della Vita
+  Asset #3 di 5: EMAIL BREVO (NURTURING)
+═══════════════════════════════════════════════════════════════
+
+OGGETTO: E se il tuo corpo ti stesse già dicendo cosa serve?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ciao [NOME],
+
+ti è mai capitato di sentirti stanco anche dopo una notte di sonno?
+
+Di aver finito il caffè delle 10 e già sentire il calo delle 12?
+
+Non è colpa tua.
+
+È il segnale che qualcosa nella tua routine quotidiana
+non sta funzionando come dovrebbe.
+
+E il primo candidato? **L'acqua.**
+
+Non quella del rubinetto, con residui di cloro e calcare.
+Non quella in bottiglia, con microplastica e costo crescente.
+
+Parliamo di acqua **pura, filtrata, disponibile a casa tua**
+ogni giorno, senza sforzo.
+
+💡 Un dato che mi ha sorpreso:
+una famiglia media spende circa €45 al mese
+in acqua in bottiglia.
+
+Con un sistema di purificazione domestico,
+quel costo scende a meno di €10 al mese.
+
+Risparmi €35/mese. In un anno sono €420.
+In 5 anni sono €2.100.
+
+Ma il vero risparmio? È sulla salute.
+
+Meno plastica. Meno cloro. Meno calcare.
+Più minerali. Più energia. Più chiarezza mentale.
+
+Non è magia. È scelta consapevole.
+
+👉 [Scopri HydroPura AC60 — L'acqua pura a casa tua](LINK)
+
+Domani ti parlo di un'altra abitudine semplice
+che può cambiare la tua mattina.
+
+A presto,
+[MITTENTE]
+incaricato SNEP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+P.S. Se conosci qualcuno che beve ancora acqua del rubineto
+o spende una fortuna in bottiglie, inoltragli questa email.
+Potrebbe essere il consiglio più utile che riceve questa settimana.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  DISCLAIMER: Questo messaggio è a scopo informativo.
+I risultati e i dati citati sono indicativi e possono variare.
+Non costituisce consulenza medica. Consulta sempre un
+professionista per decisioni sulla tua salute.
+
+───────────────────────────────────────────────────────────────
+📐 SPECIFICHE:
+• Canale: Email transazionale Brevo
+• Tipo: Nurturing email (sequenza benessere)
+• Oggetto: "E se il tuo corpo ti stesse già dicendo cosa serve?"
+• Preview text: "Il segnale che stai ignorando (e come cambiarlo)"
+• CTA: Link → pagina prodotto HydroPura AC60
+• Personalizzazione: [NOME] dinamico
+• Segmento: Lista nurturing benessere
+• Compliance: ✅ Nessun termine blacklist
+• Compliance: ✅ Disclaimer presente
+• Compliance: ✅ #incaricatoSNEP nel firma

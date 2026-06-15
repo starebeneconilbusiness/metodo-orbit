@@ -1,0 +1,15 @@
+# Budget Report - 2026-06
+# Generated: 2026-06-14 23:00 CEST
+
+## 2026-06-14
+- Provider: OpenRouter (owl-alpha)
+- LiteLLM proxy: not running locally (using OpenRouter directly)
+- OpenRouter daily limit: $2.00
+- OpenRouter limit remaining: $2.00
+- Usage today: ~$0.00
+- Alert threshold: $1.20
+- Status: OK (under threshold)
+- Notes: OpenRouter auth/key endpoint reports usage=0 and usage_daily=0.
+  This likely means the billing counter resets at midnight UTC or the
+  usage field only tracks BYOK usage. Actual spend is inferred as
+  limit - limit_remaining = $0.00 out of $2.00 daily cap.
