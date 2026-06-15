@@ -1,0 +1,24 @@
+model:
+  default: openrouter/owl-alpha
+  provider: openrouter
+
+mcp_servers:
+  - n8n-mcp
+  - brevo-mcp
+
+tools:
+  web_search:
+    enabled: true
+  file_read:
+    enabled: true
+  file_write:
+    enabled: true
+  code_execution:
+    enabled: false
+  delegation:
+    enabled: false
+
+# SNEP Scout — Agente multilingua per prospezione 18 paesi
+# Focus: salute, benessere, cura della persona
+# Piattaforme: LinkedIn, Facebook
+# Lingue: IT, DE, RO, ES, FR, EN, AL, BG, SK, PL, RS, PT, DA, EL, HU, RU
