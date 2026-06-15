@@ -1,5 +1,23 @@
 # SYSTEM-BUILD.md — Log giornaliero del sistema ORBIT
 
+## 2026-06-15
+
+### SIA Self-Improving AI integrato
+
+Installato sia-agent sul sistema.
+Creato primo task custom: copywriter-snep.
+Verifier misura 5 criteri di qualità SNEP.
+
+Loop settimanale pianificato:
+Ogni domenica notte SIA fa 3 generazioni
+su Copywriter-SNEP e aggiorna il SOUL.md
+con la versione migliorata.
+
+Impatto atteso: approval rate dal 60% al 85%+
+entro 4 settimane senza intervento umano.
+
+Feature Agentika ORBIT SELF-IMPROVING: €299/mese
+
 ## 2026-06-14
 
 **Cosa ha fatto il sistema oggi:**
