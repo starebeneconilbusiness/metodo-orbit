@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════
+  SNEP DAILY CONTENT PACK — 16 Giugno 2026
+  Tema: Benessere e Qualità della Vita
+  Asset #4 di 5: SCRIPT WHATSAPP BROADCAST
+═══════════════════════════════════════════════════════════════
+
+📱 WHATSAPP BROADCAST — SCRIPT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Messaggio 1 (Apertura):
+Ciao [NOME] 👋
+Ti scrivo 2 minuti, ok?
+
+Messaggio 2 (Hook):
+Domanda: ti svegli stanco la mattina?
+Anche dopo 7-8 ore di sonno?
+Se sì → continua a leggere 👇
+
+Messaggio 3 (Problema):
+Il problema non è QUANTO dormi.
+È la QUALITÀ dell'aria che respiri la notte.
+Stanza chiusa + aria viziata + temperatura sbagliata
+= sonno leggero = stanchezza al risveglio.
+
+Messaggio 4 (Soluzione):
+Esistono sistemi che regolano temperatura,
+umidità e qualità dell'aria in automatico.
+Zero sforzo. Solo notti migliori.
+Si chiama HydroPura Air.
+
+Messaggio 5 (CTA):
+Ti mando un video di 60 secondi che ti spiega tutto.
+Vuoi vederlo? Rispondi "SONNO" 😴
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 SEQUENZA FOLLOW-UP (se risponde SONNO):
+
+→ Inviare video prodotto HydroPura Air (60 sec)
+→ Attendere 24h
+→ Messaggio follow-up:
+  "Hai visto il video? Ti posso fare una consulenza
+   gratuita sulla tua stanza. 15 minuti, zero impegno.
+   Ti va? Rispondi SI ✅"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  DISCLAIMER (da includere nel link/video):
+Questo prodotto non è un dispositivo medico.
+I risultati possono variare. Consulta un professionista
+per consigli sulla tua salute.
+
+───────────────────────────────────────────────────────────────
+📐 SPECIFICHE:
+• Canale: WhatsApp Broadcast (non gruppo)
+• Formato: 5 messaggi sequenziali + follow-up
+• CTA: "SONNO" → risposta → invio video prodotto
+• Target: Lista contatti SNEP (opt-in)
+• Frequenza: 1 broadcast/settimana max
+• Compliance: ✅ Nessun termine blacklist
+• Compliance: ✅ Disclaimer nel contenuto/video
+• Compliance: ✅ Opt-in rispettato (broadcast, non spam)
+• Nota: Inviare solo a contatti che hanno dato consenso

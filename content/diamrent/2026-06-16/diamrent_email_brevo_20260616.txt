@@ -1,0 +1,180 @@
+# DIAMANTE RENT — EMAIL BREVO NURTURING WEBINAR
+# Data: 2026-06-16 | Focus: Sequenza iscrizione webinar
+# Canale: Email (Brevo/transactional)
+# Profilo: copywriter-diamrent
+
+---
+
+## EMAIL 1 — IMMEDIATA POST-ISCRIZIONE (Benvenuto + Conferma)
+
+**Trigger:** Iscrizione al webinar
+**Oggetto:** ✅ Sei dentro! Ecco cosa ti aspettava (+ un regalo)
+**Preview text:** Il webinar è il [DATA]. Preparati a rivedere tutto sui costi della tua auto.
+
+---
+
+### CORPO EMAIL
+
+Ciao {{contact.first_name|amico/a}},
+
+benvenuto/a! 🎉
+
+Ti sei appena iscritto/a al nostro webinar gratuito su come ridurre i costi della tua auto — e probabilmente ti sei detto/a "vediamo se vale la pena."
+
+**Te lo dico io: vale.**
+
+Ecco cosa vedrai nel webinar:
+
+📊 **Il vero costo della tua auto** — non quello che ti dicono i concessionari
+🔄 **Cos'è il noleggio "second life"** — e perché non è leasing
+💰 **Confronto numeri reali** — auto tradizionale vs noleggio, euro per euro
+🛡️ **Manutenzione e assicurazione incluse** — cosa significa davvero "zero pensieri"
+❓ **Q&A dal vivo** — porta le tue domande, risposte concrete
+
+📅 **Quando:** [DATA WEBINAR] alle [ORARIO]
+⏱️ **Durata:** 45 minuti + 15 minuti Q&A
+📍 **Dove:** Online — link Zoom che riceverai il giorno prima
+
+**Il regalo:** chi partecipa al webinar riceve gratuitamente la nostra "Checklist Costi Auto" — un tool pratico per calcolare in 5 minuti quanto spendi davvero.
+
+Niente spam. Niente vendita aggressiva. Solo numeri e opzioni.
+
+A presto,
+**Il team Diamante Rent**
+
+P.S. — I posti sono limitati per garantire qualità alle Q&A. Se conosci qualcuno che paga troppo per la sua auto, inoltra questo link: [LINK ISCRIZIONE WEBINAR]
+
+---
+
+## EMAIL 2 — REMINDER 3 GIORI PRIMA
+
+**Trigger:** 3 giorni prima del webinar
+**Oggetto:** 🚨 Posti in esaurimento — il webinar è tra 3 giorni
+**Preview text:** Solo [N] posti rimasti. Non perdere la chance di capire come risparmiare sulla tua auto.
+
+---
+
+### CORPO EMAIL
+
+Ciao {{contact.first_name|amico/a}},
+
+il webinar di Diamante Rent è tra **3 giorni**.
+
+📅 [DATA] alle [ORARIO]
+
+Al momento ci sono ancora **[N] posti disponibili** — ma stiamo avvicinando al limite.
+
+Ricapitolando cosa vedrai:
+
+✅ Il vero costo della tua auto (spoiler: è più alto di quanto pensi)
+✅ Come funziona il noleggio "second life" — zero anticipo, zero pensieri
+✅ Confronto numeri reali — euro per euro
+✅ Checklist Costi Auto in omaggio per tutti i partecipanti
+
+👉 **Conferma la tua partecipazione:** [LINK ZOOM / AREA RISERVATA]
+
+Ti aspettiamo,
+**Il team Diamante Rent**
+
+---
+
+## EMAIL 3 — ULTIMO PROMEMORIA (Giorno prima)
+
+**Trigger:** 1 giorno prima del webinar
+**Oggetto:** ⏰ Domani è il giorno — ecco il tuo link di accesso
+**Preview text:** Webinar domani alle [ORARIO]. Salva il link, ti servirà.
+
+---
+
+### CORPO EMAIL
+
+Ciao {{contact.first_name|amico/a}},
+
+**domani è il giorno.**
+
+📅 Domani [DATA] alle [ORARIO]
+📍 Link Zoom: [LINK ZOOM]
+
+Preparati una domanda — la sessione Q&A dal vivo è la parte che i partecipanti apprezzano di più.
+
+E ricorda: tutti i partecipanti ricevono gratuitamente la **Checklist Costi Auto**.
+
+Ci vediamo domani,
+**Il team Diamante Rent**
+
+P.S. — Aggiungi al calendario: [LINK CALENDARIO]
+
+---
+
+## EMAIL 4 — GIORNO STESSO (Mattina)
+
+**Trigger:** Mattina del webinar
+**Oggetto:** 🔴 Oggi alle [ORARIO] — il tuo posto è confermato
+**Preview text:** Mancano poche ore. Ecco tutto ciò che ti serve per partecipare.
+
+---
+
+### CORPO EMAIL
+
+Ciao {{contact.first_name|amico/a}},
+
+**Oggi è il giorno del webinar Diamante Rent.**
+
+Ecco tutto ciò che ti serve:
+
+📅 Oggi [DATA] alle [ORARIO]
+🔗 Link Zoom: [LINK ZOOM]
+⏱️ Durata: 45 min + Q&A 15 min
+🎁 Omaggio: Checklist Costi Auto (la ricevi dopo il webinar)
+
+Vediamo insieme come ridurre i costi della tua auto — con numeri reali e zero fuffa.
+
+A stasera,
+**Il team Diamante Rent**
+
+---
+
+## EMAIL 5 — POST WEBINAR (Follow-up)
+
+**Trigger:** Giorno dopo il webinar (solo chi ha partecipato)
+**Oggetto:** Grazie! Ecco la Checklist promessa (+ prossimi passi)
+**Preview text:** La Checklist Costi Auto è pronta. E se vuoi approfondire, abbiamo qualcos'altro per te.
+
+---
+
+### CORPO EMAIL
+
+Ciao {{contact.first_name|amico/a}},
+
+grazie per aver partecipato al webinar di ieri! 🙏
+
+Come promesso, ecco la tua **Checklist Costi Auto** gratuita:
+[LINK CHECKLIST]
+
+Se hai domande che non sono riuscito a rispondere durante il Q&A, rispondi pure a questa email — leggo e rispondo personalmente.
+
+E se dopo il webinar ti è venuta voglia di capire come funziona il noleggio "second life" per la tua situazione specifica, prenotiamo una call di 15 minuti senza impegno:
+[LINK PRENOTA CALL]
+
+A presto,
+**Il team Diamante Rent**
+
+---
+
+### NOTE TECNICHE BREVO
+
+**Template:** Usa template transazionale (non marketing) per deliverability
+**Sender:** info@diamanterent.it (o il dominio configurato)
+**Reply-to:** info@diamanterent.it
+**Tracking:** UTM su tutti i link — `?utm_source=brevo&utm_medium=email&utm_campaign=webinar_20260616`
+**Frequenza:** 5 email totali — niente follow-up aggiuntivi senza azione dell'utente
+**Unsubscribe:** Obbligatorio — link nel footer
+**Segmentazione:** Lista contatti che si sono iscritti al webinar
+
+### COMPLIANCE CHECK
+✅ Nessuna promessa di guadagno
+✅ "Webinar gratuito" — niente vendita diretta nelle email
+✅ Unsubscribe link presente
+✅ Dati personali: solo first_name, nessun dato sensibile
+✅ Ton coerente: pratico, diretto, zero fuffa
+✅ Follow-up post-webinar solo per partecipanti effettivi

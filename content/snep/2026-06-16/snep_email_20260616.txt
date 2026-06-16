@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════════
+  SNEP DAILY CONTENT PACK — 16 Giugno 2026
+  Tema: Benessere e Qualità della Vita
+  Asset #3 di 5: EMAIL BREVO (NURTURING)
+═══════════════════════════════════════════════════════════════
+
+OGGETTO: Perché ti svegli stanco (anche dopo 8 ore)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ciao [NOME],
+
+ti faccio una domanda semplice:
+
+quante ore dormi a notte?
+
+Se la risposta è "7, 8, più" — complimenti.
+Hai risolto la QUANTITÀ.
+
+Ma c'è un problema che nessuno ti ha mai spiegato:
+la QUITÀ del sonno non dipende solo dalle ore.
+
+Dipende da cosa succede nel tuo corpo mentre dormi.
+
+E cosa succede dipende da dove dormi.
+
+🌡️ La temperatura della tua stanza è sopra i 22°C?
+Il tuo corpo non riesce a raffreddarsi.
+Risultato: sonno leggero, risvegli notturni,
+svegliare stanchi.
+
+💨 L'aria è ferma, viziata, piena di CO2?
+Il tuo cervello non si ossigena bene.
+Risultato: mattina annebbiata, concentrazione a terra.
+
+💧 L'umidità è troppo bassa (sotto il 40%)?
+Gola arida, pelle secca, tosse notturna.
+Risultato: dormi ma non riposi.
+
+Non è teoria. È fisiologia.
+
+E la soluzione non è costosa.
+Non serve ristrutturare la camera.
+
+Serve capire quali parametri contano
+e come controllarli con gli strumenti giusti.
+
+Un ambiente di sano riposo si costruisce
+con piccole regole, applicate ogni sera.
+
+👉 [Scopri come ottimizzare la tua stanza per il riposo](LINK)
+
+Domani ti parlo di un'abitudine serale
+che può cambiare la tua mattina.
+
+A presto,
+[MITTENTE]
+incaricato SNEP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+P.S. Se conosci qualcuno che dice sempre
+"dormo ma non riposo", inoltragli questa email.
+Potrebbe essere la risposta che cerca.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  DISCLAIMER: Questo messaggio è a scopo informativo.
+I risultati e i dati citati sono indicativi e possono variare.
+Non costituisce consulenza medica. Consulta sempre un
+professionista per decisioni sulla tua salute.
+
+───────────────────────────────────────────────────────────────
+📐 SPECIFICHE:
+• Canale: Email transazionale Brevo
+• Tipo: Nurturing email (sequenza benessere)
+• Oggetto: "Perché ti svegli stanco (anche dopo 8 ore)"
+• Preview text: "Il parametro che nessuno controlla (e come cambiarlo)"
+• CTA: Link → pagina prodotto benessere ambientale
+• Personalizzazione: [NOME] dinamico
+• Segmento: Lista nurturing benessere
+• Compliance: ✅ Nessun termine blacklist
+• Compliance: ✅ Disclaimer presente
+• Compliance: ✅ #incaricatoSNEP nel firma

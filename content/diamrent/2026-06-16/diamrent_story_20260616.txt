@@ -1,0 +1,152 @@
+# DIAMANTE RENT — STORY 24H
+# Data: 2026-06-16 | Focus: Iscrizioni Webinar
+# Piattaforma: Instagram Stories + Facebook Stories
+# Profilo: copywriter-diamrent
+
+---
+
+## STORY SEQUENCE — "Quanto costa la tua auto?"
+
+**Formato:** 8 story sequenza, 24h
+**Tono:** Informale, diretto, swipe-up / link sticker
+**CTA finale:** Iscrizione webinar
+
+---
+
+### STORY 1 — Hook (Mattina, 09:00-10:00)
+
+**Visual:** Sfondo scuro, testo bianco, font bold
+**Testo on-screen:**
+> "La tua auto ti costa più di quanto pensi."
+
+**Audio:** Musica trending soft (o silenzio)
+**Elemento interattivo:** Nessuno — story di apertura
+**Durata:** 5 secondi
+
+---
+
+### STORY 2 — Problema (Mattina, 09:00-10:00)
+
+**Visual:** Lista animata con icone
+**Testo on-screen:**
+> "Costi nascosti della tua auto:
+> 🔧 Manutenzione: €80-150/mese
+> 🛡️ Assicurazione: €60-120/mese
+> ⛽ Carburante: €100-200/mese
+> 📉 Deprezzamento: €150-300/mese"
+
+**Elemento interattivo:** Poll — "Sapevi di questi costi? 😱 / No way!"
+**Durata:** 10 secondi
+
+---
+
+### STORY 3 — Soluzione teaser (Mattina, 09:00-10:00)
+
+**Visual:** Foto auto "second life" (auto usata in ottime condizioni)
+**Testo on-screen:**
+> "E se ti dicessimo che puoi avere un'auto affidabile con manutenzione E assicurazione incluse per meno di €200/mese?"
+
+**Elemento interattivo:** Slider emoji — "Quanto ne pensi? 🤔➡️😱"
+**Durata:** 7 secondi
+
+---
+
+### STORY 4 — Social Proof (Pomeriggio, 14:00-15:00)
+
+**Visual:** Screenshot testimonianza (anonimizzata) o dato statistico
+**Testo on-screen:**
+> "Già 200+ persone si sono iscritte al nostro webinar gratuito per scoprire come funziona il noleggio 'second life'."
+
+**Elemento interattivo:** Quiz — "Il noleggio second life è: A) Come il leasing B) Qualcosa di diverso C) Non lo so"
+**Risposta corretta:** B
+**Durata:** 8 secondi
+
+---
+
+### STORY 5 — Urgency (Pomeriggio, 17:00-18:00)
+
+**Visual:** Countdown sticker + testo urgente
+**Testo on-screen:**
+> "⚠️ Posti limitati per il webinar di [DATA]
+> Mancano ancora [N] posti"
+
+**Elemento interattivo:** Countdown sticker (data webinar)
+**Durata:** 5 secondi
+
+---
+
+### STORY 6 — CTA Finale (Sera, 19:00-20:00)
+
+**Visual:** Flyer webinar con data, orario, CTA chiaro
+**Testo on-screen:**
+> "📅 [DATA] alle [ORARIO]
+> 🎁 + Checklist Costi Auto GRATUITA
+> 👉 Scrivi 'AUTO' in DM e ti mando il link!"
+
+**Elemento interattivo:** Link sticker → [LINK ISCRIZIONE WEBINAR]
+**Alternativa:** "Scrivi AUTO" → risposta automatica con link
+**Durata:** 10 secondi
+
+---
+
+### STORY 7 — Behind the Scenes (Bonus, sera)
+
+**Visual:** Video breve (10-15 sec) del team o dell'auto
+**Testo on-screen:**
+> "Lavoriamo ogni giorno per rendere il noleggio semplice. Zero pensieri. 🚗✨"
+
+**Elemento interattivo:** Domanda libera — "Qual è il tuo problema nr.1 con l'auto?"
+**Durata:** 15 secondi
+
+---
+
+### STORY 8 — Ultimo reminder (Giorno dopo, mattina)
+
+**Visual:** Testo su sfondo colorato
+**Testo on-screen:**
+> "Ultima chance! 🚨
+> Webinar OGGI alle [ORARIO]
+> Iscriviti ora 👇"
+
+**Elemento interattivo:** Link sticker → [LINK ISCRIZIONE WEBINAR]
+**Durata:** 5 secondi
+
+---
+
+### NOTE PRODUZIONE
+
+**Strumenti consigliati:**
+- Canva (template story Instagram 1080x1920)
+- CapCut (per animazioni testo)
+- InShot (per editing video breve)
+
+**Design guidelines:**
+- Font leggibili, grandi, contrasto alto
+- Max 7 parole per riga
+- Colori brand Diamante Rent (se definiti) o palette: blu scuro + bianco + arancione CTA
+- Ogni story max 15 secondi
+
+**Interattività:**
+- Poll, Quiz, Slider, Countdown, Link Sticker, Domanda libera
+- Almeno 1 elemento interattivo ogni 2 story
+- Obiettivo: aumentare engagement → algoritmo spinge le story
+
+**Orari di pubblicazione:**
+- Story 1-3: 09:00-10:00 (mattina)
+- Story 4: 14:00-15:00 (pomeriggio)
+- Story 5: 17:00-18:00 (fine lavoro)
+- Story 6-7: 19:00-20:00 (sera, peak)
+- Story 8: Giorno dopo mattina (reminder)
+
+**Metriche da tracciare:**
+- View rate (quante persone vedono la prima story)
+- Completion rate (quante arrivano all'ultima)
+- Tap forward / Tap back
+- Link clicks
+- DM ricevuti con keyword "AUTO"
+
+### COMPLIANCE CHECK
+✅ Nessuna promessa di guadagno
+✅ Urgency reale (posti limitati) — non falsa
+✅ Contenuto informativo, non vendita diretta
+✅ Interattività rispetta le linee guida Instagram/Facebook

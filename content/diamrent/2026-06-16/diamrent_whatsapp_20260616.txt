@@ -1,0 +1,135 @@
+# DIAMANTE RENT — SCRIPT WHATSAPP BROADCAST
+# Data: 2026-06-16 | Focus: Iscrizioni Webinar
+# Canale: WhatsApp Broadcast (lista contatti opt-in)
+# Profilo: copywriter-diamrent
+
+---
+
+## WHATSAPP BROADCAST 1 — Annuncio Webinar (Invio: 5-7 giorni prima)
+
+**Formato:** Messaggio testo + immagine (flyer webinar)
+**Destinatari:** Lista broadcast contatti opt-in
+**Orario invio consigliato:** 18:00-19:00 (dopo lavoro, alto engagement)
+
+---
+
+### MESSAGGIO
+
+Ciao! 👋
+
+Ti scrivo perché abbiamo qualcosa di interessante per chi ha un'auto (e la paga).
+
+Stiamo facendo un *webinar gratuito* su come ridurre i costi della tua auto — parliamo di numeri reali, non di teorie.
+
+📅 [DATA] alle [ORARIO]
+⏱️ 45 minuti + domande
+📍 Online, da telefono o PC
+
+Niente vendita. Solo info utili + una checklist gratuita per calcolare quanto spendi davvero.
+
+Ti interessa? Iscriviti qui 👇
+[LINK ISCRIZIONE WEBINAR]
+
+Se non ti interessa nessun problema, ignora pure questo messaggio. Niente spam, promesso 😉
+
+---
+
+## WHATSAPP BROADCAST 2 — Urgency Reminder (3 giorni prima)
+
+**Formato:** Messaggio testo breve
+**Orario invio consigliato:** 12:00-13:00
+
+---
+
+### MESSAGGIO
+
+Ciao! 👋
+
+Ricorda: il webinar Diamante Rent è tra 3 giorni.
+
+📅 [DATA] alle [ORARIO]
+⏱️ 45 minuti, gratuito
+🎁 + Checklist Costi Auto in omaggio
+
+Posti limitati — se non ti sei ancora iscritto:
+[LINK ISCRIZIONE WEBINAR]
+
+A presto! 🚗
+
+---
+
+## WHATSAPP BROADCAST 3 — Ultimo giorno (Mattina)
+
+**Formato:** Messaggio testo + link diretto Zoom
+**Orario invio consigliato:** 10:00-11:00
+
+---
+
+### MESSAGGIO
+
+Ciao! 👋
+
+*È oggi!* 🎉
+
+Il webinar Diamante Rent è stasera alle [ORARIO].
+
+Ecco il link per entrare:
+[LINK ZOOM]
+
+45 min + Q&A. Preparati una domanda!
+
+Ti aspettiamo! 🚗💨
+
+---
+
+## WHATSAPP BROADCAST 4 — Post Webinar (Follow-up)
+
+**Formato:** Messaggio testo + link registrazione + CTA noleggio
+**Orario invio:** Giorno dopo il webinar, 10:00-11:00
+
+---
+
+### MESSAGGIO
+
+Ciao! 👋
+
+Grazie per aver partecipato al webinar di ieri! 🙏
+
+Se ti sei perso qualcosa o vuoi rivederlo, ecco la registrazione:
+[LINK REGISTRAZIONE]
+
+E la promessa è mantenuta — ecco la Checklist Costi Auto gratuita:
+[LINK CHECKLIST]
+
+Se vuoi approfondire come funziona il noleggio "second life" per la tua situazione, prenotiamo una call di 15 minuti senza impegno:
+[LINK PRENOTA CALL]
+
+A presto! 🚗
+
+---
+
+### NOTE OPERATIVE
+
+**Formato broadcast (NON gruppo):**
+- Usa le Liste di Diffusione WhatsApp Business
+- Max 256 contatti per lista
+- I destinatari NON vedono chi altro ha ricevuto il messaggio
+- Richiede che i contatti abbiano salvato il tuo numero (opt-in)
+
+**Frequenza:** Max 1 messaggio ogni 2-3 giorni
+**Tono:** Informale ma professionale — come un messaggio di un amico che sa di cosa parla
+**Emoji:** Usa con moderazione (1-3 per messaggio max)
+**Link:** Sempre con URL shortener (bit.ly o simile) per tracking click
+
+**⚠️ ATTENZIONE:**
+- WhatsApp Business API ha regole anti-spam rigorose
+- Non inviare a contatti che non hanno dato consenso esplicito
+- Includi sempre modo per rifiutare ("ignora questo messaggio")
+- Non usare numeri personali per broadcast su larga scala
+
+### COMPLIANCE CHECK
+✅ Opt-in richiesto (lista contatti che hanno acconsentito)
+✅ Messaggi brevi e pertinenti
+✅ Nessuna pressione commerciale aggressiva
+✅ Opzione di opt-out implicita ("ignora questo messaggio")
+✅ Contenuto informativo, non vendita diretta

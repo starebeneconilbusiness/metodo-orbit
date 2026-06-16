@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════════
+  SNEP DAILY CONTENT PACK — 16 Giugno 2026
+  Tema: Benessere e Qualità della Vita
+  Asset #5 di 5: STORY 24H (Instagram / Facebook)
+═══════════════════════════════════════════════════════════════
+
+📱 STORY 24H — STORYBOARD COMPLETO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 1 — HOOK (0-3 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Testo su sfondo scuro/immagine]  │
+│                                     │
+│   "Dormi 8 ore. Ti svegli stanco.   │
+│    Suona familiare?"                │
+│                                     │
+│   [Emoji: 😴]                       │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 3 secondi
+• Tipo: Testo su sfondo + emoji
+• Obiettivo: Fermare lo scroll
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 2 — PROBLEMA (3-8 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Immagine: persona che si sveglia │
+│    stanca / sveglio che suona]      │
+│                                     │
+│   "Il problema non sono le ore.     │
+│    È l'aria che respiri la notte."  │
+│                                     │
+│   "Stanza chiusa = aria viziata"    │
+│   "Temp. troppo alta = sonno leggero"│
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Immagine + testo sovrapposto
+• Obiettivo: Creare consapevolezza
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 3 — SOLUZIONE (8-14 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Immagine/Video: HydroPura Air]   │
+│                                     │
+│   "Temperatura giusta ✅"           │
+│   "Aria pulita ✅"                  │
+│   "Umidità perfetta ✅"             │
+│                                     │
+│   "Sonno profondo.                  │
+│    Risveglio vero."                 │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 6 secondi
+• Tipo: Prodotto in azione
+• Obiettivo: Mostrare la soluzione
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 4 — PROVA SOCIALE (14-19 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Screenshot recensione o          │
+│    testimonianza testuale]          │
+│                                     │
+│   "Da 2 settimane uso HydroPura.    │
+│    Mi sveglio davvero riposata.     │
+│    Non torno indietro."             │
+│    — Laura, 42 anni                 │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Testimonianza + virgolette
+• Obiettivo: Costruire fiducia
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STORY 5 — CTA FINALE (19-24 sec)
+┌─────────────────────────────────────┐
+│                                     │
+│   [Sfondo brand SNEP]               │
+│                                     │
+│   "Scopri HydroPura Air"            │
+│                                     │
+│   [POLL STICKER]                    │
+│   "Ti svegli stanco?"               │
+│   😴 Sì, sempre                     │
+│   😊 No, dormo bene                 │
+│                                     │
+└─────────────────────────────────────┘
+• Durata: 5 secondi
+• Tipo: Poll interattiva
+• Obiettivo: Conversione + engagement
+• Link in bio per chi risponde "Sì"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  DISCLAIMER (da aggiungere come sticker testo
+    nell'ultima story o nella bio):
+"Prodotto per il benessere generale.
+ Non sostituisce consulenza medica."
+
+───────────────────────────────────────────────────────────────
+📐 SPECIFICHE:
+• Piattaforma: Instagram Stories + Facebook Stories
+• Formato: 5 story sequenziali (24h)
+• Durata totale: ~24 secondi
+• Interattività: Poll sticker (story 5)
+• CTA: Poll → "Sì" → link in bio
+• Hashtag: #incaricatoSNEP (sticker hashtag story 5)
+• Compliance: ✅ Nessun termine blacklist
+• Compliance: ✅ Disclaimer presente
+• Compliance: ✅ #incaricatoSNEP presente
+• Note: Usare colori brand SNEP coerenti
