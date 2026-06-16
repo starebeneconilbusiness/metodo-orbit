@@ -87,9 +87,50 @@ e poi in Europa.
 Tutto è partito da €108 di hardware
 e un'idea chiara.
 
+## L'ultimo livello: etica e sovranità
+
+C'è un livello che non si vende ma si dimostra.
+Il livello **etico**.
+
+Il professor Salvatore Orlando ha detto una cosa importante:
+> "Oggi, senza l'industria del digitale, non si fanno le guerre.
+> Chi ce l'ha vince le guerre, chi non ce l'ha le perde."
+
+La tecnologia non è neutrale.
+Chi la controlla, controlla il potere.
+Chi non la controlla, viene controllato.
+
+Per questo il Metodo ORBIT è **open**.
+Perché il controllo deve restare a chi lavora.
+Non a un algoritmo privato.
+Non a un'azienda americana.
+Non a un servizio cloud che può cambiare prezzo domani.
+
+**Sovranità digitale** significa:
+- Il tuo Pi gira nella tua casa
+- I tuoi dati restano nei tuoi server
+- Le tue regole le scrivi tu
+- La tua intelligenza non viene venduta
+
+Luciano Lamberti ha messo in guardia
+dal parallelo tra criptovalute e IA:
+entrambe causano perdita di sovranità
+da parte degli Stati a favore di algoritmi privati,
+in un contesto di "anarchia normativa" globale.
+
+Tu puoi scegliere di essere autonomo.
+Pi dentro casa tua.
+Dati sotto il tuo controllo.
+Agent che lavorano per te, non per una piattaforma.
+
+Questo non è tecnofobia.
+È **coscienza**.
+E il Metodo ORBIT è costruito su questa coscienza.
+
 ## Takeaway
 Non vendere strumenti. Costruisci ecosistemi.
 Gli strumenti si copiano. Gli ecosistemi no.
+E l'ecosistema più forte è quello che non dipende da nessuno.
 
 ## Azione
 Disegna su un foglio i sette livelli.

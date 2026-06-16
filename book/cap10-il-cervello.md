@@ -91,10 +91,46 @@ mentre era in vacanza.
 
 Questo è il Metodo ORBIT.
 
+## Lo stress d'automazione: il rischio nessuno ti dice
+
+C'è un effetto collaterale della tecnologia che spesso si ignora:
+lo **stress d'automazione**.
+
+Claudio Quattrociocchi, organizzatore del convegno CISL sull'IA,
+lo descrive così:
+> "Il lavoratore si sente un ingranaggio difettoso in un meccanismo perfetto."
+
+Quando l'agente fa tutto — e lo fa bene, velocemente —
+l'umano al suo fianco può sentirsi inutile.
+Non perché lo sia, ma perché il confronto con la macchina
+è umiliante.
+
+Il rischio è la **delega cieca**:
+smetti di pensare perché la macchina pensa al posto tuo.
+Smetti di verificare perché "l'IA non sbaglia mai".
+Smetti di imparare perché tanto c'è lei.
+
+Ma l'IA sbaglia. Lo abbiamo visto nel capitolo precedente.
+E l'output che produce non è vero perché linguisticamente perfetto.
+
+Quindi la regola d'oro è:
+> **"L'IA genera valore quando libera tempo e intelligenza per attività a maggior contenuto umano. Diviene strumento di ingiustizia quando si limita a spremere efficienza, prosciugando il senso del lavorare."**
+> — Claudio Quattrociocchi
+
+Il tuo agente ORBIT non è qui per sostituire la tua intelligenza.
+È qui per **liberarla**.
+Per toglierti il pesce dalle mani e restituirti il tempo
+di pescare dove conta davvero.
+
+Ma solo se tu mantieni il ruolo di validatore.
+Solo se non cadi nella trappola della comodità.
+Solo se continui a pensare.
+
 ## Takeaway
 
 Un agente ben configurato batte
 dieci agenti confusi ogni volta.
+Ma nessun agente batte un umano che pensa.
 
 ## Azione
 

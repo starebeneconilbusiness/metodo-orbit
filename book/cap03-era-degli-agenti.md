@@ -97,10 +97,61 @@ E lo fa ogni giorno. Compresi i festivi.
 Compresi quando sei in vacanza.
 Compresi quando sei malato.
 
+## Il limite nessuno ti dice: l'IA "allucina" sempre
+
+C'è una cosa importante che i venditori di IA non ti dicono.
+
+I modelli di linguaggio (LLM) non sono entità intelligenti.
+Sono **assemblatori statistici**.
+
+Walter Quattrociocchi, professore alla Sapienza di Roma,
+lo spiega in modo chiaro:
+l'IA costruisce sequenze di parole basandosi sulla probabilità,
+non sulla comprensione.
+Dopo "il gatto mangia il..." mette "topo"
+perché statisticamente è probabile,
+non perché sa cosa munge un gatto.
+
+**L'IA non ha un modello del mondo.**
+Non distingue il vero dal falso.
+Ecco perché Quattrociocchi dice:
+> "L'intelligenza artificiale allucina sempre.
+> Ogni sua risposta è una elaborazione statistica
+> che solo noi umani, a posteriori, decidiamo se sia corretta."
+
+Questo non significa che l'IA non funziona.
+Funziona, e come.
+Ma significa che **il tuo ruolo di validatore è insostituibile**.
+
+Il rischio è quello che gli esperti chiamano
+"effetto Dunning-Kruger sotto steroidi":
+l'output è così fluido e convincente
+che l'utente crede che il contenuto sia fondato.
+Studenti presentano grafici generati dall'IA
+con probabilità superiori al 100%
+senza accorgersi dell'errore.
+
+**Come si usa bene l'IA, allora?**
+
+Come uno **sparring partner**, dice il formatore Vivaldo Moscatelli.
+L'IA propone, tu valuti.
+L'IA genera, tu verifichi.
+L'IA velocizza, tu decidi.
+
+Ma solo se hai le competenze per verificare.
+Se non le hai, l'IA non ti rende più capace.
+Ti rende più veloce a produrre errore.
+
+Quindi prima di delegare all'agente,
+**impara i suoi limiti**.
+Un agente ORBIT non sostituisce il tuo giudizio.
+Lo libera dal ripetitivo per concentrarsi sul giudizio.
+
 ## Takeaway
 Un tool AI risponde. Un agente AI agisce, ricorda, impara.
 La differenza è la memoria e il compito.
 E il costo è meno di un caffè al giorno.
+Ma ricorda: l'IA allucina sempre. Il validatore sei tu.
 
 ## Azione
 Pensa al tuo marketing attuale.

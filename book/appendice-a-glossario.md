@@ -33,3 +33,37 @@ Large Language Model. Il "cervello" linguistico dell'AI. Funziona con token, che
 
 **Inferenza**
 Il processo con cui l'AI genera una risposta. Quando l'agente scrive un post, sta facendo inferenza. Costa in base al modello usato e al numero di token. L'inferenza è la voce di costo principale del sistema.
+
+---
+
+## Termini dal Convegno IA (Marzo 2026)
+
+**Assemblatore statistico**
+Definizione di Walter Quattrociocchi per i LLM. I modelli di linguaggio non "pensano": assemblano parole basandosi su probabilità statistiche apprese dai dati di addestramento. Non c'è comprensione, solo approssimazione.
+
+**Allucinazione (AI)**
+Non un bug, ma una caratteristica intrinseca dei LLM. L'IA genera output che sembra corretto ma non lo è, perché non ha un modello del mondo per distinguere il vero dal falso. Ogni output va verificato dall'umano.
+
+**Affidabilità epistemica**
+La garanzia che un risultato sia corretto. I LLM non hanno affidabilità epistemica: non puoi garantire che l'output sia vero. Solo un validatore umano può farlo.
+
+**Effetto Dunning-Kruger sotto steroidi**
+L'illusione di conoscenza creata dall'IA. Perché l'output è linguisticamente perfetto, l'utente crede che il contenuto sia fondato. In realtà la perfezione formale maschera l'assenza di ancoraggio alla realtà.
+
+**Sparring partner**
+Definizione di Vivaldo Moscatelli per l'uso corretto dell'IA. L'IA propone, tu valuti. L'IA genera, tu verifichi. Utile a chi ha già competenze per controllare l'output.
+
+**Motore di risposta vs motore di ricerca**
+Un motore di ricerca (Google) ti dai link: il lavoro cognitivo è tuo. Un motore di risposta (ChatGPT) ti dà una risposta pronta: rischio di delega cieca e impoverimento del pensiero critico.
+
+**Stress d'automazione**
+Nuovo rischio psicosociale: il lavoratore si sente "un ingranaggio difettoso in un meccanismo perfetto" (Quattrociocchi). L'IA non deve sostituire l'umano ma liberarlo per attività a maggior contenuto umano.
+
+**Delega cieca**
+Il rischio di accettare output IA senza verifica. Porta a inquinamento informativo e perdita di competenze. La regola ORBIT: l'agente propone, tu decidi.
+
+**Sovranità digitale**
+Il principio che il controllo della tecnologia deve restare a chi la usa, non a algoritmi privati o piattaforme esterne. Pi in casa, dati sotto controllo, regole scritte da te.
+
+**AI Act**
+Legislazione europea che regola l'immissione sul mercato di sistemi di IA (legislazione di prodotto, non di uso). La responsabilità giuridica dell'output resta sempre dell'umano che lo adotta.

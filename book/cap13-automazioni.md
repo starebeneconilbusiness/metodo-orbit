@@ -106,6 +106,43 @@ Totale: 50 minuti per un post.
 
 Con ORBIT: 30 minuti per cinque asset su quattro canali.
 
+## Motori di risposta vs motori di ricerca
+
+C'è una differenza fondamentale che devi capire
+per usare bene l'IA nel tuo business.
+
+Un **motore di ricerca** (Google) ti da link.
+Tu leggi, confronti, valuti.
+Il lavoro cognitivo è tuo.
+
+Un **motore di risposta** (ChatGPT, Claude) ti da una risposta pronta.
+Sembra più comodo. Ma c'è un problema:
+la risposta è presentata con sicurezza,
+anche quando è sbagliata.
+
+Il professor Salvatore Orlando lo dice chiaramente:
+> "I miei studenti non sanno più fare i riassunti."
+
+Perché? Perché hanno delegato il pensiero al motore di risposta.
+E il motore di risposta non pensa. Assemblea statisticamente.
+
+Il rischio è l'**inquinamento informativo**:
+contenuti "fuffa" prodotti in massa,
+che sembrano corretti ma non lo sono,
+che inquinano il mercato della conoscenza.
+
+**La regola ORBIT:**
+l'agente genera, tu validi.
+L'agente propone, tu decidi.
+L'agente velocizza, tu pensi.
+
+Non delegare mai il giudizio.
+Non accettare mai un output senza verificarlo.
+Non usare mai l'IA come motore di risposta cieca.
+
+Usala come **motore di proposta**.
+Tu sei il motore di decisione.
+
 ## Takeaway
 
 I contenuti generati non valgono niente
@@ -114,6 +151,7 @@ L'automazione del pubblicare è importante
 quanto l'automazione del creare.
 Ma prima di automatizzare, verifica.
 Due settimane di gate. Poi vola.
+E ricorda: l'agente propone, tu decidi.
 
 ## Azione
 
