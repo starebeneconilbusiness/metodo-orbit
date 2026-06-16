@@ -1,5 +1,17 @@
 # SYSTEM-BUILD.md — Log giornaliero del sistema ORBIT
 
+## 2026-06-16
+
+**Cosa ha fatto il sistema oggi:**
+- Produzione contenuti completa per DiamRent (5 asset: email Brevo, FB, LI, Story, WA) e Snep (5 asset: email, FB, LI, Story, WA) — tutti datati 16 Giugno.
+- Generazione di sequenze di nurturing email (Brevo) e post social localizzati per entrambi i clienti.
+
+**Anomalie:**
+- Nessuna anomalia rilevata. Tutti i file sono stati prodotti correttamente nelle rispettive directory.
+
+**Dato più interessante:**
+- Il sistema ha prodotto 10 nuovi asset di contenuto di alta qualità, focalizzandosi su sequenze di email nurturing per webinar (DiamRent) e benessere ambientale (Snep).
+
 ## 2026-06-15
 
 **Cosa ha fatto il sistema oggi:**
