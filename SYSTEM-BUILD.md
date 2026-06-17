@@ -1,7 +1,17 @@
 # SYSTEM-BUILD.md — Log giornaliero del sistema ORBIT
+n## 2026-06-17
+
+**Cosa ha fatto il sistema oggi:**
+- Produzione contenuti completa per DiamRent (5 asset: email, FB/IG, LinkedIn, Story, WhatsApp) — tutti datati 2026-06-17.
+- I contenuti sono stati generati correttamente in ~/orbit/content/diamrent/2026-06-17/.
+
+**Anomalie:**
+- Nessuna anomalia rilevata.
+
+**Dato più interessante:**
+- Il sistema ha prodotto 5 nuovi asset focalizzati sulla promozione di un webinar per DiamRent, con focus su urgenza e valore aggiunto (AI nel lusso).
 
 ## 2026-06-16
-
 **Cosa ha fatto il sistema oggi:**
 - Produzione contenuti completa per DiamRent (5 asset: email Brevo, FB, LI, Story, WA) e Snep (5 asset: email, FB, LI, Story, WA) — tutti datati 16 Giugno.
 - Generazione di sequenze di nurturing email (Brevo) e post social localizzati per entrambi i clienti.
@@ -13,7 +23,6 @@
 - Il sistema ha prodotto 10 nuovi asset di contenuto di alta qualità, focalizzandosi su sequenze di email nurturing per webinar (DiamRent) e benessere ambientale (Snep).
 
 ## 2026-06-15
-
 **Cosa ha fatto il sistema oggi:**
 - Produzione contenuti completa per entrambi i clienti: DiamRent (5 asset: story 24h, post Facebook/LinkedIn, email Brevo, WhatsApp) + Snep (5 asset: story 24h, post Facebook/LinkedIn, email, WhatsApp) — tutti datati 15 Giugno.
 - 35 nuovi file scout generati per Snep in 15 paesi (IT, UK, FR, RS, DE, GR, AL, HU, CH, ES, DK, RO, BG, PL, RU, SK, PT) con messaggi Facebook e LinkedIn localizzati + keyword di ricerca aggiornate.
