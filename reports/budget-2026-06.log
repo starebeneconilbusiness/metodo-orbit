@@ -25,3 +25,11 @@
 - Notes: Owl Alpha is listed as $0.00/1M tokens on OpenRouter.
   No other paid models in use. LiteLLM not deployed locally.
   If LiteLLM is deployed later, re-check spend endpoint at localhost:4000.
+
+## 2026-06-17
+- Provider: OpenRouter
+- Limit: $2.00
+- Remaining: $1.55
+- Spend: $0.45
+- Threshold: $1.20
+- Status: OK

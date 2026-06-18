@@ -1,0 +1,15 @@
+--- ASSET: STORY 24H ---
+FOCUS: Engagement & Quick Link
+
+[SCENA 1 - HOOK]
+Testo: "Ancora gestendo tutto manualmente? 🤯"
+Visual: Video/Immagine di un gestore stressato tra mille messaggi.
+
+[SCENA 2 - VALUE]
+Testo: "L'AI può gestire i tuoi ospiti VIP mentre tu ti godi il weekend. 🥂"
+Visual: Immagine di una villa lussuosa con un'interfaccia AI stilizzata.
+
+[SCENA 3 - CTA]
+Testo: "Webinar: L'AI per il Luxury Rental. 🚀"
+Testo: "Posti limitati! 👇"
+Visual: Sticker "Link" che punta a [LINK WEBINAR].
