@@ -1,4 +1,13 @@
 # SYSTEM-BUILD.md — Log giornaliero del sistema ORBIT
+
+## 2026-06-18
+
+**Cosa ha fatto il sistema oggi:**
+- Produzione asset per DiamRent (newsletter, landing page, social) e Snep (newsletter, social, tiktok).
+**Anomalie:**
+- Nessuna anomalia rilevata.
+**Dato più interessante:**
+- Produzione di contenuti multi-canale focalizzati su webinar (DiamRent) e benessere (Snep).
 n## 2026-06-17
 
 **Cosa ha fatto il sistema oggi:**
