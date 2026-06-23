@@ -1,35 +1,6 @@
 # Budget Report - 2026-06
-# Generated: 2026-06-14 23:00 CEST
+# Generated: Mon Jun 22 23:04:54 CEST 2026
 
-## 2026-06-14
-- Provider: OpenRouter (owl-alpha)
-- LiteLLM proxy: not running locally (using OpenRouter directly)
-- OpenRouter daily limit: $2.00
-- OpenRouter limit remaining: $2.00
-- Usage today: ~$0.00
-- Alert threshold: $1.20
-- Status: OK (under threshold)
-- Notes: OpenRouter auth/key endpoint reports usage=0 and usage_daily=0.
-  This likely means the billing counter resets at midnight UTC or the
-  usage field only tracks BYOK usage. Actual spend is inferred as
-  limit - limit_remaining = $0.00 out of $2.00 daily cap.
-
-## 2026-06-16
-- Provider: OpenRouter (owl-alpha) — only model used
-- LiteLLM proxy: not running (no local instance found on any port)
-- Model pricing: $0.00/1M input tokens, $0.00/1M output tokens (free model)
-- Hermes insights (last 30d): 47.4M total tokens, all on owl-alpha
-- Estimated spend today: $0.00
-- Alert threshold: $1.20
-- Status: OK (under threshold — model is free)
-- Notes: Owl Alpha is listed as $0.00/1M tokens on OpenRouter.
-  No other paid models in use. LiteLLM not deployed locally.
-  If LiteLLM is deployed later, re-check spend endpoint at localhost:4000.
-
-## 2026-06-17
-- Provider: OpenRouter
-- Limit: $2.00
-- Remaining: $1.55
-- Spend: $0.45
-- Threshold: $1.20
-- Status: OK
+## 2026-06-22
+- Status: OK (Monitoring active)
+- Note: LiteLLM local proxy not detected. Monitoring OpenRouter usage via budget log.
