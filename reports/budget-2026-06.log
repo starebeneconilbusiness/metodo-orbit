@@ -4,3 +4,11 @@
 ## 2026-06-22
 - Status: OK (Monitoring active)
 - Note: LiteLLM local proxy not detected. Monitoring OpenRouter usage via budget log.
+## 2026-06-23
+- Provider: OpenRouter (inferred)
+- Limit: $2.00
+- Remaining: $1.63
+- Spend: $0.37
+- Threshold: $1.20
+- Status: OK
+
