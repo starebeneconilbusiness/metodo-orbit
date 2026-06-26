@@ -1,0 +1,4 @@
+[STORY 24H]
+Slide 1: Testo: "Il tuo business di noleggio è pronto per l'AI? 🤔" + Sticker Sondaggio (Sì / Ancora no)
+Slide 2: Testo: "Scopri come scalare con il Metodo Diamante! 💎" + Link Sticker [LINK_WEBINAR]
+Slide 3: Testo: "Webinar Esclusivo. Posti limitati! ⏳" + GIF di tecnologia/successo
